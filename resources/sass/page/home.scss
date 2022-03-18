@@ -1,0 +1,35 @@
+@import "../libs/color.scss";
+
+.page-about {
+  
+    .bg{
+        background: $soft-blue;
+        padding-bottom: 50px;
+        position: relative;
+        top: 50px;
+        margin-bottom: 90px;
+    }
+    
+    .box{
+        margin-left: 25px;
+        h1{
+            span{
+                color: $light-blue;
+            }
+            font-weight: bold;
+        }
+        p {
+            font-size: 16px;
+            top: 8px;
+            position: relative;
+        }
+
+        img{
+            width: 271px;
+        }
+    }
+
+  
+
+    
+}
