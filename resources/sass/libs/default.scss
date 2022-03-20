@@ -1,0 +1,22 @@
+.card{
+    .card-body{
+        &.line::after{
+            content: "";
+            position: relative;
+            top: 10px;
+            flex: 1 1 auto;
+            height: 0;
+            border-top: 1px solid #dde4eb;
+            display: block;
+        }
+
+        .card-title{
+            float: left;
+            position: relative;
+            z-index: 1;
+            background: #fff;
+            padding-right: 20px;
+        }
+        
+    }
+}
