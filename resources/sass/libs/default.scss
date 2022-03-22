@@ -1,4 +1,24 @@
 .card{
+    .font-bold{
+        font-weight: bold;
+    }
+    .dropdown{
+        &.small{
+            &.line::after{
+                content: "";
+                position: relative;
+                top: -18px;
+                flex: 1 1 auto;
+                height: 0;
+                border-top: 2px solid #dde4eb;
+                display: block;
+            }
+
+            button{
+                font-size: 10px;
+            }
+        }
+    }
     .card-body{
         &.line::after{
             content: "";
@@ -8,6 +28,23 @@
             height: 0;
             border-top: 1px solid #dde4eb;
             display: block;
+        }
+
+        .col-md-4,
+        .col-md-3,
+        .col-md-5,
+        .col-md-6,
+        .col-md-12{
+            margin-bottom: 60px;
+        }
+        
+        .line-dot{
+            border-left: 2px dotted #799579;
+            height: 100%;
+            position: relative;
+            top: -39px;
+            display: inline-block;
+            left: 51%;
         }
 
         .card-title{

@@ -37,192 +37,1496 @@
             
                     <div class="card">
                         
-                    <div class="dropdown dropdown-mega d-none d-lg-block ml-2">
-                <button type="button" class="btn header-item waves-effect" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
-                    Mega Menu
-                    <i class="mdi mdi-chevron-down"></i> 
-                </button>
-                <div class="dropdown-menu dropdown-megamenu">
-                    <div class="row">
-                        <div class="col-sm-8">
-    
+                        <div class="dropdown dropdown-mega small line d-none d-lg-block ml-2">
+                            <button type="button" class="btn header-item waves-effect" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+                                Date Range
+                                <div class="font-bold">
+                                    All Time
+                                    <i class="mdi mdi-chevron-down"></i> 
+                                </div>
+                            </button>
+                        </div>
+                        
+                        <!-- KSA 1 Title -->
+                        <div class="card-body line">
+                            <h4 class="card-title line mb-4">KSA-1</h4>
+                        </div>
+
+                        <!-- KSA 1 Content -->
+                        <div class="card-body">
                             <div class="row">
+
                                 <div class="col-md-4">
-                                    <h5 class="font-size-14 mt-0">UI Components</h5>
-                                    <ul class="list-unstyled megamenu-list">
-                                        <li>
-                                            <a href="javascript:void(0);">Lightbox</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);">Range Slider</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);">Sweet Alert</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);">Rating</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);">Forms</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);">Tables</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);">Charts</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <h5 class="font-size-14 mt-0">UI Components</h5>
-                                    <ul class="list-unstyled megamenu-list">
-                                        <li>
-                                            <a href="javascript:void(0);">Lightbox</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);">Range Slider</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);">Sweet Alert</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);">Rating</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);">Forms</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);">Tables</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0);">Charts</a>
-                                        </li>
-                                    </ul>
-                                </div>
 
-                                <div class="col-sm-5">
-                                    <div>
-                                        <img src="assets/images/megamenu-img.png" alt="" class="img-fluid mx-auto d-block">
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Final JD Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Final JD Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+
                                 </div>
+
+                                <div class="col-md-4">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Development Team Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Development Team Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Turn Over Driver Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Turn Over Driver Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div> 
                             </div>
                         </div>
-                    </div>
 
-                </div>
-            </div>
-
+                        <!-- KSA 2 Title -->
                         <div class="card-body line">
-                            <h4 class="card-title line mb-4">On Time Delivery Order</h4>
+                            <h4 class="card-title line mb-4">KSA-2</h4>
                         </div>
-                        
+
+                        <!-- KSA 2 Content -->
                         <div class="card-body">
                             <div class="row">
-    
-                                <div class="col-md-3">
+
+                                <div class="col-md-6">
+
                                     <div class="text-center">
                                         <div class="count-title">
-                                            <span>OTD Target</span>
+                                            <span># of OTD Actual</span>
                                         </div>
                                         <div class="count-number">
-                                            <span>98.2</span>
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of OTD Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+
                                 </div>
-    
-                                <div class="col-md-3">
+
+                                <div class="col-md-6">
+
                                     <div class="text-center">
                                         <div class="count-title">
-                                            <span>OTD Actual</span>
+                                            <span># of OTD Petkim Actual</span>
                                         </div>
                                         <div class="count-number">
-                                            <span>98.2</span>
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of OTD Petkim Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+
                                 </div>
-    
-                                <div class="col-md-3">
+
+                                <div class="col-md-4">
+
                                     <div class="text-center">
                                         <div class="count-title">
-                                            <span>OTD Petkim Target</span>
+                                            <span># of LPG (Kerusakan) Actual</span>
                                         </div>
                                         <div class="count-number">
-                                            <span>98.2</span>
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of LPG (Kerusakan) Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+
                                 </div>
-    
-                                <div class="col-md-3">
+
+                                 <div class="col-md-4">
+
                                     <div class="text-center">
                                         <div class="count-title">
-                                            <span>OTD Petkim Actual</span>
+                                            <span># of Petkim (Kerusakan) Actual</span>
                                         </div>
                                         <div class="count-number">
-                                            <span>98.2</span>
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Petkim (Kerusakan) Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+
                                 </div>
-    
+
+                                <div class="col-md-4">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Surat Terlambat Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Surat Terlambat Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Droping Gagal Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Droping Gagal Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Omset Penjualan Divisi Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Omset Penjualan Divisi Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Susut Barang Petkim Gudang (Menguap) Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Susut Barang Petkim Gudang (Menguap) Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Susut Barang Petkim Gudang (Tidak Menguap) Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Susut Barang Petkim Gudang (Tidak Menguap) Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Susut Barang Mobil (Menguap) Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Susut Barang Mobil (Menguap) Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Susut Barang Mobil (Tidak Menguap) Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Susut Barang Mobil (Tidak Menguap) Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Penyerapan Alokasi Kilang Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Penyerapan Alokasi Kilang Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
                         </div>
 
+                        <!-- KSA 3 Title -->
                         <div class="card-body line">
-                            <h4 class="card-title line mb-4">Penurunan Downtime Kendaraan </h4>
+                            <h4 class="card-title line mb-4">KSA-3</h4>
                         </div>
-                        
+
+                        <!-- KSA 3 Content -->
                         <div class="card-body">
                             <div class="row">
-    
-                                <div class="col-md-3">
+
+                                <div class="col-md-6">
+
                                     <div class="text-center">
                                         <div class="count-title">
-                                            <span>LPG Kerusakan Target</span>
+                                            <span># of Penambahan Kendaraan Actual</span>
                                         </div>
                                         <div class="count-number">
-                                            <span>4</span>
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Penambahan Kendaraan Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+
                                 </div>
-    
-                                <div class="col-md-3">
+
+                                <div class="col-md-6">
+
                                     <div class="text-center">
                                         <div class="count-title">
-                                            <span>LPG Kerusakan Actual</span>
+                                            <span># of Mobil Tabung (Engkel Bak) Actual</span>
                                         </div>
                                         <div class="count-number">
-                                            <span>4</span>
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Mobil Tabung (Engkel Bak) Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+
                                 </div>
-    
-                                <div class="col-md-3">
+
+                                <div class="col-md-6">
+
                                     <div class="text-center">
                                         <div class="count-title">
-                                            <span>Petkim Kerusakan Target</span>
+                                            <span># of Mobil Tabung (L300) Actual</span>
                                         </div>
                                         <div class="count-number">
-                                            <span>4</span>
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Mobil Tabung (L300) Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+
                                 </div>
-    
-                                <div class="col-md-3">
+                                
+                                <div class="col-md-6">
+
                                     <div class="text-center">
                                         <div class="count-title">
-                                            <span>Petkim Kerusakan Actual</span>
+                                            <span># of Bulk Actual</span>
                                         </div>
                                         <div class="count-number">
-                                            <span>4</span>
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Bulk Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-    
+
+                                </div> 
                             </div>
                         </div>
+
+                        <!-- KSA 4 Title -->
+                        <div class="card-body line">
+                            <h4 class="card-title line mb-4">KSA-4</h4>
+                        </div>
+
+                        <!-- KSA 4 Content -->
+                        <div class="card-body">
+                            <div class="row">
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Progress Integrasi Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Progress Integrasi Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Pemahaman Penggunaan Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Pemahaman Penggunaan Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- KSA 5 Title -->
+                        <div class="card-body line">
+                            <h4 class="card-title line mb-4">KSA-5</h4>
+                        </div>
+
+                        <!-- KSA 5 Content -->
+                        <div class="card-body">
+                            <div class="row">
+
+                                <div class="col-md-12">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Inisiatif Improvement Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Inisiatif Improvement Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <!-- KSA 6 Title -->
+                        <div class="card-body line">
+                            <h4 class="card-title line mb-4">KSA-6</h4>
+                        </div>
+
+                        <!-- KSA 6 Content -->
+                        <div class="card-body">
+                            <div class="row">
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Customer Complaint Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Customer Complaint Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Complaint Divisi Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Complaint Divisi Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Audit Kebersihan Gudang Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Audit Kebersihan Gudang Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Audit Kebersihan Kendaraan Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Audit Kebersihan Kendaraan Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Kecelakaan Kerja (Gudang) Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Kecelakaan Kerja (Gudang) Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Kecelakaan Kerja (Transportasi) Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Kecelakaan Kerja (Transportasi) Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Kebakaran Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Kebakaran Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Pencemaran Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Pencemaran Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Penurunan Cost Budget (Gudang) Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Penurunan Cost Budget (Gudang) Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Penurunan Cost Budget (Petkim) Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Penurunan Cost Budget (Petkim) Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Penurunan Cost Budget (Divisi Transport) Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Penurunan Cost Budget (Divisi Transport) Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Akurasi Stock Tabung Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Akurasi Stock Tabung Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Akurasi Kelengkapan Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Akurasi Kelengkapan Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-12">
+
+                                    <div class="text-center">
+                                        <div class="count-title">
+                                            <span># of Legalitas Kendaraan Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number">
+                                                                1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Legalitas Kendaraan Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        
+
+
+                        
 
                     </div>
                     

@@ -3,6 +3,9 @@
 .card{
     .card-body{
         .row{
+            .add-margin{
+                margin-top: 40px;
+            }
             .count-title{
                 margin-bottom : 15px;
                 span{
@@ -11,8 +14,30 @@
                 }
             }
             .count-number{
-                font-size: 24px;
-                font-weight: bold;
+                font-size: 35px;
+                
+                .compare {
+                    font-size: 12px;
+                    color: #838383;
+                    margin-top: 13px;
+
+                    .sub-compare {
+                        position: relative;
+                        right: 5%;
+                        padding-right: 22%;
+                    }
+
+                    .sub-percent {
+                        position: relative;
+                        left: 25%;
+                        
+                    }
+                    
+                    .sub-number{
+                        width: 100%;
+                        display: block;
+                    }
+                }
             }
         }
     }

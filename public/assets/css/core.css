@@ -1,3 +1,7 @@
+.card .card-body .row .add-margin {
+  margin-top: 40px;
+}
+
 .card .card-body .row .count-title {
   margin-bottom: 15px;
 }
@@ -8,8 +12,47 @@
 }
 
 .card .card-body .row .count-number {
-  font-size: 24px;
+  font-size: 35px;
+}
+
+.card .card-body .row .count-number .compare {
+  font-size: 12px;
+  color: #838383;
+  margin-top: 13px;
+}
+
+.card .card-body .row .count-number .compare .sub-compare {
+  position: relative;
+  right: 5%;
+  padding-right: 22%;
+}
+
+.card .card-body .row .count-number .compare .sub-percent {
+  position: relative;
+  left: 25%;
+}
+
+.card .card-body .row .count-number .compare .sub-number {
+  width: 100%;
+  display: block;
+}
+
+.card .font-bold {
   font-weight: bold;
+}
+
+.card .dropdown.small.line::after {
+  content: "";
+  position: relative;
+  top: -18px;
+  flex: 1 1 auto;
+  height: 0;
+  border-top: 2px solid #dde4eb;
+  display: block;
+}
+
+.card .dropdown.small button {
+  font-size: 10px;
 }
 
 .card .card-body.line::after {
@@ -20,6 +63,23 @@
   height: 0;
   border-top: 1px solid #dde4eb;
   display: block;
+}
+
+.card .card-body .col-md-4,
+.card .card-body .col-md-3,
+.card .card-body .col-md-5,
+.card .card-body .col-md-6,
+.card .card-body .col-md-12 {
+  margin-bottom: 60px;
+}
+
+.card .card-body .line-dot {
+  border-left: 2px dotted #799579;
+  height: 100%;
+  position: relative;
+  top: -39px;
+  display: inline-block;
+  left: 51%;
 }
 
 .card .card-body .card-title {
