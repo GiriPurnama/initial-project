@@ -37,10 +37,17 @@
         .col-md-12{
             margin-bottom: 60px;
         }
+
+        .border-carding{
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 3px;
+            max-height: 260px;
+        }
         
         .line-dot{
             border-left: 2px dotted #799579;
-            height: 100%;
+            height: 59%;
             position: relative;
             top: -39px;
             display: inline-block;

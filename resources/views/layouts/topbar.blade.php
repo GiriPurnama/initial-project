@@ -27,12 +27,12 @@
             </button>
 
             <!-- App Search-->
-            <form class="app-search d-none d-lg-block">
+            <!-- <form class="app-search d-none d-lg-block">
                 <div class="position-relative">
                     <input type="text" class="form-control" placeholder="Search...">
                     <span class="ri-search-line"></span>
                 </div>
-            </form>
+            </form> -->
 
             <!-- <div class="dropdown dropdown-mega d-none d-lg-block ml-2">
                 <button type="button" class="btn header-item waves-effect" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
@@ -169,7 +169,7 @@
 
         <div class="d-flex">
 
-            <div class="dropdown d-inline-block d-lg-none ml-2">
+            <!-- <div class="dropdown d-inline-block d-lg-none ml-2">
                 <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="ri-search-line"></i>
@@ -188,38 +188,34 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="dropdown d-none d-sm-inline-block">
-                <!-- <button type="button" class="btn header-item waves-effect"
+            <!-- <div class="dropdown d-none d-sm-inline-block">
+                <button type="button" class="btn header-item waves-effect"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img class="" src="assets/images/flags/us.jpg" alt="Header Language" height="16">
-                </button> -->
+                </button>
                 <div class="dropdown-menu dropdown-menu-right">
-        
-                    <!-- item-->
+                         
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                         <img src="assets/images/flags/spain.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Spanish</span>
                     </a>
-
-                    <!-- item-->
+                
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                         <img src="assets/images/flags/germany.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">German</span>
                     </a>
 
-                    <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                         <img src="assets/images/flags/italy.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Italian</span>
                     </a>
 
-                    <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                         <img src="assets/images/flags/russia.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Russian</span>
                     </a>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="dropdown d-none d-lg-inline-block ml-1">
+            <!-- <div class="dropdown d-none d-lg-inline-block ml-1">
                 <button type="button" class="btn header-item noti-icon waves-effect"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="ri-apps-2-line"></i>
@@ -269,15 +265,15 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="dropdown d-none d-lg-inline-block ml-1">
+            <!-- <div class="dropdown d-none d-lg-inline-block ml-1">
                 <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen">
                     <i class="ri-fullscreen-line"></i>
                 </button>
-            </div>
+            </div> -->
 
-            <div class="dropdown d-inline-block">
+            <!-- <div class="dropdown d-inline-block">
                 <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-notifications-dropdown"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="ri-notification-3-line"></i>
@@ -362,7 +358,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="dropdown d-inline-block user-dropdown">
                 <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"

@@ -3,18 +3,54 @@
 .card{
     .card-body{
         .row{
+
+            .col-md-6{
+                .count-number{
+                    .compare{
+                        .sub-percent {
+                            .sub-number{
+                                .icon {
+                                    left: 34%;
+                                }    
+                            }
+                        }
+                    }
+                }
+            }
+
+            .col-md-12{
+                .count-number{
+                    .compare{
+                        .sub-compare {
+                            right: 31%;
+                        }
+                        .sub-percent {
+                            left: 40%;
+                            .sub-number{
+                                .icon {
+                                    left: 43%;
+                                }    
+                            }
+                        }
+                    }
+                }
+
+                
+            }
+
             .add-margin{
                 margin-top: 40px;
             }
             .count-title{
                 margin-bottom : 15px;
+                font-size: 17px;
                 span{
                     width: 100%;
                     display: block;
                 }
             }
             .count-number{
-                font-size: 35px;
+                font-size: 46px;
                 
                 .compare {
                     font-size: 12px;
@@ -23,17 +59,25 @@
 
                     .sub-compare {
                         position: relative;
-                        right: 5%;
+                        right: 22%;
                         padding-right: 22%;
+                        top: 3%;
+                        
+                        .sub-number {
+                            display: block;
+                            font-size: 17px;
+                        }
+                    
                     }
 
                     .sub-percent {
                         position: relative;
-                        left: 25%;
+                        left: 30%;
 
                         .sub-number{
                             width: 100%;
                             display: block;
+                            font-size: 17px;
                             
                             &.red{
                                 color:#e54d42;
@@ -47,8 +91,8 @@
                                 float: left;
                                 position: absolute;
                                 font-size: 23px;
-                                left: 55px;
-                                top: -10px;
+                                left: 24%;
+                                top: -3px;
                             }
                             
                         }

@@ -1,9 +1,26 @@
+.card .card-body .row .col-md-6 .count-number .compare .sub-percent .sub-number .icon {
+  left: 34%;
+}
+
+.card .card-body .row .col-md-12 .count-number .compare .sub-compare {
+  right: 31%;
+}
+
+.card .card-body .row .col-md-12 .count-number .compare .sub-percent {
+  left: 40%;
+}
+
+.card .card-body .row .col-md-12 .count-number .compare .sub-percent .sub-number .icon {
+  left: 43%;
+}
+
 .card .card-body .row .add-margin {
   margin-top: 40px;
 }
 
 .card .card-body .row .count-title {
   margin-bottom: 15px;
+  font-size: 17px;
 }
 
 .card .card-body .row .count-title span {
@@ -12,7 +29,7 @@
 }
 
 .card .card-body .row .count-number {
-  font-size: 35px;
+  font-size: 46px;
 }
 
 .card .card-body .row .count-number .compare {
@@ -23,18 +40,25 @@
 
 .card .card-body .row .count-number .compare .sub-compare {
   position: relative;
-  right: 5%;
+  right: 22%;
   padding-right: 22%;
+  top: 3%;
+}
+
+.card .card-body .row .count-number .compare .sub-compare .sub-number {
+  display: block;
+  font-size: 17px;
 }
 
 .card .card-body .row .count-number .compare .sub-percent {
   position: relative;
-  left: 25%;
+  left: 30%;
 }
 
 .card .card-body .row .count-number .compare .sub-percent .sub-number {
   width: 100%;
   display: block;
+  font-size: 17px;
 }
 
 .card .card-body .row .count-number .compare .sub-percent .sub-number.red {
@@ -49,8 +73,8 @@
   float: left;
   position: absolute;
   font-size: 23px;
-  left: 55px;
-  top: -10px;
+  left: 24%;
+  top: -3px;
 }
 
 .card .font-bold {
@@ -89,9 +113,16 @@
   margin-bottom: 60px;
 }
 
+.card .card-body .border-carding {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 3px;
+  max-height: 260px;
+}
+
 .card .card-body .line-dot {
   border-left: 2px dotted #799579;
-  height: 100%;
+  height: 59%;
   position: relative;
   top: -39px;
   display: inline-block;

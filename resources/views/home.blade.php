@@ -58,9 +58,49 @@
 
                                 <div class="col-md-4">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Final JD Actual</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">90</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number red">
+                                                                <div class="icon"><i class="mdi mdi-arrow-bottom-right"></i></div>
+                                                                -1%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number ">
+                                                                100
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4">
+
+                                    <div class="text-center border-carding">
+                                        <div class="count-title">
+                                            <span># of Development Team Actual</span>
                                         </div>
                                         <div class="count-number">
                                             <span class="font-bold">90</span>
@@ -85,7 +125,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Final JD Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -98,46 +138,7 @@
 
                                 <div class="col-md-4">
 
-                                    <div class="text-center">
-                                        <div class="count-title">
-                                            <span># of Development Team Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number">
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Development Team Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-4">
-
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Turn Over Driver Actual</span>
                                         </div>
@@ -148,7 +149,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -163,7 +165,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Turn Over Driver Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -187,7 +189,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of OTD Actual</span>
                                         </div>
@@ -198,7 +200,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -213,7 +216,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of OTD Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -226,7 +229,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of OTD Petkim Actual</span>
                                         </div>
@@ -237,7 +240,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -252,7 +256,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of OTD Petkim Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -265,7 +269,7 @@
 
                                 <div class="col-md-4">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of LPG (Kerusakan) Actual</span>
                                         </div>
@@ -276,7 +280,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -291,7 +296,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of LPG (Kerusakan) Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -302,9 +307,9 @@
 
                                 </div>
 
-                                 <div class="col-md-4">
+                                <div class="col-md-4">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Petkim (Kerusakan) Actual</span>
                                         </div>
@@ -315,7 +320,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -330,7 +336,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Petkim (Kerusakan) Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -343,7 +349,7 @@
 
                                 <div class="col-md-4">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Surat Terlambat Actual</span>
                                         </div>
@@ -354,7 +360,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -369,7 +376,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Surat Terlambat Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -382,7 +389,7 @@
 
                                 <div class="col-md-4">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Droping Gagal Actual</span>
                                         </div>
@@ -393,7 +400,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -408,7 +416,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Droping Gagal Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -421,7 +429,7 @@
 
                                 <div class="col-md-4">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Omset Penjualan Divisi Actual</span>
                                         </div>
@@ -432,7 +440,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -447,7 +456,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Omset Penjualan Divisi Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -460,7 +469,7 @@
 
                                 <div class="col-md-4">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Susut Barang Petkim Gudang (Menguap) Actual</span>
                                         </div>
@@ -471,7 +480,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -486,7 +496,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Susut Barang Petkim Gudang (Menguap) Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -499,7 +509,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Susut Barang Petkim Gudang (Tidak Menguap) Actual</span>
                                         </div>
@@ -510,7 +520,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -525,7 +536,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Susut Barang Petkim Gudang (Tidak Menguap) Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -538,7 +549,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Susut Barang Mobil (Menguap) Actual</span>
                                         </div>
@@ -549,7 +560,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -564,7 +576,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Susut Barang Mobil (Menguap) Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -577,7 +589,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Susut Barang Mobil (Tidak Menguap) Actual</span>
                                         </div>
@@ -588,7 +600,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -603,7 +616,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Susut Barang Mobil (Tidak Menguap) Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -616,7 +629,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Penyerapan Alokasi Kilang Actual</span>
                                         </div>
@@ -627,7 +640,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -642,7 +656,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Penyerapan Alokasi Kilang Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -667,7 +681,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Penambahan Kendaraan Actual</span>
                                         </div>
@@ -678,7 +692,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -693,7 +708,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Penambahan Kendaraan Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -706,7 +721,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Mobil Tabung (Engkel Bak) Actual</span>
                                         </div>
@@ -717,7 +732,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -732,7 +748,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Mobil Tabung (Engkel Bak) Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -745,7 +761,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Mobil Tabung (L300) Actual</span>
                                         </div>
@@ -756,7 +772,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -771,7 +788,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Mobil Tabung (L300) Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -784,7 +801,7 @@
                                 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Bulk Actual</span>
                                         </div>
@@ -795,7 +812,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -810,7 +828,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Bulk Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -834,7 +852,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Progress Integrasi Actual</span>
                                         </div>
@@ -845,7 +863,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -860,7 +879,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Progress Integrasi Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -873,7 +892,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Pemahaman Penggunaan Actual</span>
                                         </div>
@@ -884,7 +903,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -899,7 +919,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Pemahaman Penggunaan Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -924,7 +944,7 @@
 
                                 <div class="col-md-12">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Inisiatif Improvement Actual</span>
                                         </div>
@@ -935,7 +955,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -950,7 +971,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Inisiatif Improvement Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -976,7 +997,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Customer Complaint Actual</span>
                                         </div>
@@ -987,7 +1008,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -1002,7 +1024,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Customer Complaint Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -1015,7 +1037,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Complaint Divisi Actual</span>
                                         </div>
@@ -1026,7 +1048,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -1041,7 +1064,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Complaint Divisi Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -1054,7 +1077,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Audit Kebersihan Gudang Actual</span>
                                         </div>
@@ -1065,7 +1088,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -1080,7 +1104,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Audit Kebersihan Gudang Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -1093,7 +1117,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Audit Kebersihan Kendaraan Actual</span>
                                         </div>
@@ -1104,7 +1128,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -1119,7 +1144,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Audit Kebersihan Kendaraan Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -1132,7 +1157,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Kecelakaan Kerja (Gudang) Actual</span>
                                         </div>
@@ -1143,7 +1168,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -1158,7 +1184,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Kecelakaan Kerja (Gudang) Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -1171,7 +1197,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Kecelakaan Kerja (Transportasi) Actual</span>
                                         </div>
@@ -1182,7 +1208,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -1197,7 +1224,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Kecelakaan Kerja (Transportasi) Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -1210,7 +1237,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Kebakaran Actual</span>
                                         </div>
@@ -1221,7 +1248,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -1236,7 +1264,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Kebakaran Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -1249,7 +1277,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Pencemaran Actual</span>
                                         </div>
@@ -1260,7 +1288,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -1275,7 +1304,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Pencemaran Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -1288,7 +1317,7 @@
 
                                 <div class="col-md-4">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Penurunan Cost Budget (Gudang) Actual</span>
                                         </div>
@@ -1299,7 +1328,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -1314,7 +1344,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Penurunan Cost Budget (Gudang) Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -1327,7 +1357,7 @@
 
                                 <div class="col-md-4">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Penurunan Cost Budget (Petkim) Actual</span>
                                         </div>
@@ -1338,7 +1368,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -1353,7 +1384,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Penurunan Cost Budget (Petkim) Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -1366,7 +1397,7 @@
 
                                 <div class="col-md-4">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Penurunan Cost Budget (Divisi Transport) Actual</span>
                                         </div>
@@ -1377,7 +1408,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -1392,7 +1424,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Penurunan Cost Budget (Divisi Transport) Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -1405,7 +1437,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Akurasi Stock Tabung Actual</span>
                                         </div>
@@ -1416,7 +1448,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -1431,7 +1464,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Akurasi Stock Tabung Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -1444,7 +1477,7 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Akurasi Kelengkapan Actual</span>
                                         </div>
@@ -1455,7 +1488,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -1470,7 +1504,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Akurasi Kelengkapan Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -1483,7 +1517,7 @@
 
                                 <div class="col-md-12">
 
-                                    <div class="text-center">
+                                    <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span># of Legalitas Kendaraan Actual</span>
                                         </div>
@@ -1494,7 +1528,8 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
+                                                            <span class="sub-number green">
+                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
                                                                 1%
                                                             </span>
                                                             <span class="sub-title">
@@ -1509,7 +1544,7 @@
                                                                 100
                                                             </span>
                                                             <span class="sub-title">
-                                                            # of Legalitas Kendaraan Target
+                                                            # of Target
                                                             </span>
                                                         </div>
                                                     </div>
@@ -1522,13 +1557,7 @@
 
                             </div>
                         </div>
-
-
                         
-
-
-                        
-
                     </div>
                     
                 </div>
