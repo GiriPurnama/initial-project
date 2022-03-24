@@ -191,10 +191,10 @@
             </div>
 
             <div class="dropdown d-none d-sm-inline-block">
-                <button type="button" class="btn header-item waves-effect"
+                <!-- <button type="button" class="btn header-item waves-effect"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img class="" src="assets/images/flags/us.jpg" alt="Header Language" height="16">
-                </button>
+                </button> -->
                 <div class="dropdown-menu dropdown-menu-right">
         
                     <!-- item-->
@@ -367,8 +367,8 @@
             <div class="dropdown d-inline-block user-dropdown">
                 <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-2.jpg"
-                        alt="Header Avatar">
+                    <!-- <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-2.jpg"
+                        alt="Header Avatar"> -->
                     <span class="d-none d-xl-inline-block ml-1">Kevin</span>
                     <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                 </button>

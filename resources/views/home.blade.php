@@ -49,7 +49,7 @@
                         
                         <!-- KSA 1 Title -->
                         <div class="card-body line">
-                            <h4 class="card-title line mb-4">KSA-1</h4>
+                            <h4 class="card-title line mb-4">KSA-1 Pengembangan SDM Unggul</h4>
                         </div>
 
                         <!-- KSA 1 Content -->
@@ -69,8 +69,9 @@
                                                     
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
-                                                            <span class="sub-number">
-                                                                1%
+                                                            <span class="sub-number red">
+                                                                <div class="icon"><i class="mdi mdi-arrow-bottom-right"></i></div>
+                                                                -1%
                                                             </span>
                                                             <span class="sub-title">
                                                                 Versus
@@ -177,7 +178,7 @@
 
                         <!-- KSA 2 Title -->
                         <div class="card-body line">
-                            <h4 class="card-title line mb-4">KSA-2</h4>
+                            <h4 class="card-title line mb-4">KSA-2 Operasional Handal & Terpercaya</h4>
                         </div>
 
                         <!-- KSA 2 Content -->
@@ -657,7 +658,7 @@
 
                         <!-- KSA 3 Title -->
                         <div class="card-body line">
-                            <h4 class="card-title line mb-4">KSA-3</h4>
+                            <h4 class="card-title line mb-4">KSA-3 Peningkatan Kapasitas & Infrastruktur </h4>
                         </div>
 
                         <!-- KSA 3 Content -->
@@ -824,7 +825,7 @@
 
                         <!-- KSA 4 Title -->
                         <div class="card-body line">
-                            <h4 class="card-title line mb-4">KSA-4</h4>
+                            <h4 class="card-title line mb-4">KSA-4 Sistem Terintegrasi</h4>
                         </div>
 
                         <!-- KSA 4 Content -->
@@ -914,7 +915,7 @@
 
                         <!-- KSA 5 Title -->
                         <div class="card-body line">
-                            <h4 class="card-title line mb-4">KSA-5</h4>
+                            <h4 class="card-title line mb-4">KSA-5 Inovasi Product & Servis</h4>
                         </div>
 
                         <!-- KSA 5 Content -->
@@ -966,7 +967,7 @@
 
                         <!-- KSA 6 Title -->
                         <div class="card-body line">
-                            <h4 class="card-title line mb-4">KSA-6</h4>
+                            <h4 class="card-title line mb-4">KSA-6 Safety & Kualitas</h4>
                         </div>
 
                         <!-- KSA 6 Content -->

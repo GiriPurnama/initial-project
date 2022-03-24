@@ -32,9 +32,25 @@
   left: 25%;
 }
 
-.card .card-body .row .count-number .compare .sub-number {
+.card .card-body .row .count-number .compare .sub-percent .sub-number {
   width: 100%;
   display: block;
+}
+
+.card .card-body .row .count-number .compare .sub-percent .sub-number.red {
+  color: #e54d42;
+}
+
+.card .card-body .row .count-number .compare .sub-percent .sub-number.green {
+  color: #00c18d;
+}
+
+.card .card-body .row .count-number .compare .sub-percent .sub-number .icon {
+  float: left;
+  position: absolute;
+  font-size: 23px;
+  left: 55px;
+  top: -10px;
 }
 
 .card .font-bold {

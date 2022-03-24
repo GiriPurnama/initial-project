@@ -30,13 +30,30 @@
                     .sub-percent {
                         position: relative;
                         left: 25%;
-                        
+
+                        .sub-number{
+                            width: 100%;
+                            display: block;
+                            
+                            &.red{
+                                color:#e54d42;
+                            }
+    
+                            &.green{
+                                color:#00c18d
+                            }
+    
+                            .icon {
+                                float: left;
+                                position: absolute;
+                                font-size: 23px;
+                                left: 55px;
+                                top: -10px;
+                            }
+                            
+                        }
                     }
                     
-                    .sub-number{
-                        width: 100%;
-                        display: block;
-                    }
                 }
             }
         }
