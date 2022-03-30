@@ -95,6 +95,14 @@
   font-size: 10px;
 }
 
+.card .card-body {
+  font-family: gdcustomfont, avenir, "Helvetica Neue", arial, sans-serif;
+}
+
+.card .card-body.line {
+  display: flex;
+}
+
 .card .card-body.line::after {
   content: "";
   position: relative;

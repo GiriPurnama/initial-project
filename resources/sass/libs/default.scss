@@ -20,6 +20,10 @@
         }
     }
     .card-body{
+        font-family: gdcustomfont,avenir,"Helvetica Neue",arial,sans-serif;
+        &.line{
+            display: flex;
+        }
         &.line::after{
             content: "";
             position: relative;

@@ -46,14 +46,306 @@
                                 </div>
                             </button>
                         </div>
-                        
-                        <!-- KSA 1 Title -->
-                        <div class="card-body line">
-                            <h4 class="card-title line mb-4">KSA-1 Pengembangan SDM Unggul</h4>
+
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+    
+                                    <div class="text-center" style="margin-top : 15%">
+                                        <div class="count-title">
+                                            <span>Total Score</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">87%</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number ">
+                                                                <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
+                                                                2%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                8%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <div id="chart"></div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    
+                                    <div class="text-center border-carding">
+                                        <div class="count-title">
+                                            <span>KSA-1</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">5%</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number ">
+                                                                <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
+                                                                2%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                8%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4">
+                                    
+                                    <div class="text-center border-carding">
+                                        <div class="count-title">
+                                            <span>KSA-2</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">5%</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number ">
+                                                                <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
+                                                                2%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                8%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4">
+                                    
+                                    <div class="text-center border-carding">
+                                        <div class="count-title">
+                                            <span>KSA-3</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">5%</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number ">
+                                                                <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
+                                                                2%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                8%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4">
+                                    
+                                    <div class="text-center border-carding">
+                                        <div class="count-title">
+                                            <span>KSA-4</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">5%</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number ">
+                                                                <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
+                                                                2%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                8%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4">
+                                    
+                                    <div class="text-center border-carding">
+                                        <div class="count-title">
+                                            <span>KSA-5</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">5%</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number ">
+                                                                <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
+                                                                2%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                8%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4">
+                                    
+                                    <div class="text-center border-carding">
+                                        <div class="count-title">
+                                            <span>KSA-6</span>
+                                        </div>
+                                        <div class="count-number">
+                                            <span class="font-bold">5%</span>
+                                            <div class="compare">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="sub-percent">
+                                                            <span class="sub-number ">
+                                                                <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
+                                                                2%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                                Versus
+                                                            </span>
+                                                        </div>
+                                                        <span class="line-dot"></span>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="sub-compare">
+                                                            <span class="sub-number">
+                                                                8%
+                                                            </span>
+                                                            <span class="sub-title">
+                                                            # of Target
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
                         </div>
 
+                        <!-- <div id="charts"></div> -->
+                        
+                        <!-- KSA 1 Title -->
+                        <!-- <div class="card-body line">
+                            <h4 class="card-title line mb-4">KSA-1 Pengembangan SDM Unggul</h4>
+                        </div> -->
+
                         <!-- KSA 1 Content -->
-                        <div class="card-body">
+                        <!-- <div class="card-body">
                             <div class="row">
 
                                 <div class="col-md-4">
@@ -176,15 +468,15 @@
 
                                 </div> 
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- KSA 2 Title -->
-                        <div class="card-body line">
+                        <!-- <div class="card-body line">
                             <h4 class="card-title line mb-4">KSA-2 Operasional Handal & Terpercaya</h4>
-                        </div>
+                        </div> -->
 
                         <!-- KSA 2 Content -->
-                        <div class="card-body">
+                        <!-- <div class="card-body">
                             <div class="row">
 
                                 <div class="col-md-6">
@@ -668,15 +960,15 @@
                                 </div>
 
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- KSA 3 Title -->
-                        <div class="card-body line">
+                        <!-- <div class="card-body line">
                             <h4 class="card-title line mb-4">KSA-3 Peningkatan Kapasitas & Infrastruktur </h4>
-                        </div>
+                        </div> -->
 
                         <!-- KSA 3 Content -->
-                        <div class="card-body">
+                        <!-- <div class="card-body">
                             <div class="row">
 
                                 <div class="col-md-6">
@@ -839,15 +1131,15 @@
 
                                 </div> 
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- KSA 4 Title -->
-                        <div class="card-body line">
+                        <!-- <div class="card-body line">
                             <h4 class="card-title line mb-4">KSA-4 Sistem Terintegrasi</h4>
-                        </div>
+                        </div> -->
 
                         <!-- KSA 4 Content -->
-                        <div class="card-body">
+                        <!-- <div class="card-body">
                             <div class="row">
 
                                 <div class="col-md-6">
@@ -931,15 +1223,15 @@
                                 </div>
 
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- KSA 5 Title -->
-                        <div class="card-body line">
+                        <!-- <div class="card-body line">
                             <h4 class="card-title line mb-4">KSA-5 Inovasi Product & Servis</h4>
-                        </div>
+                        </div> -->
 
                         <!-- KSA 5 Content -->
-                        <div class="card-body">
+                        <!-- <div class="card-body">
                             <div class="row">
 
                                 <div class="col-md-12">
@@ -983,16 +1275,16 @@
                                 </div>
 
                             </div>
-                        </div>
+                        </div> -->
 
 
                         <!-- KSA 6 Title -->
-                        <div class="card-body line">
+                        <!-- <div class="card-body line">
                             <h4 class="card-title line mb-4">KSA-6 Safety & Kualitas</h4>
-                        </div>
+                        </div> -->
 
                         <!-- KSA 6 Content -->
-                        <div class="card-body">
+                        <!-- <div class="card-body">
                             <div class="row">
 
                                 <div class="col-md-6">
@@ -1556,7 +1848,7 @@
                                 </div>
 
                             </div>
-                        </div>
+                        </div> -->
                         
                     </div>
                     
@@ -1583,6 +1875,62 @@
     <!-- <script src="{{ URL::asset('/assets/js/pages/dashboard.init.js')}}"></script> -->
 
     <script type="text/javascript">
+        var options = {
+                series: [{
+                name: 'Target',
+                data: [76, 85, 101, 98, 87, 105]
+               
+            }, {
+                name: 'Actual',
+                data: [44, 55, 57, 56, 61, 58]
+            }],
+            chart: {
+                type: 'bar',
+                height: 350,
+            },
+            colors: ['#008cff', '#dddddd'],
+            plotOptions: {
+                bar: {
+                    horizontal: false,
+                    columnWidth: '55%',
+                },
+            },
+            dataLabels: {
+                enabled: false,
+                style: {
+                    colors: ['#008cff', '#dddddd']
+                }
+            },
+            stroke: {
+                show: true,
+                width: 2,
+                colors: ['transparent']
+            },
+            xaxis: {
+                categories: ['November', 'December', 'January', 'February', 'March', 'April'],
+            },
+            yaxis: {
+                title: {
+                    text: 'Total'
+                }
+            },
+            fill: {
+                opacity: 1,
+                colors: ['#008cff', '#dddddd']
+            },
+            tooltip: {
+                y: {
+                    formatter: function (val) {
+                    return "Total " + val 
+                    }
+                }
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+      
+        
         $('.tab-pane-dashboard:first-child').addClass('active');
         $('ul.nav-dashboard li:first-child').find('a').addClass('active');
         
