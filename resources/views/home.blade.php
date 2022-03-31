@@ -38,13 +38,25 @@
                     <div class="card">
                         
                         <div class="dropdown dropdown-mega small line d-none d-lg-block ml-2">
-                            <button type="button" class="btn header-item waves-effect" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
-                                Date Range
-                                <div class="font-bold">
-                                    All Time
-                                    <i class="mdi mdi-chevron-down"></i> 
+                            <div class="row">
+
+                                <div class="form-group filter-src">
+                                    <label for="">Date Range</label> <br>
+                                    <select name="" id="">
+                                        <option value="">All Time</option>
+                                        <option value="">This Week</option>
+                                        <option value="">Last Week</option>
+                                        <option value="">Last 2 Week</option>
+                                        <option value="">This Month</option>
+                                        <option value="">Last Month</option>
+                                        <option value="">Last 2 Month</option>
+                                    </select>
                                 </div>
-                            </button>
+
+                            
+                            </div>
+
+                            
                         </div>
 
                         <div class="card-body">
@@ -54,6 +66,9 @@
                                     <div class="text-center" style="margin-top : 15%">
                                         <div class="count-title">
                                             <span>Total Score</span>
+                                            <span class="text-primary">
+                                                <i class="ri-home-3-line font-size-24"></i>
+                                            </span>
                                         </div>
                                         <div class="count-number">
                                             <span class="font-bold">87%</span>
@@ -64,7 +79,7 @@
                                                         <div class="sub-percent">
                                                             <span class="sub-number ">
                                                                 <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                2%
+                                                                <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
                                                             </span>
                                                             <span class="sub-title">
                                                                 Versus
@@ -90,7 +105,10 @@
                                 </div>
                                 
                                 <div class="col-md-6">
-                                    <div id="chart"></div>
+                                    <!-- <div id="chart"></div> -->
+                                    <div>
+                                        <div id="line-column-chart" class="apex-charts" dir="ltr"></div>
+                                    </div>
                                 </div>
 
                                 <div class="col-md-4">
@@ -98,6 +116,9 @@
                                     <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span>KSA-1</span>
+                                            <span class="text-primary">
+                                                <i class="ri-archive-line font-size-24"></i>
+                                            </span>
                                         </div>
                                         <div class="count-number">
                                             <span class="font-bold">5%</span>
@@ -107,8 +128,9 @@
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
                                                             <span class="sub-number ">
+                                                                <span class="badge badge-soft-danger"><i class="mdi mdi-menu-down"> </i> 2% </span>
+
                                                                 <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                2%
                                                             </span>
                                                             <span class="sub-title">
                                                                 Versus
@@ -137,7 +159,10 @@
                                     
                                     <div class="text-center border-carding">
                                         <div class="count-title">
-                                            <span>KSA-2</span>
+                                            <a href="/detail-ksa-2"><span>KSA-2</span></a>
+                                            <span class="text-primary">
+                                                <i class="ri-archive-line font-size-24"></i>
+                                            </span>
                                         </div>
                                         <div class="count-number">
                                             <span class="font-bold">5%</span>
@@ -147,8 +172,7 @@
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
                                                             <span class="sub-number ">
-                                                                <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                2%
+                                                                <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
                                                             </span>
                                                             <span class="sub-title">
                                                                 Versus
@@ -178,6 +202,9 @@
                                     <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span>KSA-3</span>
+                                            <span class="text-primary">
+                                                <i class="ri-archive-line font-size-24"></i>
+                                            </span>
                                         </div>
                                         <div class="count-number">
                                             <span class="font-bold">5%</span>
@@ -187,8 +214,8 @@
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
                                                             <span class="sub-number ">
-                                                                <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                2%
+                                                                <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
+
                                                             </span>
                                                             <span class="sub-title">
                                                                 Versus
@@ -218,6 +245,9 @@
                                     <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span>KSA-4</span>
+                                            <span class="text-primary">
+                                                <i class="ri-archive-line font-size-24"></i>
+                                            </span>
                                         </div>
                                         <div class="count-number">
                                             <span class="font-bold">5%</span>
@@ -227,8 +257,8 @@
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
                                                             <span class="sub-number ">
-                                                                <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                2%
+                                                                <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
+
                                                             </span>
                                                             <span class="sub-title">
                                                                 Versus
@@ -258,6 +288,9 @@
                                     <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span>KSA-5</span>
+                                            <span class="text-primary">
+                                                <i class="ri-archive-line font-size-24"></i>
+                                            </span>
                                         </div>
                                         <div class="count-number">
                                             <span class="font-bold">5%</span>
@@ -267,8 +300,8 @@
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
                                                             <span class="sub-number ">
-                                                                <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                2%
+                                                                <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
+
                                                             </span>
                                                             <span class="sub-title">
                                                                 Versus
@@ -298,6 +331,9 @@
                                     <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span>KSA-6</span>
+                                            <span class="text-primary">
+                                                <i class="ri-archive-line font-size-24"></i>
+                                            </span>
                                         </div>
                                         <div class="count-number">
                                             <span class="font-bold">5%</span>
@@ -307,8 +343,8 @@
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
                                                             <span class="sub-number ">
-                                                                <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                2%
+                                                                <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
+
                                                             </span>
                                                             <span class="sub-title">
                                                                 Versus
@@ -337,1518 +373,6 @@
                             </div>
                         </div>
 
-                        <!-- <div id="charts"></div> -->
-                        
-                        <!-- KSA 1 Title -->
-                        <!-- <div class="card-body line">
-                            <h4 class="card-title line mb-4">KSA-1 Pengembangan SDM Unggul</h4>
-                        </div> -->
-
-                        <!-- KSA 1 Content -->
-                        <!-- <div class="card-body">
-                            <div class="row">
-
-                                <div class="col-md-4">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Final JD Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number red">
-                                                                <div class="icon"><i class="mdi mdi-arrow-bottom-right"></i></div>
-                                                                -1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number ">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-4">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Development Team Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number red">
-                                                                <div class="icon"><i class="mdi mdi-arrow-bottom-right"></i></div>
-                                                                -1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-4">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Turn Over Driver Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div> 
-                            </div>
-                        </div> -->
-
-                        <!-- KSA 2 Title -->
-                        <!-- <div class="card-body line">
-                            <h4 class="card-title line mb-4">KSA-2 Operasional Handal & Terpercaya</h4>
-                        </div> -->
-
-                        <!-- KSA 2 Content -->
-                        <!-- <div class="card-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of OTD Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of OTD Petkim Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-4">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of LPG (Kerusakan) Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-4">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Petkim (Kerusakan) Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-4">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Surat Terlambat Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-4">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Droping Gagal Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-4">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Omset Penjualan Divisi Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-4">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Susut Barang Petkim Gudang (Menguap) Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Susut Barang Petkim Gudang (Tidak Menguap) Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Susut Barang Mobil (Menguap) Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Susut Barang Mobil (Tidak Menguap) Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Penyerapan Alokasi Kilang Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div> -->
-
-                        <!-- KSA 3 Title -->
-                        <!-- <div class="card-body line">
-                            <h4 class="card-title line mb-4">KSA-3 Peningkatan Kapasitas & Infrastruktur </h4>
-                        </div> -->
-
-                        <!-- KSA 3 Content -->
-                        <!-- <div class="card-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Penambahan Kendaraan Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Mobil Tabung (Engkel Bak) Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Mobil Tabung (L300) Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Bulk Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div> 
-                            </div>
-                        </div> -->
-
-                        <!-- KSA 4 Title -->
-                        <!-- <div class="card-body line">
-                            <h4 class="card-title line mb-4">KSA-4 Sistem Terintegrasi</h4>
-                        </div> -->
-
-                        <!-- KSA 4 Content -->
-                        <!-- <div class="card-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Progress Integrasi Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Pemahaman Penggunaan Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div> -->
-
-                        <!-- KSA 5 Title -->
-                        <!-- <div class="card-body line">
-                            <h4 class="card-title line mb-4">KSA-5 Inovasi Product & Servis</h4>
-                        </div> -->
-
-                        <!-- KSA 5 Content -->
-                        <!-- <div class="card-body">
-                            <div class="row">
-
-                                <div class="col-md-12">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Inisiatif Improvement Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div> -->
-
-
-                        <!-- KSA 6 Title -->
-                        <!-- <div class="card-body line">
-                            <h4 class="card-title line mb-4">KSA-6 Safety & Kualitas</h4>
-                        </div> -->
-
-                        <!-- KSA 6 Content -->
-                        <!-- <div class="card-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Customer Complaint Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Complaint Divisi Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Audit Kebersihan Gudang Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Audit Kebersihan Kendaraan Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Kecelakaan Kerja (Gudang) Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Kecelakaan Kerja (Transportasi) Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Kebakaran Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Pencemaran Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-4">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Penurunan Cost Budget (Gudang) Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-4">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Penurunan Cost Budget (Petkim) Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-4">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Penurunan Cost Budget (Divisi Transport) Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Akurasi Stock Tabung Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Akurasi Kelengkapan Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-12">
-
-                                    <div class="text-center border-carding">
-                                        <div class="count-title">
-                                            <span># of Legalitas Kendaraan Actual</span>
-                                        </div>
-                                        <div class="count-number">
-                                            <span class="font-bold">90</span>
-                                            <div class="compare">
-                                                <div class="row">
-                                                    
-                                                    <div class="col-md-6">
-                                                        <div class="sub-percent">
-                                                            <span class="sub-number green">
-                                                                <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div>
-                                                                1%
-                                                            </span>
-                                                            <span class="sub-title">
-                                                                Versus
-                                                            </span>
-                                                        </div>
-                                                        <span class="line-dot"></span>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="sub-compare">
-                                                            <span class="sub-number">
-                                                                100
-                                                            </span>
-                                                            <span class="sub-title">
-                                                            # of Target
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div> -->
                         
                     </div>
                     
@@ -1875,60 +399,102 @@
     <!-- <script src="{{ URL::asset('/assets/js/pages/dashboard.init.js')}}"></script> -->
 
     <script type="text/javascript">
+        // Lama
+            var options = {
+                    series: [{
+                    name: 'Target',
+                    data: [76, 85, 101, 98, 87, 105]
+                
+                }, {
+                    name: 'Actual',
+                    data: [44, 55, 57, 56, 61, 58]
+                }],
+                chart: {
+                    type: 'bar',
+                    height: 350,
+                },
+                colors: ['#008cff', '#dddddd'],
+                plotOptions: {
+                    bar: {
+                        horizontal: false,
+                        columnWidth: '55%',
+                    },
+                },
+                dataLabels: {
+                    enabled: false,
+                    style: {
+                        colors: ['#008cff', '#dddddd']
+                    }
+                },
+                stroke: {
+                    show: true,
+                    width: 2,
+                    colors: ['transparent']
+                },
+                xaxis: {
+                    categories: ['November', 'December', 'January', 'February', 'March', 'April'],
+                },
+                yaxis: {
+                    title: {
+                        text: 'Total'
+                    }
+                },
+                fill: {
+                    opacity: 1,
+                    colors: ['#008cff', '#dddddd']
+                },
+                tooltip: {
+                    y: {
+                        formatter: function (val) {
+                        return "Total " + val 
+                        }
+                    }
+                }
+            };
+
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        // End Lama
+
         var options = {
-                series: [{
+            series: [{
                 name: 'Target',
-                data: [76, 85, 101, 98, 87, 105]
-               
+                type: 'column',
+                data: [23, 42, 35, 27, 43, 22, 17, 31, 22, 22, 12, 16]
             }, {
                 name: 'Actual',
-                data: [44, 55, 57, 56, 61, 58]
+                type: 'line',
+                data: [23, 32, 27, 38, 27, 32, 27, 38, 22, 31, 21, 16]
             }],
             chart: {
-                type: 'bar',
-                height: 350,
-            },
-            colors: ['#008cff', '#dddddd'],
-            plotOptions: {
-                bar: {
-                    horizontal: false,
-                    columnWidth: '55%',
-                },
-            },
-            dataLabels: {
-                enabled: false,
-                style: {
-                    colors: ['#008cff', '#dddddd']
+                height: 280,
+                type: 'line',
+                toolbar: {
+                show: false
                 }
             },
             stroke: {
-                show: true,
-                width: 2,
-                colors: ['transparent']
+                width: [0, 3],
+                curve: 'smooth'
             },
-            xaxis: {
-                categories: ['November', 'December', 'January', 'February', 'March', 'April'],
-            },
-            yaxis: {
-                title: {
-                    text: 'Total'
+            plotOptions: {
+                bar: {
+                horizontal: false,
+                columnWidth: '20%'
                 }
             },
-            fill: {
-                opacity: 1,
-                colors: ['#008cff', '#dddddd']
+            dataLabels: {
+                enabled: false
             },
-            tooltip: {
-                y: {
-                    formatter: function (val) {
-                    return "Total " + val 
-                    }
-                }
-            }
+            legend: {
+                show: false
+            },
+            colors: ['#5664d2', '#1cbb8c'],
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
         };
 
-        var chart = new ApexCharts(document.querySelector("#chart"), options);
-        chart.render();
+        var chart = new ApexCharts(document.querySelector("#line-column-chart"), options);
+        chart.render(); 
       
         
         $('.tab-pane-dashboard:first-child').addClass('active');

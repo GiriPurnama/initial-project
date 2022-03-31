@@ -7,6 +7,15 @@
 .font-bold{
     font-weight: bold;
 }
+.filter-src{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    select{
+        border: 0px;
+        outline: 0px;
+    }
+}
 .card{
     .font-bold{
         font-weight: bold;

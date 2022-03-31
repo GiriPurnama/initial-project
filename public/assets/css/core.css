@@ -160,6 +160,17 @@ section.add-data-bulk .btn-submit {
   font-weight: bold;
 }
 
+.filter-src {
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.filter-src select {
+  border: 0px;
+  outline: 0px;
+}
+
 .card .font-bold {
   font-weight: bold;
 }
