@@ -25,3 +25,7 @@ Route::get('/detail-ksa-2', function () {
     return view('detail-ksa-2');
 });
 
+Route::get('/add-bobot', function () {
+    return view('add-bobot');
+});
+

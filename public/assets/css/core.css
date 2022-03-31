@@ -77,6 +77,15 @@
   top: -3px;
 }
 
+section.add-bobot .table button i {
+  position: relative;
+  top: 2px;
+}
+
+section.add-bobot .table span button {
+  font-size: 16px;
+}
+
 .card .font-bold {
   font-weight: bold;
 }
