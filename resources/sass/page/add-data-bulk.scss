@@ -1,4 +1,8 @@
 section.add-data-bulk{
+    .form-manual{
+        margin-top: 40px;
+    }
+
     .group-btn{
         margin-top: 30px;
         span{
@@ -16,7 +20,7 @@ section.add-data-bulk{
     .wrapper-reupload{
         margin-bottom: 15px;
         width: 100%;
-        a{
+        a, button{
             float: right;
             i{
                 position: relative;
@@ -27,10 +31,15 @@ section.add-data-bulk{
                 margin-top: 10px;
                 margin-right: 2px;
             }
+            &.btn-submit{
+                margin-top: 10px;
+                margin-right: 10px;
+            }
         }
     }
 
     .preview-table{
+        margin-top: 25px;
         .table{
             span{
                 button, a{

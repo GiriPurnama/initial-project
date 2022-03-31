@@ -66,6 +66,10 @@
                                         </li>
 
                                     </ul>
+                                    <ul class="pager wizard twitter-bs-wizard-pager-link">
+                                        <li class="previous"><a href="#">Previous</a></li>
+                                        <li class="next"><a href="#">Next</a></li>
+                                    </ul>
                                     <div class="tab-content twitter-bs-wizard-tab-content">
                                         <div class="tab-pane" id="seller-details">
                                             <form>
@@ -125,25 +129,58 @@
                                                             <span>or</span>
                                                             <span><a href="javascript:void(0);" class="btn btn-warning"> Integrate <i class=" ri-rotate-lock-line"></i></a></span>
                                                             <span>or</span>
-                                                            <span><a href="javascript:void(0);" class="btn btn-primary">Add Manual <i class=" ri-add-line"></i></a></span>
+                                                            <span><a href="javascript:void(0);" class="btn btn-primary show-form">Add Manual <i class=" ri-add-line"></i></a></span>
 
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!-- <div class="row">
-                                                    <div class="col-lg-12">
-                                                        <div class="form-group">
-                                                            <label for="basicpill-address-input">Input Data</label>
-                                                            <input type="text" class="form-control" id="basicpill-firstname-input">
+
+                                                <div class="form-manual hide">
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label for="labelCust">Total QTY Customer</label>
+                                                                <input type="number" name="" id="" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <label for="labelTimbangan">Timbangan</label>
+                                                            <input type="number" name="" id="" class="form-control">
                                                         </div>
                                                     </div>
-                                                </div> -->
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <label for="labelLicense">License Plate</label>
+                                                            <input type="text" name="" id="" class="form-control">
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <label for="labelLicense">Vehicle Type</label>
+                                                            <select name="" id="" class="form-control">
+                                                                <option value="">-</option>
+                                                                <option value="">UOB</option>
+                                                                <option value="">INB</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="wrapper-reupload">
+                                                            <div class="form-group">
+                                                                <button class="btn btn-success btn-submit">Submit <i class="ri-add-line"></i></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
                                                 <div class="preview-table">
                                                     <div class="row">
                                                         <table class="table table-bordered mb-0 down-time hide">
                                                             <thead>
                                                                 <tr>
+                                                                    <th>Area</th>
+                                                                    <th>KPI</th>
+                                                                    <th>Month</th>
+                                                                    <th>Total QTY Customer</th>
+                                                                    <th>Total Timbangan</th>
                                                                     <th>License Plate</th>
                                                                     <th>Vehicle Type</th>
                                                                     <th>Vehicle Status</th>
@@ -152,6 +189,11 @@
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
+                                                                    <td>Bogor</td>
+                                                                    <td>Down-Time (LPG)</td>
+                                                                    <td>January</td>
+                                                                    <td>125</td>
+                                                                    <td>100</td>
                                                                     <td>B9565UIO</td>
                                                                     <td>OUB</td>
                                                                     <td><div class="badge badge-soft-success font-size-12">Active</div></td>
@@ -166,6 +208,11 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
+                                                                    <td>Bogor</td>
+                                                                    <td>Down-Time (LPG)</td>
+                                                                    <td>January</td>
+                                                                    <td>125</td>
+                                                                    <td>100</td>
                                                                     <td>B9565UIO</td>
                                                                     <td>OUB</td>
                                                                     <td><div class="badge badge-soft-success font-size-12">Active</div></td>
@@ -180,6 +227,11 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
+                                                                    <td>Bogor</td>
+                                                                    <td>Down-Time (LPG)</td>
+                                                                    <td>January</td>
+                                                                    <td>125</td>
+                                                                    <td>100</td>
                                                                     <td>B9565UIO</td>
                                                                     <td>OUB</td>
                                                                     <td><div class="badge badge-soft-success font-size-12">Active</div></td>
@@ -194,6 +246,11 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
+                                                                    <td>Bogor</td>
+                                                                    <td>Down-Time (LPG)</td>
+                                                                    <td>January</td>
+                                                                    <td>125</td>
+                                                                    <td>100</td>
                                                                     <td>B9565UIO</td>
                                                                     <td>OUB</td>
                                                                     <td><div class="badge badge-soft-success font-size-12">Active</div></td>
@@ -208,6 +265,11 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
+                                                                    <td>Bogor</td>
+                                                                    <td>Down-Time (LPG)</td>
+                                                                    <td>January</td>
+                                                                    <td>125</td>
+                                                                    <td>100</td>
                                                                     <td>B9565UIO</td>
                                                                     <td>OUB</td>
                                                                     <td><div class="badge badge-soft-success font-size-12">Active</div></td>
@@ -228,6 +290,11 @@
                                                         <table class="table table-bordered mb-0 otd hide">
                                                             <thead>
                                                                 <tr>
+                                                                    <th>Area</th>
+                                                                    <th>KPI</th>
+                                                                    <th>Month</th>
+                                                                    <th>Total QTY Customer</th>
+                                                                    <th>Total Timbangan</th>
                                                                     <th>License Plate</th>
                                                                     <th>Vehicle Type</th>
                                                                     <th>Vehicle Status</th>
@@ -236,6 +303,11 @@
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
+                                                                    <td>Bogor</td>
+                                                                    <td>Down-Time (LPG)</td>
+                                                                    <td>January</td>
+                                                                    <td>125</td>
+                                                                    <td>100</td>
                                                                     <td>B9565UIO</td>
                                                                     <td>OUB</td>
                                                                     <td><div class="badge badge-soft-success font-size-12">Active</div></td>
@@ -246,6 +318,11 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
+                                                                    <td>Bogor</td>
+                                                                    <td>Down-Time (LPG)</td>
+                                                                    <td>January</td>
+                                                                    <td>125</td>
+                                                                    <td>100</td>
                                                                     <td>B9565UIO</td>
                                                                     <td>OUB</td>
                                                                     <td><div class="badge badge-soft-success font-size-12">Active</div></td>
@@ -272,7 +349,7 @@
                                                             <div class="media">
                                                                 <div class="media-body overflow-hidden">
                                                                     <p class="text-truncate font-size-14 mb-2">Total Customer</p>
-                                                                    <h4 class="mb-0">200</h4>
+                                                                    <h4 class="mb-0">100</h4>
                                                                 </div>
                                                                 <div class="text-primary">
                                                                     <i class="ri-stack-line font-size-24"></i>
@@ -295,7 +372,7 @@
                                                             <div class="media">
                                                                 <div class="media-body overflow-hidden">
                                                                     <p class="text-truncate font-size-14 mb-2">Total Timbangan</p>
-                                                                    <h4 class="mb-0">100</h4>
+                                                                    <h4 class="mb-0">50</h4>
                                                                 </div>
                                                                 <div class="text-primary">
                                                                     <i class="ri-stack-line font-size-24"></i>
@@ -368,7 +445,7 @@
                                                             <th>Area</th>
                                                             <th>KPI</th>
                                                             <th>Month</th>
-                                                            <th>Customer</th>
+                                                            <th>QTY Customer</th>
                                                             <th>Timbangan</th>
                                                             <th>License Plate</th>
                                                             <th>Vehicle Type</th>
@@ -381,7 +458,7 @@
                                                             <td>Down-time (LPG)</td>
                                                             <td>January</td>
                                                             <td>20</td>
-                                                            <td>255</td>
+                                                            <td>10</td>
                                                             <td>F5620CF</td>
                                                             <td>OUB</td>
                                                             <td><div class="badge badge-soft-success font-size-12">Active</div></td>
@@ -391,7 +468,7 @@
                                                             <td>Down-time (LPG)</td>
                                                             <td>January</td>
                                                             <td>20</td>
-                                                            <td>255</td>
+                                                            <td>10</td>
                                                             <td>F5620CF</td>
                                                             <td>OUB</td>
                                                             <td><div class="badge badge-soft-success font-size-12">Active</div></td>
@@ -401,7 +478,7 @@
                                                             <td>Down-time (LPG)</td>
                                                             <td>January</td>
                                                             <td>20</td>
-                                                            <td>255</td>
+                                                            <td>10</td>
                                                             <td>F5620CF</td>
                                                             <td>OUB</td>
                                                             <td><div class="badge badge-soft-success font-size-12">Active</div></td>
@@ -411,7 +488,7 @@
                                                             <td>Down-time (LPG)</td>
                                                             <td>January</td>
                                                             <td>20</td>
-                                                            <td>255</td>
+                                                            <td>10</td>
                                                             <td>F5620CF</td>
                                                             <td>OUB</td>
                                                             <td><div class="badge badge-soft-success font-size-12">Active</div></td>
@@ -421,7 +498,7 @@
                                                             <td>Down-time (LPG)</td>
                                                             <td>January</td>
                                                             <td>20</td>
-                                                            <td>255</td>
+                                                            <td>10</td>
                                                             <td>F5620CF</td>
                                                             <td>OUB</td>
                                                             <td><div class="badge badge-soft-success font-size-12">Active</div></td>
@@ -537,10 +614,7 @@
                                         </div>
                                         
                                     </div>
-                                    <ul class="pager wizard twitter-bs-wizard-pager-link">
-                                        <li class="previous"><a href="#">Previous</a></li>
-                                        <li class="next"><a href="#">Next</a></li>
-                                    </ul>
+                                   
                                 </div>
                        </div>
                         
@@ -664,11 +738,19 @@
                 if($(".select-kpi").val() == "down-time"){
                     $(".table.down-time").removeClass("hide");
                     $(".table.otd").addClass("hide");
+                    $(".form-manual").addClass("hide");
                 } else {
                     $(".table.otd").removeClass("hide");
                     $(".table.down-time").addClass("hide");
+                    $(".form-manual").addClass("hide");
                 }
             });
+
+            $( ".show-form" ).click(function() {
+                $(".form-manual").removeClass("hide");
+                $(".table.down-time").addClass("hide");
+                $(".table.otd").addClass("hide");
+            })
         })
 
     </script>
