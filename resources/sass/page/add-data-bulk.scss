@@ -1,0 +1,32 @@
+section.add-data-bulk{
+    .group-btn{
+        margin-top: 30px;
+        span{
+            padding-right: 10px;
+            button, a{
+                i{
+                    position: relative;
+                    top: 3px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .preview-table{
+        .table{
+            span{
+                button, a{
+                    i{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .btn-submit{
+        margin-top: 15px;
+        float: right;
+    }
+}

@@ -29,3 +29,6 @@ Route::get('/add-bobot', function () {
     return view('add-bobot');
 });
 
+Route::get('/add-data-bulk', function () {
+    return view('add-data-bulk');
+});

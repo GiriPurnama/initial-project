@@ -86,6 +86,43 @@ section.add-bobot .table span button {
   font-size: 16px;
 }
 
+section.add-data-bulk .group-btn {
+  margin-top: 30px;
+}
+
+section.add-data-bulk .group-btn span {
+  padding-right: 10px;
+}
+
+section.add-data-bulk .group-btn span button i,
+section.add-data-bulk .group-btn span a i {
+  position: relative;
+  top: 3px;
+  font-size: 16px;
+}
+
+section.add-data-bulk .preview-table .table span button i,
+section.add-data-bulk .preview-table .table span a i {
+  font-size: 18px;
+}
+
+section.add-data-bulk .btn-submit {
+  margin-top: 15px;
+  float: right;
+}
+
+.fade.animation.show {
+  opacity: 1 !important;
+}
+
+.hide {
+  display: none;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
 .card .font-bold {
   font-weight: bold;
 }
