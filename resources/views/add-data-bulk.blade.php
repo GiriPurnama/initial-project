@@ -380,7 +380,7 @@
                                                             <td>Gudang Bogor</td>
                                                             <td>Down-time (LPG)</td>
                                                             <td>January</td>
-                                                            <td>Warung Berkah</td>
+                                                            <td>20</td>
                                                             <td>255</td>
                                                             <td>F5620CF</td>
                                                             <td>OUB</td>
@@ -390,7 +390,7 @@
                                                             <td>Gudang Bogor</td>
                                                             <td>Down-time (LPG)</td>
                                                             <td>January</td>
-                                                            <td>Warung Berkah</td>
+                                                            <td>20</td>
                                                             <td>255</td>
                                                             <td>F5620CF</td>
                                                             <td>OUB</td>
@@ -400,7 +400,7 @@
                                                             <td>Gudang Bogor</td>
                                                             <td>Down-time (LPG)</td>
                                                             <td>January</td>
-                                                            <td>Warung Berkah</td>
+                                                            <td>20</td>
                                                             <td>255</td>
                                                             <td>F5620CF</td>
                                                             <td>OUB</td>
@@ -410,7 +410,7 @@
                                                             <td>Gudang Bogor</td>
                                                             <td>Down-time (LPG)</td>
                                                             <td>January</td>
-                                                            <td>Warung Berkah</td>
+                                                            <td>20</td>
                                                             <td>255</td>
                                                             <td>F5620CF</td>
                                                             <td>OUB</td>
@@ -420,7 +420,7 @@
                                                             <td>Gudang Bogor</td>
                                                             <td>Down-time (LPG)</td>
                                                             <td>January</td>
-                                                            <td>Warung Berkah</td>
+                                                            <td>20</td>
                                                             <td>255</td>
                                                             <td>F5620CF</td>
                                                             <td>OUB</td>
