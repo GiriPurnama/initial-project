@@ -124,17 +124,20 @@
                                                             <span><a href="javascript:void(0);" class="btn btn-success" data-toggle="modal" data-target="#bulk-upload">Bulk Upload <i class=" ri-attachment-line"></i></a></span>
                                                             <span>or</span>
                                                             <span><a href="javascript:void(0);" class="btn btn-warning"> Integrate <i class=" ri-rotate-lock-line"></i></a></span>
+                                                            <span>or</span>
+                                                            <span><a href="javascript:void(0);" class="btn btn-primary">Add Manual <i class=" ri-add-line"></i></a></span>
+
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row">
+                                                <!-- <div class="row">
                                                     <div class="col-lg-12">
                                                         <div class="form-group">
                                                             <label for="basicpill-address-input">Input Data</label>
                                                             <input type="text" class="form-control" id="basicpill-firstname-input">
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> -->
 
                                                 <div class="preview-table">
                                                     <div class="row">

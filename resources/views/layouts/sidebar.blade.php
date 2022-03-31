@@ -27,7 +27,7 @@
                 </li>
 
                 <li>
-                    <a href="/data-management" class="waves-effect">
+                    <a href="/add-data-bulk" class="waves-effect">
                         <i class="ri-artboard-2-line"></i>
                         <span>Data Management</span>
                     </a>

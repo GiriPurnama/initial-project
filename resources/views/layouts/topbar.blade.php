@@ -14,10 +14,10 @@
 
                 <a href="index.html" class="logo logo-light">
                     <span class="logo-sm">
-                        <img src="assets/images/logo-sm-light.png" alt="" height="22">
+                        <img src="{{ URL::asset('/assets/images/logo.png')}}" alt="" height="22" style="position: relative;right: 15px;">
                     </span>
                     <span class="logo-lg">
-                        <img src="assets/images/logo-light.png" alt="" height="20">
+                        <img src="{{ URL::asset('/assets/images/logo.png')}}" alt="" height="50" style="position: relative;left: 30px;">
                     </span>
                 </a>
             </div>
