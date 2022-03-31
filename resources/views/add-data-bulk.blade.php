@@ -259,106 +259,277 @@
                                                 </div>
                                             </form>
                                         </div>
+                                        
                                         <div class="tab-pane" id="company-document">
-                                            <div>
-                                            <form>
-                                                <div class="row">
-                                                    <div class="col-lg-6">
-                                                        <div class="form-group">
-                                                            <label for="basicpill-pancard-input">PAN Card</label>
-                                                            <input type="text" class="form-control" id="basicpill-pancard-input">
-                                                        </div>
-                                                    </div>
+                                            <div class="row">
 
-                                                    <div class="col-lg-6">
-                                                        <div class="form-group">
-                                                            <label for="basicpill-vatno-input">VAT/TIN No.</label>
-                                                            <input type="text" class="form-control" id="basicpill-vatno-input">
+                                                <div class="col-md-3">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <div class="media">
+                                                                <div class="media-body overflow-hidden">
+                                                                    <p class="text-truncate font-size-14 mb-2">Total Customer</p>
+                                                                    <h4 class="mb-0">200</h4>
+                                                                </div>
+                                                                <div class="text-primary">
+                                                                    <i class="ri-stack-line font-size-24"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="card-body border-top py-3">
+                                                            <div class="text-truncate">
+                                                                <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span>
+                                                                <span class="text-muted ml-2">From previous period</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-lg-6">
-                                                        <div class="form-group">
-                                                            <label for="basicpill-cstno-input">CST No.</label>
-                                                            <input type="text" class="form-control" id="basicpill-cstno-input">
-                                                        </div>
-                                                    </div>
 
-                                                    <div class="col-lg-6">
-                                                        <div class="form-group">
-                                                            <label for="basicpill-servicetax-input">Service Tax No.</label>
-                                                            <input type="text" class="form-control" id="basicpill-servicetax-input">
+                                                <div class="col-md-3">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <div class="media">
+                                                                <div class="media-body overflow-hidden">
+                                                                    <p class="text-truncate font-size-14 mb-2">Total Timbangan</p>
+                                                                    <h4 class="mb-0">100</h4>
+                                                                </div>
+                                                                <div class="text-primary">
+                                                                    <i class="ri-stack-line font-size-24"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="card-body border-top py-3">
+                                                            <div class="text-truncate">
+                                                                <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span>
+                                                                <span class="text-muted ml-2">From previous period</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-lg-6">
-                                                        <div class="form-group">
-                                                            <label for="basicpill-companyuin-input">Company UIN</label>
-                                                            <input type="text" class="form-control" id="basicpill-companyuin-input">
-                                                        </div>
-                                                    </div>
 
-                                                    <div class="col-lg-6">
-                                                        <div class="form-group">
-                                                            <label for="basicpill-declaration-input">Declaration</label>
-                                                            <input type="text" class="form-control" id="basicpill-declaration-input">
+                                                <div class="col-md-3">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <div class="media">
+                                                                <div class="media-body overflow-hidden">
+                                                                    <p class="text-truncate font-size-14 mb-2">On Time</p>
+                                                                    <h4 class="mb-0">50%</h4>
+                                                                </div>
+                                                                <div class="text-primary">
+                                                                    <i class="ri-stack-line font-size-24"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="card-body border-top py-3">
+                                                            <div class="text-truncate">
+                                                                <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span>
+                                                                <span class="text-muted ml-2">From previous period</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </form>
-                                            </div>
+
+                                                <div class="col-md-3">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <div class="media">
+                                                                <div class="media-body overflow-hidden">
+                                                                    <p class="text-truncate font-size-14 mb-2">Late</p>
+                                                                    <h4 class="mb-0">50%</h4>
+                                                                </div>
+                                                                <div class="text-primary">
+                                                                    <i class="ri-stack-line font-size-24"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="card-body border-top py-3">
+                                                            <div class="text-truncate">
+                                                                <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span>
+                                                                <span class="text-muted ml-2">From previous period</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="wrapper-reupload">
+                                                    <a href="javascript:void(0);" class="btn btn-warning">Reupload <i class="ri-contacts-book-upload-line"></i></a>
+                                                </div>
+                                                
+                                                <table class="table table-bordered mb-0">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Area</th>
+                                                            <th>KPI</th>
+                                                            <th>Month</th>
+                                                            <th>Customer</th>
+                                                            <th>Timbangan</th>
+                                                            <th>License Plate</th>
+                                                            <th>Vehicle Type</th>
+                                                            <th>Vehicle Status</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Gudang Bogor</td>
+                                                            <td>Down-time (LPG)</td>
+                                                            <td>January</td>
+                                                            <td>Warung Berkah</td>
+                                                            <td>255</td>
+                                                            <td>F5620CF</td>
+                                                            <td>OUB</td>
+                                                            <td><div class="badge badge-soft-success font-size-12">Active</div></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Gudang Bogor</td>
+                                                            <td>Down-time (LPG)</td>
+                                                            <td>January</td>
+                                                            <td>Warung Berkah</td>
+                                                            <td>255</td>
+                                                            <td>F5620CF</td>
+                                                            <td>OUB</td>
+                                                            <td><div class="badge badge-soft-success font-size-12">Active</div></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Gudang Bogor</td>
+                                                            <td>Down-time (LPG)</td>
+                                                            <td>January</td>
+                                                            <td>Warung Berkah</td>
+                                                            <td>255</td>
+                                                            <td>F5620CF</td>
+                                                            <td>OUB</td>
+                                                            <td><div class="badge badge-soft-success font-size-12">Active</div></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Gudang Bogor</td>
+                                                            <td>Down-time (LPG)</td>
+                                                            <td>January</td>
+                                                            <td>Warung Berkah</td>
+                                                            <td>255</td>
+                                                            <td>F5620CF</td>
+                                                            <td>OUB</td>
+                                                            <td><div class="badge badge-soft-success font-size-12">Active</div></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Gudang Bogor</td>
+                                                            <td>Down-time (LPG)</td>
+                                                            <td>January</td>
+                                                            <td>Warung Berkah</td>
+                                                            <td>255</td>
+                                                            <td>F5620CF</td>
+                                                            <td>OUB</td>
+                                                            <td><div class="badge badge-soft-success font-size-12">Active</div></td>
+                                                        </tr>
+                                                        
+                                                    
+                                                    </tbody>
+                                                </table>
+
+
+                                            </div>    
                                         </div>
+
                                         <div class="tab-pane" id="bank-detail">
-                                            <div>
-                                                <form>
-                                                    <div class="row">
-                                                        <div class="col-lg-6">
-                                                            <div class="form-group">
-                                                                <label for="basicpill-namecard-input">Name on Card</label>
-                                                                <input type="text" class="form-control" id="basicpill-namecard-input">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-lg-6">
-                                                            <div class="form-group">
-                                                                <label>Credit Card Type</label>
-                                                                <select class="custom-select">
-                                                                    <option selected>Select Card Type</option>
-                                                                    <option value="AE">American Express</option>
-                                                                    <option value="VI">Visa</option>
-                                                                    <option value="MC">MasterCard</option>
-                                                                    <option value="DI">Discover</option>
+                                            <div class="row">
+                                                <table class="table table-bordered mb-0">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Surat Jalan</th>
+                                                            <th>Customer</th>
+                                                            <th>Date</th>
+                                                            <th>Category Reason</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>DO000111</td>
+                                                            <td>Warung Berkah</td>
+                                                            <td>2022-03-31</td>
+                                                            <td>
+                                                                <select name="" id="" class=" form-control">
+                                                                    <option value="">-</option>
+                                                                    <option value="REP">On Repair</option>
+                                                                    <option value="BDO">Broken Down</option>
+                                                                    <option value="REG">On Regular maintenance</option>
+                                                                    <option value="ACI">Accident</option>
+                                                                    <option value="KAR">Karoseri</option>
+                                                                    <option value="BUP">Bulk Update</option>
                                                                 </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-lg-6">
-                                                            <div class="form-group">
-                                                                <label for="basicpill-cardno-input">Credit Card Number</label>
-                                                                <input type="text" class="form-control" id="basicpill-cardno-input">
-                                                            </div>
-                                                        </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>DO000111</td>
+                                                            <td>Warung Berkah</td>
+                                                            <td>2022-03-31</td>
+                                                            <td>
+                                                                <select name="" id="" class=" form-control">
+                                                                    <option value="">-</option>
+                                                                    <option value="REP">On Repair</option>
+                                                                    <option value="BDO">Broken Down</option>
+                                                                    <option value="REG">On Regular maintenance</option>
+                                                                    <option value="ACI">Accident</option>
+                                                                    <option value="KAR">Karoseri</option>
+                                                                    <option value="BUP">Bulk Update</option>
+                                                                </select>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>DO000111</td>
+                                                            <td>Warung Berkah</td>
+                                                            <td>2022-03-31</td>
+                                                            <td>
+                                                                <select name="" id="" class=" form-control">
+                                                                    <option value="">-</option>
+                                                                    <option value="REP">On Repair</option>
+                                                                    <option value="BDO">Broken Down</option>
+                                                                    <option value="REG">On Regular maintenance</option>
+                                                                    <option value="ACI">Accident</option>
+                                                                    <option value="KAR">Karoseri</option>
+                                                                    <option value="BUP">Bulk Update</option>
+                                                                </select>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>DO000111</td>
+                                                            <td>Warung Berkah</td>
+                                                            <td>2022-03-31</td>
+                                                            <td>
+                                                                <select name="" id="" class=" form-control">
+                                                                    <option value="">-</option>
+                                                                    <option value="REP">On Repair</option>
+                                                                    <option value="BDO">Broken Down</option>
+                                                                    <option value="REG">On Regular maintenance</option>
+                                                                    <option value="ACI">Accident</option>
+                                                                    <option value="KAR">Karoseri</option>
+                                                                    <option value="BUP">Bulk Update</option>
+                                                                </select>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>DO000111</td>
+                                                            <td>Warung Berkah</td>
+                                                            <td>2022-03-31</td>
+                                                            <td>
+                                                                <select name="" id="" class=" form-control">
+                                                                    <option value="">-</option>
+                                                                    <option value="REP">On Repair</option>
+                                                                    <option value="BDO">Broken Down</option>
+                                                                    <option value="REG">On Regular maintenance</option>
+                                                                    <option value="ACI">Accident</option>
+                                                                    <option value="KAR">Karoseri</option>
+                                                                    <option value="BUP">Bulk Update</option>
+                                                                </select>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
 
-                                                        <div class="col-lg-6">
-                                                            <div class="form-group">
-                                                                <label for="basicpill-card-verification-input">Card Verification Number</label>
-                                                                <input type="text" class="form-control" id="basicpill-card-verification-input">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-lg-6">
-                                                            <div class="form-group">
-                                                                <label for="basicpill-expiration-input">Expiration Date</label>
-                                                                <input type="text" class="form-control" id="basicpill-expiration-input">
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                </form>
+                                                <div class="form-group wrapper-reupload">
+                                                    <a href="javacsript:void(0);" class="btn btn-finish btn-success">Submit <i class="ri-add-line"></i></a>
+                                                </div>
                                             </div>
                                         </div>
                                         

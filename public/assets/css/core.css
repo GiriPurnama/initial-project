@@ -101,6 +101,26 @@ section.add-data-bulk .group-btn span a i {
   font-size: 16px;
 }
 
+section.add-data-bulk .wrapper-reupload {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+section.add-data-bulk .wrapper-reupload a {
+  float: right;
+}
+
+section.add-data-bulk .wrapper-reupload a i {
+  position: relative;
+  top: 3px;
+  font-size: 16px;
+}
+
+section.add-data-bulk .wrapper-reupload a.btn-finish {
+  margin-top: 10px;
+  margin-right: 2px;
+}
+
 section.add-data-bulk .preview-table .table span button i,
 section.add-data-bulk .preview-table .table span a i {
   font-size: 18px;
