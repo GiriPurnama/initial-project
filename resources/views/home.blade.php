@@ -59,9 +59,30 @@
 
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-4">
+
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <div class="media-body overflow-hidden">
+                                                    <p class="text-truncate font-size-14 mb-2">Total Score</p>
+                                                    <h4 class="mb-0">87%</h4>
+                                                </div>
+                                                <div class="text-primary">
+                                                    <i class="ri-stack-line font-size-24"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-body border-top py-3">
+                                            <div class="text-truncate">
+                                                <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span>
+                                                <span class="text-muted ml-2">From previous period</span>
+                                            </div>
+                                        </div>
+                                    </div>
     
-                                    <div class="text-center" style="margin-top : 15%">
+                                    <!-- <div class="text-center" style="margin-top : 15%">
                                         <div class="count-title">
                                             <span>Total Score</span>
                                             <span class="text-primary">
@@ -76,7 +97,6 @@
                                                     <div class="col-md-6">
                                                         <div class="sub-percent">
                                                             <span class="sub-number ">
-                                                                <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
                                                                 <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
                                                             </span>
                                                             <span class="sub-title">
@@ -98,11 +118,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
     
                                 </div>
                                 
-                                <div class="col-md-6">
+                                <div class="col-md-8">
                                     <!-- <div id="chart"></div> -->
                                     <div>
                                         <div id="line-column-chart" class="apex-charts" dir="ltr"></div>
@@ -110,8 +130,29 @@
                                 </div>
 
                                 <div class="col-md-4">
+
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <div class="media-body overflow-hidden">
+                                                    <p class="text-truncate font-size-14 mb-2">KSA-1</p>
+                                                    <h4 class="mb-0">5%</h4>
+                                                </div>
+                                                <div class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-body border-top py-3">
+                                            <div class="text-truncate">
+                                                <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span>
+                                                <span class="text-muted ml-2">From previous period</span>
+                                            </div>
+                                        </div>
+                                    </div>
                                     
-                                    <div class="text-center border-carding">
+                                    <!-- <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span>KSA-1</span>
                                             <span class="text-primary">
@@ -127,8 +168,6 @@
                                                         <div class="sub-percent">
                                                             <span class="sub-number ">
                                                                 <span class="badge badge-soft-danger"><i class="mdi mdi-menu-down"> </i> 2% </span>
-
-                                                                <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
                                                             </span>
                                                             <span class="sub-title">
                                                                 Versus
@@ -149,13 +188,34 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                 </div>
 
                                 <div class="col-md-4">
+
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <div class="media-body overflow-hidden">
+                                                <a href="/detail-ksa-2"><p class="text-truncate font-size-14 mb-2">KSA-2</p></a>
+                                                    <h4 class="mb-0">35.2%</h4>
+                                                </div>
+                                                <div class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-body border-top py-3">
+                                            <div class="text-truncate">
+                                                <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span>
+                                                <span class="text-muted ml-2">From previous period</span>
+                                            </div>
+                                        </div>
+                                    </div>
                                     
-                                    <div class="text-center border-carding">
+                                    <!-- <div class="text-center border-carding">
                                         <div class="count-title">
                                             <a href="/detail-ksa-2"><span>KSA-2</span></a>
                                             <span class="text-primary">
@@ -191,13 +251,33 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                 </div>
 
                                 <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <div class="media-body overflow-hidden">
+                                                    <p class="text-truncate font-size-14 mb-2">KSA-3</p>
+                                                    <h4 class="mb-0">5%</h4>
+                                                </div>
+                                                <div class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-body border-top py-3">
+                                            <div class="text-truncate">
+                                                <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span>
+                                                <span class="text-muted ml-2">From previous period</span>
+                                            </div>
+                                        </div>
+                                    </div>
                                     
-                                    <div class="text-center border-carding">
+                                    <!-- <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span>KSA-3</span>
                                             <span class="text-primary">
@@ -234,13 +314,34 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                 </div>
 
                                 <div class="col-md-4">
                                     
-                                    <div class="text-center border-carding">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <div class="media-body overflow-hidden">
+                                                    <p class="text-truncate font-size-14 mb-2">KSA-4</p>
+                                                    <h4 class="mb-0">5%</h4>
+                                                </div>
+                                                <div class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-body border-top py-3">
+                                            <div class="text-truncate">
+                                                <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span>
+                                                <span class="text-muted ml-2">From previous period</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span>KSA-4</span>
                                             <span class="text-primary">
@@ -277,13 +378,34 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                 </div>
 
                                 <div class="col-md-4">
+
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <div class="media-body overflow-hidden">
+                                                    <p class="text-truncate font-size-14 mb-2">KSA-5</p>
+                                                    <h4 class="mb-0">5%</h4>
+                                                </div>
+                                                <div class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-body border-top py-3">
+                                            <div class="text-truncate">
+                                                <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span>
+                                                <span class="text-muted ml-2">From previous period</span>
+                                            </div>
+                                        </div>
+                                    </div>
                                     
-                                    <div class="text-center border-carding">
+                                    <!-- <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span>KSA-5</span>
                                             <span class="text-primary">
@@ -320,13 +442,34 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                 </div>
 
                                 <div class="col-md-4">
+
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <div class="media-body overflow-hidden">
+                                                    <p class="text-truncate font-size-14 mb-2">KSA-6</p>
+                                                    <h4 class="mb-0">5%</h4>
+                                                </div>
+                                                <div class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-body border-top py-3">
+                                            <div class="text-truncate">
+                                                <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span>
+                                                <span class="text-muted ml-2">From previous period</span>
+                                            </div>
+                                        </div>
+                                    </div>
                                     
-                                    <div class="text-center border-carding">
+                                    <!-- <div class="text-center border-carding">
                                         <div class="count-title">
                                             <span>KSA-6</span>
                                             <span class="text-primary">
@@ -363,7 +506,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                 </div>
 

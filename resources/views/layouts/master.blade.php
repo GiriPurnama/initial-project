@@ -18,7 +18,7 @@
 </head>
 @section('body')
 @show
-<body data-sidebar="dark" class="custom-dashboard vertical-collpsed">
+<body data-sidebar="dark" class="vertical-collpsed">
     <div class="wrapper-loader hide">
         <div class="lds-dual-ring"></div>
     </div>
