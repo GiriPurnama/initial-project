@@ -14,7 +14,7 @@
 
                 <a href="/home" class="logo logo-light">
                     <span class="logo-sm">
-                        <img src="{{ URL::asset('/assets/images/logo.png')}}" alt="" height="22" style="position: relative;right: 15px;">
+                        <img src="{{ URL::asset('/assets/images/logo-mini.png')}}" alt="" height="30" style="position: relative;right: 5px;">
                     </span>
                     <span class="logo-lg">
                         <img src="{{ URL::asset('/assets/images/logo.png')}}" alt="" height="50" style="position: relative;left: 30px;">

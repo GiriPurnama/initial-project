@@ -66,7 +66,7 @@
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
                                                     <p class="text-truncate font-size-14 mb-2">Total Score</p>
-                                                    <h4 class="mb-0">87%</h4>
+                                                    <h4 class="mb-0">87% / 100%</h4>
                                                 </div>
                                                 <div class="text-primary">
                                                     <i class="ri-stack-line font-size-24"></i>
@@ -136,7 +136,7 @@
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
                                                     <p class="text-truncate font-size-14 mb-2">KSA-1</p>
-                                                    <h4 class="mb-0">5%</h4>
+                                                    <h4 class="mb-0">5% / 8.1%</h4>
                                                 </div>
                                                 <div class="text-primary">
                                                     <i class="ri-archive-line font-size-24"></i>
@@ -199,7 +199,7 @@
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
                                                 <a href="/detail-ksa-2"><p class="text-truncate font-size-14 mb-2">KSA-2</p></a>
-                                                    <h4 class="mb-0">35.2%</h4>
+                                                    <h4 class="mb-0">35.2% / 48.5%</h4>
                                                 </div>
                                                 <div class="text-primary">
                                                     <i class="ri-archive-line font-size-24"></i>
@@ -261,7 +261,7 @@
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
                                                     <p class="text-truncate font-size-14 mb-2">KSA-3</p>
-                                                    <h4 class="mb-0">5%</h4>
+                                                    <h4 class="mb-0">5% / 5%</h4>
                                                 </div>
                                                 <div class="text-primary">
                                                     <i class="ri-archive-line font-size-24"></i>
@@ -325,7 +325,7 @@
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
                                                     <p class="text-truncate font-size-14 mb-2">KSA-4</p>
-                                                    <h4 class="mb-0">5%</h4>
+                                                    <h4 class="mb-0">5% / 5.4%</h4>
                                                 </div>
                                                 <div class="text-primary">
                                                     <i class="ri-archive-line font-size-24"></i>
@@ -389,7 +389,7 @@
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
                                                     <p class="text-truncate font-size-14 mb-2">KSA-5</p>
-                                                    <h4 class="mb-0">5%</h4>
+                                                    <h4 class="mb-0">5% / 2.7%</h4>
                                                 </div>
                                                 <div class="text-primary">
                                                     <i class="ri-archive-line font-size-24"></i>
@@ -453,7 +453,7 @@
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
                                                     <p class="text-truncate font-size-14 mb-2">KSA-6</p>
-                                                    <h4 class="mb-0">5%</h4>
+                                                    <h4 class="mb-0">10% / 27%</h4>
                                                 </div>
                                                 <div class="text-primary">
                                                     <i class="ri-archive-line font-size-24"></i>

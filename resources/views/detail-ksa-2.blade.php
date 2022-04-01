@@ -100,7 +100,7 @@
                                                 <div class="media">
                                                     <div class="media-body overflow-hidden">
                                                         <p class="text-truncate font-size-14 mb-2">Total Score</p>
-                                                        <h4 class="mb-0">35.2%</h4>
+                                                        <h4 class="mb-0">35.2% / 100%</h4>
                                                     </div>
                                                     <div class="text-primary">
                                                         <i class="ri-stack-line font-size-24"></i>
@@ -176,7 +176,7 @@
                                                 <div class="media">
                                                     <div class="media-body overflow-hidden">
                                                         <p class="text-truncate font-size-14 mb-2">LPG</p>
-                                                        <h4 class="mb-0">8%</h4>
+                                                        <h4 class="mb-0">8% / 8%</h4>
                                                     </div>
                                                     <div class="text-primary">
                                                         <i class="ri-archive-line font-size-24"></i>
@@ -239,7 +239,7 @@
                                                 <div class="media">
                                                     <div class="media-body overflow-hidden">
                                                         <p class="text-truncate font-size-14 mb-2">Petkim</p>
-                                                        <h4 class="mb-0">8%</h4>
+                                                        <h4 class="mb-0">8% / 8%</h4>
                                                     </div>
                                                     <div class="text-primary">
                                                         <i class="ri-archive-line font-size-24"></i>
@@ -308,7 +308,7 @@
                                                 <div class="media">
                                                     <div class="media-body overflow-hidden">
                                                         <p class="text-truncate font-size-14 mb-2">LPG</p>
-                                                        <h4 class="mb-0">2.5%</h4>
+                                                        <h4 class="mb-0">2.5% / 3%</h4>
                                                     </div>
                                                     <div class="text-primary">
                                                         <i class="ri-archive-line font-size-24"></i>
@@ -371,7 +371,7 @@
                                                 <div class="media">
                                                     <div class="media-body overflow-hidden">
                                                         <p class="text-truncate font-size-14 mb-2">Petkim</p>
-                                                        <h4 class="mb-0">2.5%</h4>
+                                                        <h4 class="mb-0">2.5% / 3%</h4>
                                                     </div>
                                                     <div class="text-primary">
                                                         <i class="ri-archive-line font-size-24"></i>
@@ -434,7 +434,7 @@
                                                 <div class="media">
                                                     <div class="media-body overflow-hidden">
                                                         <p class="text-truncate font-size-14 mb-2">Late Documents</p>
-                                                        <h4 class="mb-0">0.0%</h4>
+                                                        <h4 class="mb-0">0.0% / 3%</h4>
                                                     </div>
                                                     <div class="text-primary">
                                                         <i class="ri-archive-line font-size-24"></i>
@@ -504,7 +504,7 @@
                                                 <div class="media">
                                                     <div class="media-body overflow-hidden">
                                                         <p class="text-truncate font-size-14 mb-2">Gudang - Menguap</p>
-                                                        <h4 class="mb-0">0%</h4>
+                                                        <h4 class="mb-0">0% / 2.7%</h4>
                                                     </div>
                                                     <div class="text-primary">
                                                         <i class="ri-archive-line font-size-24"></i>
@@ -567,7 +567,7 @@
                                                 <div class="media">
                                                     <div class="media-body overflow-hidden">
                                                         <p class="text-truncate font-size-14 mb-2">Gudang - Tidak Menguap</p>
-                                                        <h4 class="mb-0">0%</h4>
+                                                        <h4 class="mb-0">0% / 2.7%</h4>
                                                     </div>
                                                     <div class="text-primary">
                                                         <i class="ri-archive-line font-size-24"></i>
@@ -633,7 +633,7 @@
                                                 <div class="media">
                                                     <div class="media-body overflow-hidden">
                                                         <p class="text-truncate font-size-14 mb-2">Mobil - Menguap</p>
-                                                        <h4 class="mb-0">2%</h4>
+                                                        <h4 class="mb-0">2% / 2.7%</h4>
                                                     </div>
                                                     <div class="text-primary">
                                                         <i class="ri-archive-line font-size-24"></i>
@@ -696,7 +696,7 @@
                                                 <div class="media">
                                                     <div class="media-body overflow-hidden">
                                                         <p class="text-truncate font-size-14 mb-2">Mobil - Tidak Menguap</p>
-                                                        <h4 class="mb-0">0%</h4>
+                                                        <h4 class="mb-0">0% / 2.7%</h4>
                                                     </div>
                                                     <div class="text-primary">
                                                         <i class="ri-archive-line font-size-24"></i>
@@ -766,7 +766,7 @@
                                                 <div class="media">
                                                     <div class="media-body overflow-hidden">
                                                         <p class="text-truncate font-size-14 mb-2">Droping Gagal</p>
-                                                        <h4 class="mb-0">5%</h4>
+                                                        <h4 class="mb-0">5% / 5%</h4>
                                                     </div>
                                                     <div class="text-primary">
                                                         <i class="ri-archive-line font-size-24"></i>
@@ -829,7 +829,7 @@
                                                 <div class="media">
                                                     <div class="media-body overflow-hidden">
                                                         <p class="text-truncate font-size-14 mb-2">Penyerapan Alokasi Kilang</p>
-                                                        <h4 class="mb-0">2.7%</h4>
+                                                        <h4 class="mb-0">2.7% / 2.7%</h4>
                                                     </div>
                                                     <div class="text-primary">
                                                         <i class="ri-archive-line font-size-24"></i>
