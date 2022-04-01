@@ -789,27 +789,27 @@ File: Main Css File
   }
   
   body[data-sidebar=dark].vertical-collpsed .vertical-menu #sidebar-menu ul li.mm-active .active {
-    color: #057286 !important;
+    color: #8590a5 !important;
   }
   
   body[data-sidebar=dark].vertical-collpsed .vertical-menu #sidebar-menu ul li.mm-active .active i {
-    color: #057286 !important;
+    color: #8590a5 !important;
   }
   
   body[data-sidebar=dark] .mm-active {
-    color: #057286 !important;
+    color: #8590a5 !important;
   }
   
   body[data-sidebar=dark] .mm-active > i {
-    color: #057286 !important;
+    color: #8590a5 !important;
   }
   
   body[data-sidebar=dark] .mm-active .active {
-    color: #057286 !important;
+    color: #8590a5 !important;
   }
   
   body[data-sidebar=dark] .mm-active .active i {
-    color: #057286 !important;
+    color: #8590a5 !important;
   }
   
   body[data-sidebar=dark] .menu-title {
