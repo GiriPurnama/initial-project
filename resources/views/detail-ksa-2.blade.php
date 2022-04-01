@@ -38,30 +38,55 @@
                     <div class="card">
                         
                         <div class="dropdown dropdown-mega small line d-none d-lg-block ml-2">
-                            <button type="button" class="btn header-item waves-effect" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
-                                Date Range
-                                <div class="font-bold">
-                                    All Time
-                                    <i class="mdi mdi-chevron-down"></i> 
-                                </div>
-                            </button>
+                            <div class="row">
 
-                            <button type="button" class="btn header-item waves-effect" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
-                                Area
-                                <div class="font-bold">
-                                    All Time
-                                    <i class="mdi mdi-chevron-down"></i> 
+                                <div class="form-group filter-src">
+                                    <label for="">Date Range</label> <br>
+                                    <select name="" id="">
+                                        <option value="">All Time</option>
+                                        <option value="">This Week</option>
+                                        <option value="">Last Week</option>
+                                        <option value="">Last 2 Week</option>
+                                        <option value="">This Month</option>
+                                        <option value="">Last Month</option>
+                                        <option value="">Last 2 Month</option>
+                                    </select>
                                 </div>
-                            </button>
+
+                                <div class="form-group filter-src">
+                                    <label for="" style="position: relative;left: 11px;">Area</label> <br>
+                                    <select name="" id="">
+                                        <option value="">All Area</option>
+                                        <option value="">Gudang Bogor</option>
+                                        <option value="">Gudang Bekasi</option>
+                                        <option value="">Gudang Solo</option>
+                                        <option value="">Gudang Surabaya</option>
+                                        <option value="">Gudang Depok</option>
+                                        <option value="">Gudang Tangerang</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group filter-src">
+                                    <label for="" style="position: relative;left: 11px;">Month</label> <br>
+                                    <select name="" id="">
+                                        <option value="">All Month</option>
+                                        <option value="">January</option>
+                                        <option value="">February</option>
+                                        <option value="">March</option>
+                                        <option value="">April</option>
+                                        <option value="">May</option>
+                                        <option value="">June</option>
+                                        <option value="">July</option>
+                                        <option value="">August</option>
+                                        <option value="">September</option>
+                                        <option value="">October</option>
+                                        <option value="">November</option>
+                                        <option value="">December</option>
+                                    </select>
+                                </div>
 
 
-                            <button type="button" class="btn header-item waves-effect" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
-                                Month
-                                <div class="font-bold">
-                                    All Time
-                                    <i class="mdi mdi-chevron-down"></i> 
-                                </div>
-                            </button>
+                            </div>
                         </div>
 
                         <div class="card-body">
@@ -72,6 +97,9 @@
                                         <div class="text-center" style="margin-top : 15%">
                                             <div class="count-title">
                                                 <span>Total Score</span>
+                                                <span class="text-primary">
+                                                    <i class="ri-home-3-line font-size-24"></i>
+                                                </span>
                                             </div>
                                             <div class="count-number">
                                                 <span class="font-bold">35.2%</span>
@@ -81,8 +109,7 @@
                                                         <div class="col-md-6">
                                                             <div class="sub-percent">
                                                                 <span class="sub-number ">
-                                                                    <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                    2%
+                                                                    <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
                                                                 </span>
                                                                 <span class="sub-title">
                                                                     Versus
@@ -108,7 +135,10 @@
                                     </div>
                                     
                                     <div class="col-md-6">
-                                        <div id="chart"></div>
+                                        <!-- <div id="chart"></div> -->
+                                        <div>
+                                            <div id="line-column-chart" class="apex-charts" dir="ltr"></div>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -122,6 +152,9 @@
                                         <div class="text-center border-carding">
                                             <div class="count-title">
                                                 <span>LPG</span>
+                                                <span class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </span>
                                             </div>
                                             <div class="count-number">
                                                 <span class="font-bold">8%</span>
@@ -131,8 +164,7 @@
                                                         <div class="col-md-6">
                                                             <div class="sub-percent">
                                                                 <span class="sub-number ">
-                                                                    <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                    2%
+                                                                    <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
                                                                 </span>
                                                                 <span class="sub-title">
                                                                     Versus
@@ -162,6 +194,9 @@
                                         <div class="text-center border-carding">
                                             <div class="count-title">
                                                 <span>Petkim</span>
+                                                <span class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </span>
                                             </div>
                                             <div class="count-number">
                                                 <span class="font-bold">8%</span>
@@ -171,8 +206,7 @@
                                                         <div class="col-md-6">
                                                             <div class="sub-percent">
                                                                 <span class="sub-number ">
-                                                                    <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                    2%
+                                                                    <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
                                                                 </span>
                                                                 <span class="sub-title">
                                                                     Versus
@@ -209,6 +243,9 @@
                                         <div class="text-center border-carding">
                                             <div class="count-title">
                                                 <span>LPG</span>
+                                                <span class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </span>
                                             </div>
                                             <div class="count-number">
                                                 <span class="font-bold">5%</span>
@@ -218,8 +255,7 @@
                                                         <div class="col-md-6">
                                                             <div class="sub-percent">
                                                                 <span class="sub-number ">
-                                                                    <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                    2%
+                                                                    <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
                                                                 </span>
                                                                 <span class="sub-title">
                                                                     Versus
@@ -249,6 +285,9 @@
                                         <div class="text-center border-carding">
                                             <div class="count-title">
                                                 <span>Petkim</span>
+                                                <span class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </span>
                                             </div>
                                             <div class="count-number">
                                                 <span class="font-bold">5%</span>
@@ -258,8 +297,7 @@
                                                         <div class="col-md-6">
                                                             <div class="sub-percent">
                                                                 <span class="sub-number ">
-                                                                    <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                    2%
+                                                                    <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
                                                                 </span>
                                                                 <span class="sub-title">
                                                                     Versus
@@ -289,6 +327,9 @@
                                         <div class="text-center border-carding">
                                             <div class="count-title">
                                                 <span>Late Documents</span>
+                                                <span class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </span>
                                             </div>
                                             <div class="count-number">
                                                 <span class="font-bold">5%</span>
@@ -298,8 +339,7 @@
                                                         <div class="col-md-6">
                                                             <div class="sub-percent">
                                                                 <span class="sub-number ">
-                                                                    <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                    2%
+                                                                    <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
                                                                 </span>
                                                                 <span class="sub-title">
                                                                     Versus
@@ -336,6 +376,9 @@
                                         <div class="text-center border-carding">
                                             <div class="count-title">
                                                 <span>Gudang - Menguap</span>
+                                                <span class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </span>
                                             </div>
                                             <div class="count-number">
                                                 <span class="font-bold">5%</span>
@@ -345,8 +388,7 @@
                                                         <div class="col-md-6">
                                                             <div class="sub-percent">
                                                                 <span class="sub-number ">
-                                                                    <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                    2%
+                                                                    <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
                                                                 </span>
                                                                 <span class="sub-title">
                                                                     Versus
@@ -376,6 +418,9 @@
                                         <div class="text-center border-carding">
                                             <div class="count-title">
                                                 <span>Gudang - Tidak Menguap</span>
+                                                <span class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </span>
                                             </div>
                                             <div class="count-number">
                                                 <span class="font-bold">5%</span>
@@ -385,8 +430,7 @@
                                                         <div class="col-md-6">
                                                             <div class="sub-percent">
                                                                 <span class="sub-number ">
-                                                                    <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                    2%
+                                                                    <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
                                                                 </span>
                                                                 <span class="sub-title">
                                                                     Versus
@@ -416,6 +460,9 @@
                                         <div class="text-center border-carding">
                                             <div class="count-title">
                                                 <span>Mobil - Menguap</span>
+                                                <span class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </span>
                                             </div>
                                             <div class="count-number">
                                                 <span class="font-bold">5%</span>
@@ -425,8 +472,7 @@
                                                         <div class="col-md-6">
                                                             <div class="sub-percent">
                                                                 <span class="sub-number ">
-                                                                    <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                    2%
+                                                                    <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
                                                                 </span>
                                                                 <span class="sub-title">
                                                                     Versus
@@ -456,6 +502,9 @@
                                         <div class="text-center border-carding">
                                             <div class="count-title">
                                                 <span>Mobil - Tidak Menguap</span>
+                                                <span class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </span>
                                             </div>
                                             <div class="count-number">
                                                 <span class="font-bold">5%</span>
@@ -465,8 +514,7 @@
                                                         <div class="col-md-6">
                                                             <div class="sub-percent">
                                                                 <span class="sub-number ">
-                                                                    <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                    2%
+                                                                    <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
                                                                 </span>
                                                                 <span class="sub-title">
                                                                     Versus
@@ -503,6 +551,9 @@
                                         <div class="text-center border-carding">
                                             <div class="count-title">
                                                 <span>Droping Gagal</span>
+                                                <span class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </span>
                                             </div>
                                             <div class="count-number">
                                                 <span class="font-bold">5%</span>
@@ -512,8 +563,7 @@
                                                         <div class="col-md-6">
                                                             <div class="sub-percent">
                                                                 <span class="sub-number ">
-                                                                    <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                    2%
+                                                                    <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
                                                                 </span>
                                                                 <span class="sub-title">
                                                                     Versus
@@ -543,6 +593,9 @@
                                         <div class="text-center border-carding">
                                             <div class="count-title">
                                                 <span>Penyerapan Alokasi Kilang</span>
+                                                <span class="text-primary">
+                                                    <i class="ri-archive-line font-size-24"></i>
+                                                </span>
                                             </div>
                                             <div class="count-number">
                                                 <span class="font-bold">5%</span>
@@ -552,8 +605,7 @@
                                                         <div class="col-md-6">
                                                             <div class="sub-percent">
                                                                 <span class="sub-number ">
-                                                                    <!-- <div class="icon"><i class="mdi mdi-arrow-top-left"></i></div> -->
-                                                                    2%
+                                                                    <span class="badge badge-soft-success"><i class="mdi mdi-menu-up"> </i> 2% </span>
                                                                 </span>
                                                                 <span class="sub-title">
                                                                     Versus
@@ -608,107 +660,110 @@
     <!-- <script src="{{ URL::asset('/assets/js/pages/dashboard.init.js')}}"></script> -->
 
     <script type="text/javascript">
+        // Lama
+            var options = {
+                    series: [{
+                    name: 'Target',
+                    data: [76, 85, 101, 98, 87, 105]
+                
+                }, {
+                    name: 'Actual',
+                    data: [44, 55, 57, 56, 61, 58]
+                }],
+                chart: {
+                    type: 'bar',
+                    height: 350,
+                },
+                colors: ['#008cff', '#dddddd'],
+                plotOptions: {
+                    bar: {
+                        horizontal: false,
+                        columnWidth: '55%',
+                    },
+                },
+                dataLabels: {
+                    enabled: false,
+                    style: {
+                        colors: ['#008cff', '#dddddd']
+                    }
+                },
+                stroke: {
+                    show: true,
+                    width: 2,
+                    colors: ['transparent']
+                },
+                xaxis: {
+                    categories: ['November', 'December', 'January', 'February', 'March', 'April'],
+                },
+                yaxis: {
+                    title: {
+                        text: 'Total'
+                    }
+                },
+                fill: {
+                    opacity: 1,
+                    colors: ['#008cff', '#dddddd']
+                },
+                tooltip: {
+                    y: {
+                        formatter: function (val) {
+                        return "Total " + val 
+                        }
+                    }
+                }
+            };
+
+
+            var chart = new ApexCharts(document.querySelector("#chart"), options);
+            chart.render();
+        
+        // End Lama
+
         var options = {
-                series: [{
+            series: [{
                 name: 'Target',
-                data: [76, 85, 101, 98, 87, 105]
-               
+                type: 'column',
+                data: [23, 42, 35, 27, 43, 22, 17, 31, 22, 22, 12, 16]
             }, {
                 name: 'Actual',
-                data: [44, 55, 57, 56, 61, 58]
+                type: 'line',
+                data: [23, 32, 27, 20, 27, 18, 17, 25, 22, 20, 11, 16]
             }],
             chart: {
-                type: 'bar',
-                height: 350,
-            },
-            colors: ['#008cff', '#dddddd'],
-            plotOptions: {
-                bar: {
-                    horizontal: false,
-                    columnWidth: '55%',
-                },
-            },
-            dataLabels: {
-                enabled: false,
-                style: {
-                    colors: ['#008cff', '#dddddd']
+                height: 280,
+                type: 'line',
+                toolbar: {
+                show: false
                 }
             },
             stroke: {
-                show: true,
-                width: 2,
-                colors: ['transparent']
+                width: [0, 3],
+                curve: 'smooth'
             },
-            xaxis: {
-                categories: ['November', 'December', 'January', 'February', 'March', 'April'],
-            },
-            yaxis: {
-                title: {
-                    text: 'Total'
+            plotOptions: {
+                bar: {
+                horizontal: false,
+                columnWidth: '20%'
                 }
             },
-            fill: {
-                opacity: 1,
-                colors: ['#008cff', '#dddddd']
+            dataLabels: {
+                enabled: false
             },
-            tooltip: {
-                y: {
-                    formatter: function (val) {
-                    return "Total " + val 
-                    }
-                }
-            }
+            legend: {
+                show: false
+            },
+            colors: ['#5664d2', '#1cbb8c'],
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
         };
 
-        var chart = new ApexCharts(document.querySelector("#chart"), options);
-        chart.render();
-      
+        var chart = new ApexCharts(document.querySelector("#line-column-chart"), options);
+        chart.render(); 
         
         $('.tab-pane-dashboard:first-child').addClass('active');
         $('ul.nav-dashboard li:first-child').find('a').addClass('active');
         
         $( document ).ready(function() {
-            $('#dashboard-modal').owlCarousel({
-                loop:true,
-                margin:10,
-                nav:false,
-                dots: true,
-                navText:["<div class='nav-btn left'><i class='fa fa-chevron-left'></i></div>","<div class='nav-btn right'><i class='fa fa-chevron-right'></i></div>"],
-                responsive:{
-                    0:{
-                        items:1
-                    },
-                    600:{
-                        items:1
-                    },
-                    1000:{
-                        items:1
-                    }
-                }
-            })
-
-            $('#slide-indicator').owlCarousel({
-                loop:true,
-                margin:10,
-                nav:true,
-                dots: false,
-                navText:["<div class='nav-btn left'><i class='fa fa-chevron-left'></i></div>","<div class='nav-btn right'><i class='fa fa-chevron-right'></i></div>"],
-                responsive:{
-                    0:{
-                        items:1
-                    },
-                    600:{
-                        items:1
-                    },
-                    1000:{
-                        items:1
-                    }
-                }
-            })
-
-            $(".dashboard-home").click(function() {
-                $(".right-bar-toggle.float-right").click();
-            });
+           
 
         })
 

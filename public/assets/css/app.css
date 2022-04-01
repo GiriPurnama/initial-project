@@ -283,7 +283,7 @@ File: Main Css File
   }
   
   body[data-sidebar=dark] .navbar-brand-box {
-    background: #252b3b;
+    background: #fff;
   }
   
   body[data-sidebar=dark] .logo-dark {
@@ -736,23 +736,23 @@ File: Main Css File
   }
   
   body[data-sidebar=dark] .vertical-menu {
-    background: #252b3b;
+    background: #12798c;
   }
   
   body[data-sidebar=dark] #sidebar-menu ul li a {
-    color: #8590a5;
+    color: #ffffff;
   }
   
   body[data-sidebar=dark] #sidebar-menu ul li a i {
-    color: #8590a5;
+    color: #ffffff;
   }
   
   body[data-sidebar=dark] #sidebar-menu ul li a:hover {
-    color: #057286;
+    color: #8ba9af;
   }
   
   body[data-sidebar=dark] #sidebar-menu ul li a:hover i {
-    color: #057286;
+    color: #8ba9af;
   }
   
   body[data-sidebar=dark] #sidebar-menu ul li ul.sub-menu li a {
@@ -760,7 +760,7 @@ File: Main Css File
   }
   
   body[data-sidebar=dark] #sidebar-menu ul li ul.sub-menu li a:hover {
-    color: #057286;
+    color: #8ba9af;
   }
   
   body[data-sidebar=dark].vertical-collpsed {
@@ -813,7 +813,7 @@ File: Main Css File
   }
   
   body[data-sidebar=dark] .menu-title {
-    color: #8590a5;
+    color: #ffffff;
   }
   
   body[data-layout=horizontal] .main-content {
