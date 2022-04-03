@@ -8,26 +8,18 @@
 @endsection
 
 @section('content')
-    <div class="page-content">
-        <div class="container-fluid">
-
-            <!-- start page title -->
-            <div class="row">
-                <div class="col-12">
-                    <div class="page-title-box d-flex align-items-center justify-content-between">
-                        <h4 class="mb-0">Dashboard</h4>
-
-                        <div class="page-title-right">
-                            <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Logicnesia</a></li>
-                                <li class="breadcrumb-item active">Dashboard</li>
-                            </ol>
-                        </div>
-
-                    </div>
+    <div class="row bread-static">
+        <div class="col-12">
+            <div class="page-title-box d-flex align-items-center justify-content-between header-title" style="margin-bottom:25px;">
+                <!-- <h4 class="mb-0">Order Management</h4> -->
+                <div class="header-nav">
+                    <span class="header-word md-0">Dashboard &nbsp;&nbsp;</span>
                 </div>
             </div>
-            <!-- end page title -->
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="container-fluid">
 
 
             <div class="row">

@@ -8,28 +8,25 @@
 @endsection
 
 @section('content')
+<div class="row bread-static">
+    <div class="col-12">
+        <div class="page-title-box d-flex align-items-center justify-content-between header-title">
+            <div class="header-nav">
+                <span class="header-word md-0">Add Bobot &nbsp;&nbsp;</span>
+                <a href="/home">&nbsp;&nbsp;&nbsp;<i class="ri-home-3-line home"></i></a>
+                <span>&nbsp;<i class="ri-arrow-right-s-line"></i></span>
+                <span>&nbsp;Add Bobot</span>
+            </div>
+            <div class="page-title-right">
+                <a class="btn btn-back" href="/home"><i class="ri-arrow-left-s-line"></i> Back</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <section class="add-bobot">
     <div class="page-content">
         <div class="container-fluid">
-
-            <!-- start page title -->
-            <div class="row">
-                <div class="col-12">
-                    <div class="page-title-box d-flex align-items-center justify-content-between">
-                        <h4 class="mb-0">Add Data Bobot</h4>
-
-                        <div class="page-title-right">
-                            <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a href="/home">Home</a></li>
-                                <li class="breadcrumb-item active">Add Data Bobot</li>
-                            </ol>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- end page title -->
-
 
             <div class="row">
                

@@ -171,6 +171,63 @@ section.add-data-bulk .btn-submit {
   outline: 0px;
 }
 
+.bread-static {
+  position: relative;
+  top: 90px;
+  left: 25px;
+}
+
+.bread-static .btn-back {
+  height: 30px;
+  padding: 5px 20px 5px 30px;
+  color: #fff;
+  background: #7dc7a9;
+  border-radius: 5px;
+}
+
+.bread-static .btn-back:hover {
+  color: #fff;
+}
+
+.bread-static .btn-back i {
+  color: #fff !important;
+  position: absolute;
+  margin: 0px 0px 0px -20px;
+}
+
+.bread-static .header-title h3,
+.bread-static .header-title h4,
+.bread-static .header-title .page-title-right,
+.bread-static .header-title .page-title-right li a,
+.bread-static .header-title .page-title-right,
+.bread-static .header-title .breadcrumb-item::before {
+  color: #000 !important;
+}
+
+.bread-static .header-title {
+  padding: 20px 50px 20px 12px;
+  margin: 0px 50px 0px 0px;
+  background: #fff;
+  border-bottom: 1px solid;
+}
+
+.bread-static .header-title .header-nav {
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bread-static .header-title .header-nav a {
+  color: #000 !important;
+}
+
+.bread-static .header-title .header-nav .header-word {
+  font-weight: 700;
+  border-right: 1px solid;
+}
+
 .card .font-bold {
   font-weight: bold;
 }
