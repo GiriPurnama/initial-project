@@ -2,6 +2,21 @@
 
 .inventory-status{
     .card {
-       
+       .table-detail-inventory{
+            td{
+                .form-group{
+                    select{
+                        &.float-left{
+                            height: 45px;
+                        }
+                    }
+                    a{
+                        position: relative;
+                        left: 15px;
+                    }
+
+                }
+            }
+       }
     }
 }

@@ -77,6 +77,15 @@
   top: -3px;
 }
 
+.inventory-status .card .table-detail-inventory td .form-group select.float-left {
+  height: 45px;
+}
+
+.inventory-status .card .table-detail-inventory td .form-group a {
+  position: relative;
+  left: 15px;
+}
+
 .fade.animation.show {
   opacity: 1 !important;
 }
@@ -210,8 +219,24 @@
   font-size: 100px;
 }
 
+.card .font-16 {
+  font-size: 16px;
+}
+
 .card .font-bold {
   font-weight: bold;
+}
+
+.card .width-200 {
+  width: 200px;
+}
+
+.card .width-250 {
+  width: 250px;
+}
+
+.card .width-300 {
+  width: 300px;
 }
 
 .card .dropdown.small.line::after {
@@ -276,5 +301,13 @@
   z-index: 1;
   background: #fff;
   padding-right: 20px;
+}
+
+.card .table td.dtfc-fixed-right {
+  background: #fff;
+}
+
+.card .table th {
+  background: #D9D9D9;
 }
 
