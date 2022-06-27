@@ -54,7 +54,7 @@
                 
                 .compare {
                     font-size: 12px;
-                    color: #838383;
+                    color: $light-gray;
                     margin-top: 13px;
 
                     .sub-compare {
@@ -80,11 +80,11 @@
                             font-size: 17px;
                             
                             &.red{
-                                color:#e54d42;
+                                color:$light-red;
                             }
     
                             &.green{
-                                color:#00c18d
+                                color:$light-green
                             }
     
                             .icon {

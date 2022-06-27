@@ -77,77 +77,6 @@
   top: -3px;
 }
 
-section.add-bobot .table button i {
-  position: relative;
-  top: 2px;
-}
-
-section.add-bobot .table span button {
-  font-size: 16px;
-}
-
-section.add-data-bulk .form-manual {
-  margin-top: 40px;
-}
-
-section.add-data-bulk .group-btn {
-  margin-top: 30px;
-}
-
-section.add-data-bulk .group-btn span {
-  padding-right: 10px;
-}
-
-section.add-data-bulk .group-btn span button i,
-section.add-data-bulk .group-btn span a i {
-  position: relative;
-  top: 3px;
-  font-size: 16px;
-}
-
-section.add-data-bulk .wrapper-reupload {
-  margin-bottom: 15px;
-  width: 100%;
-}
-
-section.add-data-bulk .wrapper-reupload a,
-section.add-data-bulk .wrapper-reupload button {
-  float: right;
-}
-
-section.add-data-bulk .wrapper-reupload a i,
-section.add-data-bulk .wrapper-reupload button i {
-  position: relative;
-  top: 3px;
-  font-size: 16px;
-}
-
-section.add-data-bulk .wrapper-reupload a.btn-finish,
-section.add-data-bulk .wrapper-reupload button.btn-finish {
-  margin-top: 10px;
-  margin-right: 2px;
-}
-
-section.add-data-bulk .wrapper-reupload a.btn-submit,
-section.add-data-bulk .wrapper-reupload button.btn-submit {
-  margin-top: 10px;
-  margin-right: 10px;
-}
-
-section.add-data-bulk .preview-table {
-  margin-top: 25px;
-}
-
-section.add-data-bulk .preview-table .table span button i,
-section.add-data-bulk .preview-table .table span a i {
-  font-size: 18px;
-}
-
-section.add-data-bulk .btn-submit {
-  margin-top: 15px;
-  float: right;
-}
-
 .fade.animation.show {
   opacity: 1 !important;
 }
@@ -226,6 +155,59 @@ section.add-data-bulk .btn-submit {
 .bread-static .header-title .header-nav .header-word {
   font-weight: 700;
   border-right: 1px solid;
+}
+
+.card.no-bg {
+  background: transparent;
+  box-shadow: none;
+}
+
+.card .box-alert {
+  padding-bottom: 10px;
+}
+
+.card .bg-soft-red {
+  background-color: #FCDAD1;
+}
+
+.card .text-red {
+  color: #E53F07;
+}
+
+.card .bg-red {
+  background-color: #E53F07;
+}
+
+.card .bg-soft-orange {
+  background-color: #FFE4AF;
+}
+
+.card .text-orange {
+  color: #F4A400;
+}
+
+.card .bg-orange {
+  background-color: #F4A400;
+}
+
+.card .bg-soft-green {
+  background-color: #D7FEBD;
+}
+
+.card .text-green {
+  color: #A7D585;
+}
+
+.card .bg-green {
+  background-color: #A7D585;
+}
+
+.card .line-box-alert {
+  height: 8px;
+}
+
+.card .font-100 {
+  font-size: 100px;
 }
 
 .card .font-bold {

@@ -82,6 +82,46 @@
 }
 
 .card{
+    &.no-bg{
+        background: transparent;
+        box-shadow: none;
+    }
+    .box-alert{
+        padding-bottom: 10px;
+    }
+    .bg-soft-red{
+        background-color: $soft-red;
+    }
+    .text-red{
+        color : $red;
+    }
+    .bg-red{
+        background-color: $red;
+    }
+    .bg-soft-orange{
+        background-color: $soft-orange;
+    }
+    .text-orange{
+        color : $orange;
+    }
+    .bg-orange{
+        background-color: $orange;
+    }
+    .bg-soft-green{
+        background-color: $soft-green;
+    }
+    .text-green{
+        color : $green;
+    }
+    .bg-green{
+        background-color: $green;
+    }
+    .line-box-alert{
+        height: 8px;
+    }
+    .font-100{
+        font-size: 100px;
+    }
     .font-bold{
         font-weight: bold;
     }
