@@ -171,6 +171,38 @@
   box-shadow: none;
 }
 
+.card .wrapper-search {
+  left: 14px;
+  margin-bottom: 10px;
+}
+
+.card .wrapper-search input {
+  margin-left: 5px;
+}
+
+.card .wrapper-search select {
+  margin-left: 5px !important;
+}
+
+.card .wrapper-search .input-group-btn {
+  margin-left: 10px;
+}
+
+.card .wrapper-search .input-group-btn .btn {
+  font-size: 0.8rem;
+}
+
+.card .wrapper-search .search-panel ul.dropdown-menu li {
+  padding: 0.5em 0;
+  border-bottom: 1px solid #CCC;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card .wrapper-search .search-panel ul.dropdown-menu li:last-child {
+  border-bottom: 0;
+}
+
 .card .box-alert {
   padding-bottom: 10px;
 }
@@ -223,6 +255,10 @@
   font-size: 16px;
 }
 
+.card .font-size-36 {
+  font-size: 36px;
+}
+
 .card .font-bold {
   font-weight: bold;
 }
@@ -255,6 +291,10 @@
 
 .card .card-body {
   font-family: gdcustomfont, avenir, "Helvetica Neue", arial, sans-serif;
+}
+
+.card .card-body .form-search input.form-control {
+  height: 26px;
 }
 
 .card .card-body.line {
@@ -309,5 +349,9 @@
 
 .card .table th {
   background: #D9D9D9;
+}
+
+.card .margin-bottom-15 {
+  margin-bottom: 15px;
 }
 

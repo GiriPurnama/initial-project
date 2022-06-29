@@ -40,30 +40,79 @@
                         <div class="row">
                             
                             <div class="col-md-4">
-                                <div class="box-alert text-center bg-soft-red">
-                                    <i class="ri-alert-line text-red font-100"></i>
-                                    <h4 class="text-red font-bold">High Risk</h4> 
+
+                                <div class="card ">
+                                    <div class="card-body bg-soft-red">
+                                        <div class="text-center">
+                                            <div class="text-primary">
+                                                <!-- <i class="ri-stack-line font-size-24"></i> -->
+                                                <div class="box-alert">
+                                                    <i class="ri-alert-line font-size-36 text-red"></i>
+                                                    <h4 class="text-red font-bold">High Risk</h4> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body border-top py-0 line-box-alert bg-red">
+                                    </div>
                                 </div>
-                                <div class="line-box-alert bg-red"></div>
+
                             </div>
 
                             <div class="col-md-4">
-                                <div class="box-alert text-center bg-soft-orange">
+
+                                <div class="card ">
+                                    <div class="card-body bg-soft-orange">
+                                        <div class="text-center">
+                                            <div class="text-primary">
+                                                <!-- <i class="ri-stack-line font-size-24"></i> -->
+                                                <div class="box-alert">
+                                                    <i class="ri-alert-line font-size-36 text-orange"></i>
+                                                    <h4 class="text-orange font-bold">Medium Risk</h4> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body border-top py-0 line-box-alert bg-orange hide">
+                                    </div>
+                                </div>
+
+                                <!-- <div class="box-alert text-center bg-soft-orange">
                                     <i class="ri-alert-line text-orange font-100"></i>
                                     <h4 class="text-orange font-bold">Medium Risk</h4> 
                                 </div>
-                                <div class="line-box-alert bg-orange"></div>
+                                <div class="line-box-alert bg-orange"></div> -->
+                           
                             </div>
 
                             <div class="col-md-4">
-                                <div class="box-alert text-center bg-soft-green">
+
+                                <div class="card">
+                                    <div class="card-body bg-soft-green">
+                                        <div class="text-center">
+                                            <div class="text-primary">
+                                                <!-- <i class="ri-stack-line font-size-24"></i> -->
+                                                <div class="box-alert">
+                                                    <i class="ri-alert-line font-size-36 text-green"></i>
+                                                    <h4 class="text-green font-bold">Low Risk</h4> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-body border-top py-0 line-box-alert bg-green hide">
+                                    </div>
+                                </div>
+
+                                <!-- <div class="box-alert text-center bg-soft-green">
                                     <i class="ri-alert-line text-green font-100"></i>
                                     <h4 class="text-green font-bold">Low Risk</h4> 
                                 </div>
-                                <div class="line-box-alert bg-green"></div>
-                            </div>
-                            
+                                <div class="line-box-alert bg-green"></div> -->
 
+                            </div>
                             
                         </div>
                         
@@ -72,6 +121,48 @@
                     <div class="card">
 
                         <div class="card-body">
+                            <div class="row">
+                                
+                                <div class="col-xs-8 col-xs-offset-2">
+                                    <div class="input-group wrapper-search">
+                                        <div class="search-panel">
+                                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                                <span id="search_concept">Filter By All</span> <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li><a href="#all">All</a></li>
+                                                <li><a href="#date">Date</a></li>
+                                                <li><a href="#location">Location</a></li>
+                                                <li><a href="#delivery_status">Delivery Status</a></li>
+                                            </ul>
+                                        </div>
+                                        <input type="hidden" name="search_param" value="all" id="search_param">         
+                                        <input type="text" class="form-control dateSrc" name="date" placeholder="Search By Date">
+                                        <select name="pickup_code" id="" class="form-control pickupCode">
+                                                <option value="all">All Pickup Code</option>
+                                                <option value="">990</option>
+                                                <option value="">B-KLG-4</option>
+                                                <option value="">B-KLG-2</option>
+                                        </select>
+                                        <select name="drop_code" id="" class="form-control dropCode">
+                                                <option value="all">All Drop Code</option>
+                                                <option value="">990</option>
+                                                <option value="">B-KLG-4</option>
+                                                <option value="">B-KLG-2</option>
+                                        </select>
+                                        <select name="delivery_status" id="" class="form-control deliveryStatus">
+                                                <option value="all">All Delivery Status</option>
+                                                <option value="">In Delivery</option>
+                                                <option value="">Waiting for Reconcile</option>
+                                                <option value="">Completed</option>
+                                        </select>
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-primary" type="button"><i class="ri-search-line"></i></button>
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
                             <div class="table-responsive">
                                 <table class="table mb-0 table-detail-inventory">
 
@@ -305,6 +396,37 @@
     <script type="text/javascript">
         
         $( document ).ready(function() {
+
+             $('.search-panel .dropdown-menu').find('a').click(function(e) {
+                e.preventDefault();
+                var param = $(this).attr("href").replace("#","");
+                var concept = $(this).text();
+                var joinText = "Filter By " + concept;
+                $('.search-panel span#search_concept').text(joinText);
+                $('.input-group #search_param').val(param);
+                console.log(concept);
+                if(concept == 'All'){
+                    $(".dateSrc").removeClass("hide");
+                    $(".pickupCode").removeClass("hide");
+                    $(".dropCode").removeClass("hide");
+                    $(".deliveryStatus").removeClass("hide");
+                } else if(concept == 'Date'){
+                    $(".dateSrc").removeClass("hide");
+                    $(".pickupCode").addClass("hide");
+                    $(".dropCode").addClass("hide");
+                    $(".deliveryStatus").addClass("hide");
+                } else if(concept == 'Location'){
+                    $(".dateSrc").addClass("hide");
+                    $(".pickupCode").removeClass("hide");
+                    $(".dropCode").removeClass("hide");
+                    $(".deliveryStatus").addClass("hide");
+                } else if(concept == 'Delivery Status'){
+                    $(".dateSrc").addClass("hide");
+                    $(".pickupCode").addClass("hide");
+                    $(".dropCode").addClass("hide");
+                    $(".deliveryStatus").removeClass("hide");
+                }
+            });
           
             var table = $('.table-detail-inventory').DataTable({
                 lengthChange: false,
