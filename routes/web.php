@@ -21,6 +21,10 @@ Route::get('/home', function () {
     return view('home');
 });
 
+Route::get('/inventory-status', function () {
+    return view('inventory-status');
+});
+
 Route::get('/detail-ksa-2', function () {
     return view('detail-ksa-2');
 });

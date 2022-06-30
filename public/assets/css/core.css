@@ -166,6 +166,32 @@
   border-right: 1px solid;
 }
 
+.center-line h5 {
+  position: relative;
+  top: 5px;
+}
+
+.center-line hr {
+  position: relative;
+  top: -2px;
+}
+
+.center-line hr.red {
+  border-top: 5px solid #E53F07;
+}
+
+.center-line hr.green {
+  border-top: 5px solid #A7D585;
+}
+
+.center-line hr.orange {
+  border-top: 5px solid #F4A400;
+}
+
+.margin-left-15 {
+  margin-left: 15px;
+}
+
 .card.no-bg {
   background: transparent;
   box-shadow: none;
@@ -291,6 +317,12 @@
 
 .card .card-body {
   font-family: gdcustomfont, avenir, "Helvetica Neue", arial, sans-serif;
+}
+
+.card .card-body .text-truncate a i {
+  position: relative;
+  top: 4px;
+  font-size: 18px;
 }
 
 .card .card-body .form-search input.form-control {

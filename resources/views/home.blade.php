@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title') Dashboard @endsection
+@section('title') Dashboard Inventory @endsection
 @section('css')
     <!-- DataTables -->
     <link href="{{ URL::asset('/assets/libs/jquery-vectormap/jquery-vectormap.min.css')}}" rel="stylesheet" type="text/css" />
@@ -15,10 +15,10 @@
             <div class="page-title-box d-flex align-items-center justify-content-between header-title" style="margin-bottom:25px;">
                 <!-- <h4 class="mb-0">Order Management</h4> -->
                 <div class="header-nav">
-                    <span class="header-word md-0">Inventory Status &nbsp;&nbsp;</span>
+                    <span class="header-word md-0">Dashboard Inventory &nbsp;&nbsp;</span>
                     <a href="/home">&nbsp;&nbsp;&nbsp;<i class="ri-home-3-line home"></i></a>
                     <span>&nbsp;<i class="ri-arrow-right-s-line"></i></span>
-                    <span>&nbsp;Inventory Status</span>
+                    <span>&nbsp;Dashboard Inventory</span>
                 </div>
                 <div class="page-title-right">
                     <a class="btn btn-back" href="/home"><i class="ri-arrow-left-s-line"></i> Back</a>
@@ -41,15 +41,15 @@
                             
                             <div class="col-md-4">
 
-                                <div class="card ">
-                                    <div class="card-body bg-soft-red">
-                                        <div class="text-center">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="media">
+                                            <div class="media-body overflow-hidden">
+                                                <p class="text-truncate font-size-24 mb-2 text-red">High Risk</p>
+                                                <h3 class="mb-0 text-red font-bold">60%</h3>
+                                            </div>
                                             <div class="text-primary">
-                                                <!-- <i class="ri-stack-line font-size-24"></i> -->
-                                                <div class="box-alert">
-                                                    <i class="ri-alert-line font-size-36 text-red"></i>
-                                                    <h4 class="text-red font-bold">High Risk</h4> 
-                                                </div>
+                                                <!-- <i class="ri-alert-line text-red font-size-36"></i> -->
                                             </div>
                                         </div>
                                     </div>
@@ -62,15 +62,15 @@
 
                             <div class="col-md-4">
 
-                                <div class="card ">
-                                    <div class="card-body bg-soft-orange">
-                                        <div class="text-center">
+                                <div class="card">
+                                    <div class="card-body ">
+                                        <div class="media">
+                                            <div class="media-body overflow-hidden">
+                                                <p class="text-truncate font-size-24 mb-2 text-orange">Medium Risk</p>
+                                                <h3 class="mb-0 text-orange font-bold">30%</h3>
+                                            </div>
                                             <div class="text-primary">
-                                                <!-- <i class="ri-stack-line font-size-24"></i> -->
-                                                <div class="box-alert">
-                                                    <i class="ri-alert-line font-size-36 text-orange"></i>
-                                                    <h4 class="text-orange font-bold">Medium Risk</h4> 
-                                                </div>
+                                                <!-- <i class="ri-alert-line text-orange font-size-36"></i> -->
                                             </div>
                                         </div>
                                     </div>
@@ -78,26 +78,20 @@
                                     <div class="card-body border-top py-0 line-box-alert bg-orange hide">
                                     </div>
                                 </div>
-
-                                <!-- <div class="box-alert text-center bg-soft-orange">
-                                    <i class="ri-alert-line text-orange font-100"></i>
-                                    <h4 class="text-orange font-bold">Medium Risk</h4> 
-                                </div>
-                                <div class="line-box-alert bg-orange"></div> -->
                            
                             </div>
 
                             <div class="col-md-4">
 
                                 <div class="card">
-                                    <div class="card-body bg-soft-green">
-                                        <div class="text-center">
+                                    <div class="card-body">
+                                        <div class="media">
+                                            <div class="media-body overflow-hidden">
+                                                <p class="text-truncate font-size-24 mb-2 text-green">Low Risk</p>
+                                                <h3 class="mb-0 text-green font-bold">10%</h3>
+                                            </div>
                                             <div class="text-primary">
-                                                <!-- <i class="ri-stack-line font-size-24"></i> -->
-                                                <div class="box-alert">
-                                                    <i class="ri-alert-line font-size-36 text-green"></i>
-                                                    <h4 class="text-green font-bold">Low Risk</h4> 
-                                                </div>
+                                                <!-- <i class="ri-alert-line text-green font-size-36"></i> -->
                                             </div>
                                         </div>
                                     </div>
@@ -106,263 +100,187 @@
                                     </div>
                                 </div>
 
-                                <!-- <div class="box-alert text-center bg-soft-green">
-                                    <i class="ri-alert-line text-green font-100"></i>
-                                    <h4 class="text-green font-bold">Low Risk</h4> 
-                                </div>
-                                <div class="line-box-alert bg-green"></div> -->
-
                             </div>
                             
                         </div>
                         
                     </div>
-
-                    <div class="card">
+                    
+                    <div class="center-line">
+                        <div class="row">
+                            <div class="margin-left-15">
+                                <div class="card no-bg">
+                                    <h5 class="text-red font-bold">
+                                        High Risk
+                                    </h5> 
+                                </div>
+                            </div>
+                            <div class="col-md-11">
+                                <div class="card no-bg">
+                                    <hr class="red">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card card no-bg">
 
                         <div class="card-body">
+
                             <div class="row">
-                                
-                                <div class="col-xs-8 col-xs-offset-2">
-                                    <div class="input-group wrapper-search">
-                                        <div class="search-panel">
-                                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                                                <span id="search_concept">Filter By All</span> <span class="caret"></span>
-                                            </button>
-                                            <ul class="dropdown-menu" role="menu">
-                                                <li><a href="#all">All</a></li>
-                                                <li><a href="#date">Date</a></li>
-                                                <li><a href="#location">Location</a></li>
-                                                <li><a href="#delivery_status">Delivery Status</a></li>
-                                            </ul>
+
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <div class="media-body overflow-hidden">
+                                                    <p class="text-truncate font-size-14 mb-2">Proses Cek Delivery Status</p>
+                                                    <h4 class="mb-0">10% / 60%</h4>
+                                                </div>
+                                                <div class="text-primary">
+                                                    <i class="ri-radio-button-line text-red font-size-24"></i>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <input type="hidden" name="search_param" value="all" id="search_param">         
-                                        <input type="text" class="form-control dateSrc" name="date" placeholder="Search By Date">
-                                        <select name="pickup_code" id="" class="form-control pickupCode">
-                                                <option value="all">All Pickup Code</option>
-                                                <option value="">990</option>
-                                                <option value="">B-KLG-4</option>
-                                                <option value="">B-KLG-2</option>
-                                        </select>
-                                        <select name="drop_code" id="" class="form-control dropCode">
-                                                <option value="all">All Drop Code</option>
-                                                <option value="">990</option>
-                                                <option value="">B-KLG-4</option>
-                                                <option value="">B-KLG-2</option>
-                                        </select>
-                                        <select name="delivery_status" id="" class="form-control deliveryStatus">
-                                                <option value="all">All Delivery Status</option>
-                                                <option value="">In Delivery</option>
-                                                <option value="">Waiting for Reconcile</option>
-                                                <option value="">Completed</option>
-                                        </select>
-                                        <span class="input-group-btn">
-                                            <button class="btn btn-primary" type="button"><i class="ri-search-line"></i></button>
-                                        </span>
+    
+                                        <div class="card-body border-top py-3">
+                                            <div class="text-truncate">
+                                                <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
+                                                <a href="javascript:void(0);" class="float-right">
+                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
-                            </div>
-                            <div class="table-responsive">
-                                <table class="table mb-0 table-detail-inventory">
-
-                                    <thead>
-                                        <tr>
-                                            <th>Company</th>
-                                            <th>From</th>
-                                            <th>To</th>
-                                            <th>TO Number</th>
-                                            <th>DO Number</th>
-                                            <th>Shipment Date</th>
-                                            <th>Received Date</th>
-                                            <th>Days</th>
-                                            <th>Status</th>
-                                            <th>Brand</th>
-                                            <th>Item Category</th>
-                                            <th>Item QTY</th>
-                                            <th>Channel</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>PTT</td>
-                                            <td>960</td>
-                                            <td>A-AEON-BSD</td>
-                                            <td>MER/20/36522670</td>
-                                            <td>TS/PTT/20/0312720738</td>
-                                            <td>2022-06-15</td>
-                                            <td>2022-06-17</td>
-                                            <td>2</td>
-                                            <td>COMPLETED</td>
-                                            <td>RO</td>
-                                            <td>LADIES</td>
-                                            <td>18</td>
-                                            <td>Event</td>
-                                            <td>
-                                                <div class="form-group width-250">
-                                                    <select name="" id="" class="form-control width-200 float-left">
-                                                        <option value="">-</option>
-                                                        <option value="">Proses Cek Delivery</option>
-                                                        <option value="">Waiting for Delivery</option>
-                                                        <option value="">In Transit Ekspedisi</option>
-                                                        <option value="">Waiting Posting Receive System</option>
-                                                        <option value="">Sales E-Commerce</option>
-                                                        <option value="">Stock Write Off</option>
-                                                    </select>
-
-                                                    <a href="javascript:void(0);">
-                                                        <button class="btn btn-warning">
-                                                            <i class="ri-pencil-line font-16"></i>
-                                                        </button>
-                                                    </a>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <div class="media-body overflow-hidden">
+                                                    <p class="text-truncate font-size-14 mb-2">Waiting for Delivery</p>
+                                                    <h4 class="mb-0">5% / 60%</h4>
                                                 </div>
-                                               
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>PTT</td>
-                                            <td>960</td>
-                                            <td>A-AEON-BSD</td>
-                                            <td>MER/20/36522670</td>
-                                            <td>TS/PTT/20/0312720738</td>
-                                            <td>2022-06-15</td>
-                                            <td>2022-06-17</td>
-                                            <td>2</td>
-                                            <td>COMPLETED</td>
-                                            <td>RO</td>
-                                            <td>LADIES</td>
-                                            <td>18</td>
-                                            <td>Event</td>
-                                            <td>
-                                                <div class="form-group width-250">
-                                                    <select name="" id="" class="form-control width-200 float-left">
-                                                        <option value="">-</option>
-                                                        <option value="">Proses Cek Delivery</option>
-                                                        <option value="">Waiting for Delivery</option>
-                                                        <option value="">In Transit Ekspedisi</option>
-                                                        <option value="">Waiting Posting Receive System</option>
-                                                        <option value="">Sales E-Commerce</option>
-                                                        <option value="">Stock Write Off</option>
-                                                    </select>
-
-                                                    <a href="javascript:void(0);">
-                                                        <button class="btn btn-warning">
-                                                            <i class="ri-pencil-line font-16"></i>
-                                                        </button>
-                                                    </a>
+                                                <div class="text-primary">
+                                                    <i class="ri-radio-button-line text-red font-size-24"></i>
                                                 </div>
-                                               
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>PTT</td>
-                                            <td>960</td>
-                                            <td>A-AEON-BSD</td>
-                                            <td>MER/20/36522670</td>
-                                            <td>TS/PTT/20/0312720738</td>
-                                            <td>2022-06-15</td>
-                                            <td>2022-06-17</td>
-                                            <td>2</td>
-                                            <td>COMPLETED</td>
-                                            <td>RO</td>
-                                            <td>LADIES</td>
-                                            <td>18</td>
-                                            <td>Event</td>
-                                            <td>
-                                                <div class="form-group width-250">
-                                                    <select name="" id="" class="form-control width-200 float-left">
-                                                        <option value="">-</option>
-                                                        <option value="">Proses Cek Delivery</option>
-                                                        <option value="">Waiting for Delivery</option>
-                                                        <option value="">In Transit Ekspedisi</option>
-                                                        <option value="">Waiting Posting Receive System</option>
-                                                        <option value="">Sales E-Commerce</option>
-                                                        <option value="">Stock Write Off</option>
-                                                    </select>
+                                            </div>
+                                        </div>
+    
+                                        <div class="card-body border-top py-3">
+                                            <div class="text-truncate">
+                                                <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
+                                                <a href="javascript:void(0);" class="float-right">
+                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
+                                                </a>
+                                            </div>
+                                        </div>
 
-                                                    <a href="javascript:void(0);">
-                                                        <button class="btn btn-warning">
-                                                            <i class="ri-pencil-line font-16"></i>
-                                                        </button>
-                                                    </a>
-                                                </div>
-                                               
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>PTT</td>
-                                            <td>960</td>
-                                            <td>A-AEON-BSD</td>
-                                            <td>MER/20/36522670</td>
-                                            <td>TS/PTT/20/0312720738</td>
-                                            <td>2022-06-15</td>
-                                            <td>2022-06-17</td>
-                                            <td>2</td>
-                                            <td>COMPLETED</td>
-                                            <td>RO</td>
-                                            <td>LADIES</td>
-                                            <td>18</td>
-                                            <td>Event</td>
-                                            <td>
-                                                <div class="form-group width-250">
-                                                    <select name="" id="" class="form-control width-200 float-left">
-                                                        <option value="">-</option>
-                                                        <option value="">Proses Cek Delivery</option>
-                                                        <option value="">Waiting for Delivery</option>
-                                                        <option value="">In Transit Ekspedisi</option>
-                                                        <option value="">Waiting Posting Receive System</option>
-                                                        <option value="">Sales E-Commerce</option>
-                                                        <option value="">Stock Write Off</option>
-                                                    </select>
+                                    </div>
+                                </div>
 
-                                                    <a href="javascript:void(0);">
-                                                        <button class="btn btn-warning">
-                                                            <i class="ri-pencil-line font-16"></i>
-                                                        </button>
-                                                    </a>
+                                <div class="col-md-4">     
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <div class="media-body overflow-hidden">
+                                                    <p class="text-truncate font-size-14 mb-2">In Transit Expedition</p>
+                                                    <h4 class="mb-0">10% / 60%</h4>
                                                 </div>
-                                               
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>PTT</td>
-                                            <td>960</td>
-                                            <td>A-AEON-BSD</td>
-                                            <td>MER/20/36522670</td>
-                                            <td>TS/PTT/20/0312720738</td>
-                                            <td>2022-06-15</td>
-                                            <td>2022-06-17</td>
-                                            <td>2</td>
-                                            <td>COMPLETED</td>
-                                            <td>RO</td>
-                                            <td>LADIES</td>
-                                            <td>18</td>
-                                            <td>Event</td>
-                                            <td>
-                                                <div class="form-group width-250">
-                                                    <select name="" id="" class="form-control width-200 float-left">
-                                                        <option value="">-</option>
-                                                        <option value="">Proses Cek Delivery</option>
-                                                        <option value="">Waiting for Delivery</option>
-                                                        <option value="">In Transit Ekspedisi</option>
-                                                        <option value="">Waiting Posting Receive System</option>
-                                                        <option value="">Sales E-Commerce</option>
-                                                        <option value="">Stock Write Off</option>
-                                                    </select>
+                                                <div class="text-primary">
+                                                    <i class="ri-radio-button-line text-red font-size-24"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="card-body border-top py-3">
+                                            <div class="text-truncate">
+                                                <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
+                                                <a href="javascript:void(0);" class="float-right">
+                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                                    <a href="javascript:void(0);">
-                                                        <button class="btn btn-warning">
-                                                            <i class="ri-pencil-line font-16"></i>
-                                                        </button>
-                                                    </a>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <div class="media-body overflow-hidden">
+                                                    <p class="text-truncate font-size-14 mb-2">Waiting Posting Receive System</p>
+                                                    <h4 class="mb-0">10% / 60%</h4>
                                                 </div>
-                                               
-                                            </td>
-                                        </tr>
-                                        
-                                    </tbody>
-                                </table>
+                                                <div class="text-primary">
+                                                    <i class="ri-radio-button-line text-red font-size-24"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="card-body border-top py-3">
+                                            <div class="text-truncate">
+                                                <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
+                                                <a href="javascript:void(0);" class="float-right">
+                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <div class="media-body overflow-hidden">
+                                                    <p class="text-truncate font-size-14 mb-2">Stock Write Off</p>
+                                                    <h4 class="mb-0">13% / 60%</h4>
+                                                </div>
+                                                <div class="text-primary">
+                                                    <i class="ri-radio-button-line text-red font-size-24"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="card-body border-top py-3">
+                                            <div class="text-truncate">
+                                                <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
+                                                <a href="javascript:void(0);" class="float-right">
+                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">     
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <div class="media-body overflow-hidden">
+                                                    <p class="text-truncate font-size-14 mb-2">Sales E-Commerce</p>
+                                                    <h4 class="mb-0">12% / 60%</h4>
+                                                </div>
+                                                <div class="text-primary">
+                                                    <i class="ri-radio-button-line text-red font-size-24"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="card-body border-top py-3">
+                                            <div class="text-truncate">
+                                                <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
+                                                <a href="javascript:void(0);" class="float-right">
+                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
 
@@ -397,61 +315,7 @@
         
         $( document ).ready(function() {
 
-             $('.search-panel .dropdown-menu').find('a').click(function(e) {
-                e.preventDefault();
-                var param = $(this).attr("href").replace("#","");
-                var concept = $(this).text();
-                var joinText = "Filter By " + concept;
-                $('.search-panel span#search_concept').text(joinText);
-                $('.input-group #search_param').val(param);
-                console.log(concept);
-                if(concept == 'All'){
-                    $(".dateSrc").removeClass("hide");
-                    $(".pickupCode").removeClass("hide");
-                    $(".dropCode").removeClass("hide");
-                    $(".deliveryStatus").removeClass("hide");
-                } else if(concept == 'Date'){
-                    $(".dateSrc").removeClass("hide");
-                    $(".pickupCode").addClass("hide");
-                    $(".dropCode").addClass("hide");
-                    $(".deliveryStatus").addClass("hide");
-                } else if(concept == 'Location'){
-                    $(".dateSrc").addClass("hide");
-                    $(".pickupCode").removeClass("hide");
-                    $(".dropCode").removeClass("hide");
-                    $(".deliveryStatus").addClass("hide");
-                } else if(concept == 'Delivery Status'){
-                    $(".dateSrc").addClass("hide");
-                    $(".pickupCode").addClass("hide");
-                    $(".dropCode").addClass("hide");
-                    $(".deliveryStatus").removeClass("hide");
-                }
-            });
-          
-            var table = $('.table-detail-inventory').DataTable({
-                lengthChange: false,
-                "pageLength": 10,
-                responsive: false,
-                searching: false,
-                scrollX:true,
-                scrollCollapse:true,
-                fixedColumns:{
-                    left:0,
-                    right: 1
-                },
-                "language": {
-                "paginate": {
-                    "previous": "<i class='mdi mdi-chevron-left'>",
-                    "next": "<i class='mdi mdi-chevron-right'>"
-                }
-                },
-                "drawCallback": function drawCallback() {
-                    $('.dataTables_paginate > .pagination').addClass('pagination-rounded');
-                },
-                dom: 'frtip'
-            });
             
-            new $.fn.dataTable.FixedHeader( table );
 
         });
 

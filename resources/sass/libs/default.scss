@@ -80,7 +80,29 @@
     }
     
 }
+.center-line{
+    h5{
+        position: relative;
+        top: 5px;
+    }
 
+    hr{
+        &.red{
+            border-top: 5px solid $red;
+        }
+        &.green{
+            border-top: 5px solid $green;
+        }
+        &.orange{
+            border-top: 5px solid $orange;
+        }
+        position: relative;
+        top: -2px;
+    }
+}
+.margin-left-15{
+    margin-left: 15px;
+}
 .card{
     &.no-bg{
         background: transparent;
@@ -195,6 +217,15 @@
         }
     }
     .card-body{
+        .text-truncate{
+            a{
+                i{
+                    position: relative;
+                    top: 4px;
+                    font-size: 18px;
+                }
+            }
+        }
         .form-search{
             input.form-control{
                 height: 26px;
