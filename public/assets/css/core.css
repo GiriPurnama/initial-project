@@ -109,6 +109,11 @@
   outline: 0px;
 }
 
+.margin-left-right-0 {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
 .bread-static {
   position: relative;
   top: 90px;
@@ -229,6 +234,28 @@
 
 .card .wrapper-search .search-panel ul.dropdown-menu li:last-child {
   border-bottom: 0;
+}
+
+.card .border-line {
+  border: 1px solid #ccc;
+}
+
+.card .content-size h4 {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.card .content-size span {
+  font-size: 16px;
+  margin-left: 15px;
+  padding-top: 10px;
+  display: block;
+}
+
+.card .content-size h3.title-content {
+  position: relative;
+  top: 30%;
+  left: 30%;
 }
 
 .card .box-alert {

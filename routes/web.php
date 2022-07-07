@@ -33,6 +33,10 @@ Route::get('/detail-inventory-days', function () {
     return view('detail-inventory-days');
 });
 
+Route::get('/dashboard-expedition', function () {
+    return view('dashboard-expedition');
+});
+
 Route::get('/detail-ksa-2', function () {
     return view('detail-ksa-2');
 });

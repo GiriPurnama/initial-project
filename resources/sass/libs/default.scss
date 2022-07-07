@@ -16,6 +16,10 @@
         outline: 0px;
     }
 }
+.margin-left-right-0{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
 .bread-static{
     position: relative;
     top: 90px;
@@ -144,6 +148,28 @@
                         }
                     }
                 }
+            }
+        }
+    }
+    .border-line{
+        border: 1px solid #ccc;
+    }
+    .content-size{
+        h4{
+            margin-top: 20px;
+            margin-left: 15px;
+        }
+        span{
+            font-size: 16px;
+            margin-left: 15px;
+            padding-top: 10px;
+            display: block;
+        }
+        h3{
+            &.title-content{
+                position: relative;
+                top: 30%;
+                left: 30%;
             }
         }
     }
