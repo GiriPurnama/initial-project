@@ -240,6 +240,10 @@
   border: 1px solid #ccc;
 }
 
+.card .title-expedition h4 {
+  padding: 31px;
+}
+
 .card .content-size h4 {
   margin-top: 20px;
   margin-left: 15px;
