@@ -49,6 +49,10 @@ Route::get('/dashboard-company', function () {
     return view('dashboard-company');
 });
 
+Route::get('/detail-company', function () {
+    return view('detail-company');
+});
+
 
 Route::get('/detail-ksa-2', function () {
     return view('detail-ksa-2');
