@@ -195,6 +195,16 @@
   border-top: 5px solid #F4A400;
 }
 
+.center-line hr.gray {
+  border-top: 5px solid #5c5c5c;
+}
+
+.center-line hr.line-hr {
+  top: -2px;
+  left: -60px;
+  width: 105%;
+}
+
 .margin-left-15 {
   margin-left: 15px;
 }
@@ -202,6 +212,10 @@
 .card.no-bg {
   background: transparent;
   box-shadow: none;
+}
+
+.card.pad-bottom-5 {
+  padding-bottom: 5px;
 }
 
 .card .wrapper-search {
@@ -247,6 +261,24 @@
 .card .content-size h4 {
   margin-top: 20px;
   margin-left: 15px;
+}
+
+.card .content-size h4.margin-min-17 {
+  margin-left: -17px;
+}
+
+.card .content-size h4.margin-min-7 {
+  margin-left: -7px;
+}
+
+.card .content-size h4.margin-min-4 {
+  margin-left: -4px;
+}
+
+.card .content-size h2.center {
+  position: absolute;
+  top: 40%;
+  left: 15%;
 }
 
 .card .content-size span {
@@ -306,6 +338,14 @@
   background-color: #A7D585;
 }
 
+.card .text-gray {
+  color: #5c5c5c;
+}
+
+.card .bg-gray {
+  background-color: #5c5c5c;
+}
+
 .card .line-box-alert {
   height: 8px;
 }
@@ -354,6 +394,12 @@
 
 .card .card-body {
   font-family: gdcustomfont, avenir, "Helvetica Neue", arial, sans-serif;
+}
+
+.card .card-body .text-truncate .text-detail {
+  font-size: 16px;
+  position: relative;
+  top: 5px;
 }
 
 .card .card-body .text-truncate a i {

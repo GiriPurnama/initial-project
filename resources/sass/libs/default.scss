@@ -100,10 +100,20 @@
         &.orange{
             border-top: 5px solid $orange;
         }
+        &.gray{
+            border-top: 5px solid $gray;
+        }
+        
         position: relative;
         top: -2px;
         left: -73px;
         width: 107%;
+
+        &.line-hr{
+            top: -2px;
+            left: -60px;
+            width: 105%;
+        }
     }
 }
 .margin-left-15{
@@ -113,6 +123,9 @@
     &.no-bg{
         background: transparent;
         box-shadow: none;
+    }
+    &.pad-bottom-5{
+        padding-bottom: 5px;
     }
     .wrapper-search{
         left: 14px;
@@ -163,6 +176,22 @@
         h4{
             margin-top: 20px;
             margin-left: 15px;
+            &.margin-min-17{
+                margin-left: -17px;
+            }
+            &.margin-min-7{
+                margin-left: -7px;
+            }
+            &.margin-min-4{
+                margin-left: -4px;
+            }
+        }
+        h2{
+            &.center{
+                position: absolute;
+                top: 40%;
+                left: 15%;
+            }
         }
         span{
             font-size: 16px;
@@ -212,6 +241,12 @@
     .bg-green{
         background-color: $green;
     }
+    .text-gray{
+        color : $gray;
+    }
+    .bg-gray{
+        background-color: $gray;
+    }
     .line-box-alert{
         height: 8px;
     }
@@ -255,6 +290,11 @@
     }
     .card-body{
         .text-truncate{
+            .text-detail{
+                font-size: 16px;
+                position: relative;
+                top: 5px;
+            }
             a{
                 i{
                     position: relative;
