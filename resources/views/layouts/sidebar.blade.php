@@ -11,7 +11,7 @@
                 <li>
                     <a href="/home" class="waves-effect">
                         <i class="ri-dashboard-line"></i>
-                        <span>Dashboard Inventory</span>
+                        <span>Inventory</span>
                     </a>
                 </li>
 
@@ -25,7 +25,7 @@
                 <li>
                     <a href="/dashboard-expedition" class="waves-effect">
                         <i class="ri-truck-line"></i>
-                        <span>Dashboard Expedition</span>
+                        <span>Expedition</span>
                     </a>
                 </li>
 
@@ -33,7 +33,7 @@
                 <li>
                     <a href="/dashboard-waiting-receive" class="waves-effect">
                         <i class="ri-stack-line"></i>
-                        <span>Dashboard Waiting for Received System</span>
+                        <span>Waiting for Received System</span>
                     </a>
                 </li>
 
@@ -41,7 +41,7 @@
                 <li>
                     <a href="/dashboard-company" class="waves-effect">
                         <i class="ri-community-line"></i>
-                        <span>Dashboard Company</span>
+                        <span>Company</span>
                     </a>
                 </li>
 
