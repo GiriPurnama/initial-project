@@ -262,6 +262,10 @@
   left: 30%;
 }
 
+.card .content-size h3.title-content.left-10 {
+  left: 10%;
+}
+
 .card .box-alert {
   padding-bottom: 10px;
 }

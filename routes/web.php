@@ -41,6 +41,10 @@ Route::get('/detail-expedition', function () {
     return view('detail-expedition');
 });
 
+Route::get('/dashboard-waiting-receive', function () {
+    return view('dashboard-waiting-receive');
+});
+
 Route::get('/detail-ksa-2', function () {
     return view('detail-ksa-2');
 });

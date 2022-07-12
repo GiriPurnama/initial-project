@@ -175,6 +175,10 @@
                 position: relative;
                 top: 30%;
                 left: 30%;
+
+                &.left-10{
+                    left: 10%;
+                }
             }
         }
     }
