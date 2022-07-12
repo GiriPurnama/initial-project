@@ -126,7 +126,9 @@
 
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
-                                            
+                                                <a href="/detail-inventory-days" class="float-right">
+                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
+                                                </a>
                                             </div>
                                         </div>
 
@@ -149,7 +151,9 @@
 
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
-                                            
+                                                <a href="/detail-inventory-days" class="float-right">
+                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
+                                                </a>
                                             </div>
                                         </div>
 
@@ -171,8 +175,10 @@
                                         </div>
 
                                         <div class="card-body border-top py-3">
-                                            <div class="text-truncate">
-                                            
+                                                                                        <div class="text-truncate">
+                                                <a href="/detail-inventory-days" class="float-right">
+                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
+                                                </a>
                                             </div>
                                         </div>
 
@@ -194,8 +200,10 @@
                                         </div>
 
                                         <div class="card-body border-top py-3">
-                                            <div class="text-truncate">
-                                            
+                                                                                        <div class="text-truncate">
+                                                <a href="/detail-inventory-days" class="float-right">
+                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
+                                                </a>
                                             </div>
                                         </div>
 
@@ -217,8 +225,10 @@
                                         </div>
 
                                         <div class="card-body border-top py-3">
-                                            <div class="text-truncate">
-                                            
+                                                                                        <div class="text-truncate">
+                                                <a href="/detail-inventory-days" class="float-right">
+                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
+                                                </a>
                                             </div>
                                         </div>
 
@@ -240,8 +250,10 @@
                                         </div>
 
                                         <div class="card-body border-top py-3">
-                                            <div class="text-truncate">
-                                            
+                                                                                        <div class="text-truncate">
+                                                <a href="/detail-inventory-days" class="float-right">
+                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
+                                                </a>
                                             </div>
                                         </div>
 

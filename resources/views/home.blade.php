@@ -150,7 +150,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -175,7 +175,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -201,7 +201,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -226,7 +226,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -251,7 +251,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -277,7 +277,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -330,7 +330,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -355,7 +355,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -381,7 +381,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -406,7 +406,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -431,7 +431,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -457,7 +457,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -510,7 +510,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -535,7 +535,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -561,7 +561,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -586,7 +586,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -611,7 +611,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
@@ -637,7 +637,7 @@
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="javascript:void(0);" class="float-right">
+                                                <a href="/detail-inventory" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>

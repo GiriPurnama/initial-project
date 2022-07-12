@@ -11,27 +11,41 @@
                 <li>
                     <a href="/home" class="waves-effect">
                         <i class="ri-dashboard-line"></i>
-                        <span>Dashboard</span>
+                        <span>Dashboard Inventory</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="ri-store-2-line"></i>
-                        <span>KPI Management</span>
+                    <a href="/inventory-status" class="waves-effect">
+                        <i class="ri-line-chart-line"></i>
+                        <span>Inventory Status</span>
                     </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="/add-bobot">Add Data Bobot</a></li>
-                        <!-- <li><a href="ecommerce-product-detail.html">Product Detail</a></li> -->
-                    </ul>
                 </li>
 
                 <li>
-                    <a href="/add-data-bulk" class="waves-effect">
-                        <i class="ri-artboard-2-line"></i>
-                        <span>Data Management</span>
+                    <a href="/dashboard-expedition" class="waves-effect">
+                        <i class="ri-truck-line"></i>
+                        <span>Dashboard Expedition</span>
                     </a>
                 </li>
+
+
+                <li>
+                    <a href="/dashboard-waiting-receive" class="waves-effect">
+                        <i class="ri-stack-line"></i>
+                        <span>Dashboard Waiting for Received System</span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="/dashboard-company" class="waves-effect">
+                        <i class="ri-community-line"></i>
+                        <span>Dashboard Company</span>
+                    </a>
+                </li>
+
+                
 
             </ul>
         </div>
