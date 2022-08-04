@@ -284,7 +284,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="">TO Number</label>
-                                            <input type="text" class="form-control to_number_val" readonly>
+                                            <input type="text" value="TO223321111" class="form-control to_number_val" readonly>
                                         </div>
                                     </div>
 
@@ -413,8 +413,8 @@
                                     
                                     <div class="col-md-12">
                                         <div class="form-group text-right">
-                                            <input type="button" class="add-row btn btn-primary" value="Add Row">
                                             <button type="button" class="delete-row btn btn-danger">Delete Row</button>
+                                            <input type="button" class="add-row btn btn-primary" value="Add Row">
                                         </div>
                                     </div>
 
@@ -423,33 +423,45 @@
 
                             </form>
 
-                            <table class="table mb-0 tableAddLoading">
-                                <thead>
-                                    <tr>
-                                        <th>Select</th>
-                                        <th>DO Number</th>
-                                        <th>TO Number</th>
-                                        <th>Batch No</th>
-                                        <th>Resi No</th>
-                                        <th>Expedition</th>
-                                        <th>Pickup Name</th>
-                                        <th>Drop Name</th>
-                                        <th>Driver Name</th>
-                                        <th>Vehicle License Plate</th>
-                                        <th>Vehicle Type</th>
-                                        <th>Delivery Status</th>
-                                        <th>Weight</th>
-                                        <th>Volume</th>
-                                        <th>Goods QTY</th>
-                                        <th>Koli QTY</th>
-                                        <th>Loading Date</th>
-                                        <th>Delivery Date</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    
-                                </tbody>
-                            </table>
+                            <form action="">
+                                <div class="table-responsive">
+
+                                    <table class="table mb-0 tableAddLoading">
+                                        <thead>
+                                            <tr>
+                                                <th>Select</th>
+                                                <th>DO Number</th>
+                                                <th>TO Number</th>
+                                                <th>Batch No</th>
+                                                <th>Resi No</th>
+                                                <th>Expedition</th>
+                                                <th>Pickup Name</th>
+                                                <th>Drop Name</th>
+                                                <th>Driver Name</th>
+                                                <th>Vehicle License Plate</th>
+                                                <th>Vehicle Type</th>
+                                                <th>Delivery Status</th>
+                                                <th>Weight</th>
+                                                <th>Volume</th>
+                                                <th>Goods QTY</th>
+                                                <th>Koli QTY</th>
+                                                <th>Loading Date</th>
+                                                <th>Delivery Date</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            
+                                        </tbody>
+                                    </table>
+
+                                </div>
+
+                                <div class="form-group float-right margin-top-20">
+                                    <input type="submit" class="btn btn-primary" value="Submit">
+                                </div>
+                            </form>
+
+
                             
                         </div>
                     </div><!-- /.modal-content -->
