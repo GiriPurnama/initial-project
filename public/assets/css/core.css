@@ -86,6 +86,11 @@
   left: 15px;
 }
 
+.console-loading .right-btn {
+  position: absolute;
+  right: -40%;
+}
+
 .fade.animation.show {
   opacity: 1 !important;
 }
@@ -96,6 +101,10 @@
 
 .font-bold {
   font-weight: bold;
+}
+
+.modal.fade {
+  opacity: 1;
 }
 
 .filter-src {
@@ -468,5 +477,16 @@
 
 .card .margin-bottom-15 {
   margin-bottom: 15px;
+}
+
+.page-content .form-control:disabled,
+.page-content .form-control[readonly] {
+  background-color: #ddddddc7;
+  opacity: 1;
+}
+
+.page-content .group-box hr {
+  margin-bottom: 40px;
+  border: 1px solid #ddd;
 }
 

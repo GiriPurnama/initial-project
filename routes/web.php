@@ -53,6 +53,10 @@ Route::get('/detail-company', function () {
     return view('detail-company');
 });
 
+Route::get('/console-loading', function () {
+    return view('console-loading');
+});
+
 
 Route::get('/detail-ksa-2', function () {
     return view('detail-ksa-2');

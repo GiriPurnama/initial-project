@@ -7,6 +7,9 @@
 .font-bold{
     font-weight: bold;
 }
+.modal.fade{
+    opacity: 1;
+}
 .filter-src{
     margin-left: 20px;
     margin-top: 5px;
@@ -371,4 +374,17 @@
         margin-bottom: 15px;
     }
     
+}
+.page-content{
+    .form-control:disabled, .form-control[readonly] {
+        background-color: #ddddddc7;
+        opacity: 1;
+    }
+
+    .group-box{
+        hr{
+            margin-bottom: 40px;
+            border: 1px solid #ddd;
+        }
+    }
 }
