@@ -208,6 +208,12 @@
   border-top: 5px solid #5c5c5c;
 }
 
+.center-line hr.line-default {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
 .center-line hr.line-hr {
   top: -2px;
   left: -60px;

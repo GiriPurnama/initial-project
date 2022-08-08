@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title') Dashboard Inventory @endsection
+@section('title') Home @endsection
 @section('css')
     <!-- DataTables -->
     <link href="{{ URL::asset('/assets/libs/jquery-vectormap/jquery-vectormap.min.css')}}" rel="stylesheet" type="text/css" />
@@ -15,14 +15,14 @@
             <div class="page-title-box d-flex align-items-center justify-content-between header-title" style="margin-bottom:25px;">
                 <!-- <h4 class="mb-0">Order Management</h4> -->
                 <div class="header-nav">
-                    <span class="header-word md-0">Dashboard Inventory &nbsp;&nbsp;</span>
+                    <span class="header-word md-0">Home &nbsp;&nbsp;</span>
                     <a href="/home">&nbsp;&nbsp;&nbsp;<i class="ri-home-3-line home"></i></a>
                     <span>&nbsp;<i class="ri-arrow-right-s-line"></i></span>
-                    <span>&nbsp;Dashboard Inventory</span>
+                    <span>&nbsp;Home</span>
                 </div>
-                <div class="page-title-right">
+                <!-- <div class="page-title-right">
                     <a class="btn btn-back" href="/home"><i class="ri-arrow-left-s-line"></i> Back</a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -31,626 +31,333 @@
 
 
             <div class="row">
-               
 
-                <div class="col-xl-12">
-            
-                    <div class="card no-bg">
-                        
-                        <div class="row">
-                        
-                            <div class="col-md-4">
-                                <a class="btn-card red" href="javascript:void(0)">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="media">
-                                                <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-24 mb-2 text-red">High Risk</p>
-                                                    <h3 class="mb-0 text-red font-bold">60%</h3>
-                                                </div>
-                                                <div class="text-primary">
-                                                    <!-- <i class="ri-alert-line text-red font-size-36"></i> -->
-                                                </div>
-                                            </div>
-                                        </div>
-    
-                                        <div class="card-body border-top py-0 line-box-alert bg-red">
-                                        </div>
-                                    </div>
-                                </a>
-                               
+                <div class="col-lg-12">
 
-                            </div>
-
-                            <div class="col-md-4">
-                                <a class="btn-card orange" href="javascript:void(0)">
-                                    <div class="card">
-                                        <div class="card-body ">
-                                            <div class="media">
-                                                <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-24 mb-2 text-orange">Medium Risk</p>
-                                                    <h3 class="mb-0 text-orange font-bold">30%</h3>
-                                                </div>
-                                                <div class="text-primary">
-                                                    <!-- <i class="ri-alert-line text-orange font-size-36"></i> -->
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="card-body border-top py-0 line-box-alert bg-orange hide">
-                                        </div>
-                                    </div>
-                                </a>
-                           
-                            </div>
-
-                            <div class="col-md-4">
-                                <a class="btn-card green" href="javascript:void(0)">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="media">
-                                                <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-24 mb-2 text-green">Low Risk</p>
-                                                    <h3 class="mb-0 text-green font-bold">10%</h3>
-                                                </div>
-                                                <div class="text-primary">
-                                                    <!-- <i class="ri-alert-line text-green font-size-36"></i> -->
-                                                </div>
-                                            </div>
-                                        </div>
-    
-                                        <div class="card-body border-top py-0 line-box-alert bg-green hide">
-                                        </div>
-                                    </div>
-                                </a>
-
-                            </div>
-                            
-                        </div>
-                        
-                    </div>
-                    
                     <div class="card no-bg wrapper-red">
                         
                         <div class="center-line">
                             <div class="row">
-                                <div class="col-md-2">
-                                    <div class="card no-bg">
-                                        <h5 class="text-red font-bold">
-                                            High Risk
+                                <div class="col-md-12">
+                                    <!-- <div class="card no-bg"> -->
+                                        <h5 class="text-gray font-bold">
+                                            Logistic
                                         </h5> 
-                                    </div>
+                                    <!-- </div> -->
                                 </div>
-                                <div class="col-md-10">
+                                <div class="col-md-12">
                                     <div class="card no-bg">
-                                        <hr class="red">
+                                        <hr class="gray line-default">
                                     </div>
                                 </div>
                             </div>
                         </div>
-
+        
                         <div class="card-body">
-
+        
                             <div class="row">
-
+        
                                 <div class="col-md-4">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">Proses Cek Delivery Status</p>
+                                                    <p class="text-truncate font-size-18 mb-2">Open</p>
                                                     <h4 class="mb-0">10% / 60%</h4>
                                                 </div>
                                                 <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-red font-size-24"></i>
+                                                    <!-- <i class="ri-radio-button-line text-red font-size-24"></i> -->
                                                 </div>
                                             </div>
                                         </div>
-    
+        
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
+                                                <a href="/detail-dashboard" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
+        
                                 <div class="col-md-4">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">Waiting for Delivery</p>
+                                                    <p class="text-truncate font-size-18 mb-2">Pending</p>
                                                     <h4 class="mb-0">5% / 60%</h4>
                                                 </div>
                                                 <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-red font-size-24"></i>
+                                                    <!-- <i class="ri-radio-button-line text-red font-size-24"></i> -->
                                                 </div>
                                             </div>
                                         </div>
-    
+        
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
+                                                <a href="/detail-dashboard" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
                                         </div>
-
+        
                                     </div>
                                 </div>
-
+        
                                 <div class="col-md-4">     
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">In Transit Expedition</p>
+                                                    <p class="text-truncate font-size-18 mb-2">Closed</p>
                                                     <h4 class="mb-0">10% / 60%</h4>
                                                 </div>
                                                 <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-red font-size-24"></i>
+                                                    <!-- <i class="ri-radio-button-line text-red font-size-24"></i> -->
                                                 </div>
                                             </div>
                                         </div>
-    
+        
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
+                                                <a href="/detail-dashboard" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+        
+                            
+        
+                            </div>
+                        </div>
+        
+                    </div>
 
+
+                    <div class="card no-bg wrapper-red">
+                        
+                        <div class="center-line">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- <div class="card no-bg"> -->
+                                        <h5 class="text-gray font-bold">
+                                            Operations
+                                        </h5> 
+                                    <!-- </div> -->
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="card no-bg">
+                                        <hr class="gray line-default">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card-body">
+        
+                            <div class="row">
+        
                                 <div class="col-md-4">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">Waiting Posting Receive System</p>
+                                                    <p class="text-truncate font-size-18 mb-2">Open</p>
                                                     <h4 class="mb-0">10% / 60%</h4>
                                                 </div>
                                                 <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-red font-size-24"></i>
+                                                    <!-- <i class="ri-radio-button-line text-red font-size-24"></i> -->
                                                 </div>
                                             </div>
                                         </div>
-    
+        
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
+                                                <a href="/detail-dashboard" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
+        
                                 <div class="col-md-4">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">Stock Write Off</p>
-                                                    <h4 class="mb-0">13% / 60%</h4>
+                                                    <p class="text-truncate font-size-18 mb-2">Pending</p>
+                                                    <h4 class="mb-0">5% / 60%</h4>
                                                 </div>
                                                 <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-red font-size-24"></i>
+                                                    <!-- <i class="ri-radio-button-line text-red font-size-24"></i> -->
                                                 </div>
                                             </div>
                                         </div>
-    
+        
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
+                                                <a href="/detail-dashboard" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
                                         </div>
-
+        
                                     </div>
                                 </div>
-
+        
                                 <div class="col-md-4">     
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">Sales E-Commerce</p>
-                                                    <h4 class="mb-0">12% / 60%</h4>
+                                                    <p class="text-truncate font-size-18 mb-2">Closed</p>
+                                                    <h4 class="mb-0">10% / 60%</h4>
                                                 </div>
                                                 <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-red font-size-24"></i>
+                                                    <!-- <i class="ri-radio-button-line text-red font-size-24"></i> -->
                                                 </div>
                                             </div>
                                         </div>
-    
+        
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
+                                                <a href="/detail-dashboard" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
+        
+                            
+        
                             </div>
                         </div>
-
+        
                     </div>
 
-                    <div class="card no-bg wrapper-orange hide">
 
+                    <div class="card no-bg wrapper-red">
+                        
                         <div class="center-line">
                             <div class="row">
-                                <div class="col-md-2">
-                                    <div class="card no-bg">
-                                        <h5 class="text-orange font-bold">
-                                            Medium Risk
+                                <div class="col-md-12">
+                                    <!-- <div class="card no-bg"> -->
+                                        <h5 class="text-gray font-bold">
+                                            Inventory
                                         </h5> 
-                                    </div>
+                                    <!-- </div> -->
                                 </div>
-                                <div class="col-md-10">
+                                <div class="col-md-12">
                                     <div class="card no-bg">
-                                        <hr class="orange">
+                                        <hr class="gray line-default">
                                     </div>
                                 </div>
                             </div>
                         </div>
-
+        
                         <div class="card-body">
-
+        
                             <div class="row">
-
+        
                                 <div class="col-md-4">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">Proses Cek Delivery Status</p>
-                                                    <h4 class="mb-0">10% / 30%</h4>
+                                                    <p class="text-truncate font-size-18 mb-2">Open</p>
+                                                    <h4 class="mb-0">10% / 60%</h4>
                                                 </div>
                                                 <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-orange font-size-24"></i>
+                                                    <!-- <i class="ri-radio-button-line text-red font-size-24"></i> -->
                                                 </div>
                                             </div>
                                         </div>
-    
+        
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
+                                                <a href="/detail-dashboard" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
+        
                                 <div class="col-md-4">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">Waiting for Delivery</p>
-                                                    <h4 class="mb-0">5% / 30%</h4>
+                                                    <p class="text-truncate font-size-18 mb-2">Pending</p>
+                                                    <h4 class="mb-0">5% / 60%</h4>
                                                 </div>
                                                 <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-orange font-size-24"></i>
+                                                    <!-- <i class="ri-radio-button-line text-red font-size-24"></i> -->
                                                 </div>
                                             </div>
                                         </div>
-    
+        
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
+                                                <a href="/detail-dashboard" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
                                         </div>
-
+        
                                     </div>
                                 </div>
-
+        
                                 <div class="col-md-4">     
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="media">
                                                 <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">In Transit Expedition</p>
-                                                    <h4 class="mb-0">10% / 30%</h4>
+                                                    <p class="text-truncate font-size-18 mb-2">Closed</p>
+                                                    <h4 class="mb-0">10% / 60%</h4>
                                                 </div>
                                                 <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-orange font-size-24"></i>
+                                                    <!-- <i class="ri-radio-button-line text-red font-size-24"></i> -->
                                                 </div>
                                             </div>
                                         </div>
-    
+        
                                         <div class="card-body border-top py-3">
                                             <div class="text-truncate">
                                                 <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
+                                                <a href="/detail-dashboard" class="float-right">
                                                     <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="col-md-4">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="media">
-                                                <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">Waiting Posting Receive System</p>
-                                                    <h4 class="mb-0">10% / 30%</h4>
-                                                </div>
-                                                <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-orange font-size-24"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-    
-                                        <div class="card-body border-top py-3">
-                                            <div class="text-truncate">
-                                                <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
-                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="media">
-                                                <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">Stock Write Off</p>
-                                                    <h4 class="mb-0">13% / 30%</h4>
-                                                </div>
-                                                <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-orange font-size-24"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-    
-                                        <div class="card-body border-top py-3">
-                                            <div class="text-truncate">
-                                                <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
-                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">     
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="media">
-                                                <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">Sales E-Commerce</p>
-                                                    <h4 class="mb-0">12% / 30%</h4>
-                                                </div>
-                                                <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-orange font-size-24"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-    
-                                        <div class="card-body border-top py-3">
-                                            <div class="text-truncate">
-                                                <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
-                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
+        
+                            
+        
                             </div>
                         </div>
-
+        
                     </div>
 
-                    <div class="card no-bg wrapper-green hide">
-
-                        <div class="center-line">
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <div class="card no-bg">
-                                        <h5 class="text-green font-bold">
-                                            Low Risk
-                                        </h5> 
-                                    </div>
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="card no-bg">
-                                        <hr class="green">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-body">
-
-                            <div class="row">
-
-                                <div class="col-md-4">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="media">
-                                                <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">Proses Cek Delivery Status</p>
-                                                    <h4 class="mb-0">10% / 10%</h4>
-                                                </div>
-                                                <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-green font-size-24"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-    
-                                        <div class="card-body border-top py-3">
-                                            <div class="text-truncate">
-                                                <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
-                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="media">
-                                                <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">Waiting for Delivery</p>
-                                                    <h4 class="mb-0">5% / 10%</h4>
-                                                </div>
-                                                <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-green font-size-24"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-    
-                                        <div class="card-body border-top py-3">
-                                            <div class="text-truncate">
-                                                <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
-                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">     
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="media">
-                                                <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">In Transit Expedition</p>
-                                                    <h4 class="mb-0">10% / 10%</h4>
-                                                </div>
-                                                <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-green font-size-24"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-    
-                                        <div class="card-body border-top py-3">
-                                            <div class="text-truncate">
-                                                <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
-                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="media">
-                                                <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">Waiting Posting Receive System</p>
-                                                    <h4 class="mb-0">10% / 10%</h4>
-                                                </div>
-                                                <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-green font-size-24"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-    
-                                        <div class="card-body border-top py-3">
-                                            <div class="text-truncate">
-                                                <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
-                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="media">
-                                                <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">Stock Write Off</p>
-                                                    <h4 class="mb-0">13% / 10%</h4>
-                                                </div>
-                                                <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-green font-size-24"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-    
-                                        <div class="card-body border-top py-3">
-                                            <div class="text-truncate">
-                                                <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
-                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">     
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div class="media">
-                                                <div class="media-body overflow-hidden">
-                                                    <p class="text-truncate font-size-14 mb-2">Sales E-Commerce</p>
-                                                    <h4 class="mb-0">12% / 10%</h4>
-                                                </div>
-                                                <div class="text-primary">
-                                                    <i class="ri-radio-button-line text-green font-size-24"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-    
-                                        <div class="card-body border-top py-3">
-                                            <div class="text-truncate">
-                                                <!-- <span class="badge badge-soft-success font-size-11"><i class="mdi mdi-menu-up"> </i> 2.4% </span> -->
-                                                <a href="/detail-inventory" class="float-right">
-                                                    <span class="text-muted ml-2">Detail <i class="ri-arrow-right-line"></i></span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                    
                 </div>
+
+
+
             </div>
             <!-- end row -->
 

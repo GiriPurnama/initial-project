@@ -57,6 +57,10 @@ Route::get('/console-loading', function () {
     return view('console-loading');
 });
 
+Route::get('/detail-dashboard', function () {
+    return view('detail-dashboard');
+});
+
 
 Route::get('/detail-ksa-2', function () {
     return view('detail-ksa-2');
