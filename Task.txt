@@ -1,0 +1,4 @@
+Issue :
+1. Tampilan Ikuti dari zoho Inventory menu (Sales Order)
+2. Tampilkan Semua Goods Id dan QTY pada Popup form print
+3. Takeout Volume dan weight
