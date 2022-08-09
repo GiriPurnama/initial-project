@@ -125,6 +125,74 @@
                                             </td>
                                             
                                         </tr>
+
+                                        <tr>
+
+                                            <td>MER/20/36522670</td>
+                                            <td>TS/PTT/20/0312720738</td>
+                                            <td>A-AEON-BSD</td>
+                                            <td>E-AEON-BSD</td>
+                                            <td>200</td>
+                                            <td>Shipped</td>
+                                            <td>2022-01-01</td>
+                                            <td>2022-01-03</td>
+                                            <td>
+                                                <a href="javascript:void(0);" data-toggle="modal" data-target=".add-data"><span class="edit"><i class="ri-pencil-line"></i></span></a>
+                                                <a href="javascript:void(0);" data-toggle="modal" data-target=".print-data"><span class="print"><i class=" ri-printer-line"></i></span></a>                                                            
+                                            </td>
+                                            
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>MER/20/36522670</td>
+                                            <td>TS/PTT/20/0312720738</td>
+                                            <td>A-AEON-BSD</td>
+                                            <td>E-AEON-BSD</td>
+                                            <td>200</td>
+                                            <td>Shipped</td>
+                                            <td>2022-01-01</td>
+                                            <td>2022-01-03</td>
+                                            <td>
+                                                <a href="javascript:void(0);" data-toggle="modal" data-target=".add-data"><span class="edit"><i class="ri-pencil-line"></i></span></a>
+                                                <a href="javascript:void(0);" data-toggle="modal" data-target=".print-data"><span class="print"><i class=" ri-printer-line"></i></span></a>                                                            
+                                            </td>
+                                            
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>MER/20/36522670</td>
+                                            <td>TS/PTT/20/0312720738</td>
+                                            <td>A-AEON-BSD</td>
+                                            <td>E-AEON-BSD</td>
+                                            <td>200</td>
+                                            <td>Shipped</td>
+                                            <td>2022-01-01</td>
+                                            <td>2022-01-03</td>
+                                            <td>
+                                                <a href="javascript:void(0);" data-toggle="modal" data-target=".add-data"><span class="edit"><i class="ri-pencil-line"></i></span></a>
+                                                <a href="javascript:void(0);" data-toggle="modal" data-target=".print-data"><span class="print"><i class=" ri-printer-line"></i></span></a>                                                            
+                                            </td>
+                                            
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>MER/20/36522670</td>
+                                            <td>TS/PTT/20/0312720738</td>
+                                            <td>A-AEON-BSD</td>
+                                            <td>E-AEON-BSD</td>
+                                            <td>200</td>
+                                            <td>Shipped</td>
+                                            <td>2022-01-01</td>
+                                            <td>2022-01-03</td>
+                                            <td>
+                                                <a href="javascript:void(0);" data-toggle="modal" data-target=".add-data"><span class="edit"><i class="ri-pencil-line"></i></span></a>
+                                                <a href="javascript:void(0);" data-toggle="modal" data-target=".print-data"><span class="print"><i class=" ri-printer-line"></i></span></a>                                                            
+                                            </td>
+                                            
+                                        </tr>
                                         
                                     </tbody>
                                 </table>
