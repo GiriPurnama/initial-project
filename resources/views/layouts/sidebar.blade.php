@@ -45,6 +45,22 @@
                     </a>
                 </li>
 
+
+                <li>
+                    <a href="/incoming" class="waves-effect">
+                        <i class="ri-download-2-line"></i>
+                        <span>Incoming</span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="/outgoing" class="waves-effect">
+                        <i class="ri-upload-2-line"></i>
+                        <span>Outgoing</span>
+                    </a>
+                </li>
+
                 
 
             </ul>

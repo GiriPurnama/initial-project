@@ -228,6 +228,26 @@
   margin-top: 20px;
 }
 
+.card .table-button span.edit {
+  background: #616dc0;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.card .table-button span.print {
+  background: #f8790c;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.card .table-button span i {
+  color: #fff;
+  position: relative;
+  top: 4px;
+}
+
 .card.no-bg {
   background: transparent;
   box-shadow: none;

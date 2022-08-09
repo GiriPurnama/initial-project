@@ -61,6 +61,14 @@ Route::get('/detail-dashboard', function () {
     return view('detail-dashboard');
 });
 
+Route::get('/incoming', function () {
+    return view('incoming');
+});
+
+Route::get('/outgoing', function () {
+    return view('outgoing');
+});
+
 
 Route::get('/detail-ksa-2', function () {
     return view('detail-ksa-2');
@@ -73,3 +81,4 @@ Route::get('/add-bobot', function () {
 Route::get('/add-data-bulk', function () {
     return view('add-data-bulk');
 });
+
