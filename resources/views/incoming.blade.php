@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title') Outgoing @endsection
+@section('title') Incoming @endsection
 @section('css')
     <!-- DataTables -->
     <link href="{{ URL::asset('/assets/libs/jquery-vectormap/jquery-vectormap.min.css')}}" rel="stylesheet" type="text/css" />
@@ -16,10 +16,10 @@
             <div class="page-title-box d-flex align-items-center justify-content-between header-title" style="margin-bottom:25px;">
                 <!-- <h4 class="mb-0">Order Management</h4> -->
                 <div class="header-nav">
-                    <span class="header-word md-0">Outgoing &nbsp;&nbsp;</span>
+                    <span class="header-word md-0">Incoming &nbsp;&nbsp;</span>
                     <a href="/home">&nbsp;&nbsp;&nbsp;<i class="ri-home-3-line home"></i></a>
                     <span>&nbsp;<i class="ri-arrow-right-s-line"></i></span>
-                    <span>&nbsp;Outgoing</span>
+                    <span>&nbsp;Incoming</span>
                 </div>
                 <div class="page-title-right">
                     <a class="btn btn-back" href="/home"><i class="ri-arrow-left-s-line"></i> Back</a>
@@ -34,7 +34,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="page-title-box d-flex align-items-center justify-content-between">
-                            <h4 class="mb-0">Detail Outgoing</h4>
+                            <h4 class="mb-0">Detail Incoming</h4>
                         </div>
                     </div>
                 </div>

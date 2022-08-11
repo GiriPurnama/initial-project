@@ -44,25 +44,18 @@
                         <span>Company</span>
                     </a>
                 </li>
-
-
-                <li>
-                    <a href="/incoming" class="waves-effect">
-                        <i class="ri-download-2-line"></i>
-                        <span>Incoming</span>
-                    </a>
-                </li>
-
-
-                <li>
-                    <a href="/outgoing" class="waves-effect">
-                        <i class="ri-upload-2-line"></i>
-                        <span>Outgoing</span>
-                    </a>
-                </li>
-
                 
-
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="ri-article-line"></i>
+                        <span>Console Loading</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="/incoming">Incoming</a></li>
+                        <li><a href="/outgoing">Outgoing</a></li>
+                    </ul>
+                </li>
+                
             </ul>
         </div>
         <!-- Sidebar -->
