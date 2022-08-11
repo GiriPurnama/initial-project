@@ -47,47 +47,47 @@
 
                         <div class="row">
                                 
-                                <div class="col-xs-8 col-xs-offset-2">
-                                    <div class="input-group wrapper-search">
-                                        <div class="search-panel">
-                                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                                                <span id="search_concept">Filter By All</span> <span class="caret"></span>
-                                            </button>
-                                            <ul class="dropdown-menu" role="menu">
-                                                <li><a href="#all">All</a></li>
-                                                <li><a href="#date">Date</a></li>
-                                                <li><a href="#location">Location</a></li>
-                                                <li><a href="#delivery_status">Delivery Status</a></li>
-                                            </ul>
-                                        </div>
-                                        <input type="hidden" name="search_param" value="all" id="search_param">         
-                                        <input type="text" class="form-control dateSrc" name="date" placeholder="Search By Date">
-                                        <select name="pickup_code" id="" class="form-control pickupCode">
-                                                <option value="all">All Pickup Code</option>
-                                                <option value="">990</option>
-                                                <option value="">B-KLG-4</option>
-                                                <option value="">B-KLG-2</option>
-                                        </select>
-                                        <select name="drop_code" id="" class="form-control dropCode">
-                                                <option value="all">All Drop Code</option>
-                                                <option value="">990</option>
-                                                <option value="">B-KLG-4</option>
-                                                <option value="">B-KLG-2</option>
-                                        </select>
-                                        <select name="delivery_status" id="" class="form-control deliveryStatus">
-                                                <option value="all">All Delivery Status</option>
-                                                <option value="">In Delivery</option>
-                                                <option value="">Waiting for Reconcile</option>
-                                                <option value="">Completed</option>
-                                        </select>
-                                        <span class="input-group-btn">
-                                            <button class="btn btn-primary" type="button"><i class="ri-search-line"></i></button>
-                                        </span>
-                                        <!-- <span class="input-group-btn">
-                                            <button class="btn btn-success right-btn waves-effect waves-light" type="button" data-toggle="modal" data-target=".form-console-loading"><i class="ri-add-line"></i> Add Data</button>
-                                        </span> -->
+                            <div class="col-xs-8 col-xs-offset-2">
+                                <div class="input-group wrapper-search">
+                                    <div class="search-panel">
+                                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                            <span id="search_concept">Filter By All</span> <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#all">All</a></li>
+                                            <li><a href="#date">Date</a></li>
+                                            <li><a href="#location">Location</a></li>
+                                            <li><a href="#delivery_status">Delivery Status</a></li>
+                                        </ul>
                                     </div>
+                                    <input type="hidden" name="search_param" value="all" id="search_param">         
+                                    <input type="text" class="form-control dateSrc" name="date" placeholder="Search By Date">
+                                    <select name="pickup_code" id="" class="form-control pickupCode">
+                                            <option value="all">All Pickup Code</option>
+                                            <option value="">990</option>
+                                            <option value="">B-KLG-4</option>
+                                            <option value="">B-KLG-2</option>
+                                    </select>
+                                    <select name="drop_code" id="" class="form-control dropCode">
+                                            <option value="all">All Drop Code</option>
+                                            <option value="">990</option>
+                                            <option value="">B-KLG-4</option>
+                                            <option value="">B-KLG-2</option>
+                                    </select>
+                                    <select name="delivery_status" id="" class="form-control deliveryStatus">
+                                            <option value="all">All Delivery Status</option>
+                                            <option value="">In Delivery</option>
+                                            <option value="">Waiting for Reconcile</option>
+                                            <option value="">Completed</option>
+                                    </select>
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-primary" type="button"><i class="ri-search-line"></i></button>
+                                    </span>
+                                    <!-- <span class="input-group-btn">
+                                        <button class="btn btn-success right-btn waves-effect waves-light" type="button" data-toggle="modal" data-target=".form-console-loading"><i class="ri-add-line"></i> Add Data</button>
+                                    </span> -->
                                 </div>
+                            </div>
 
                             </div>
                             <div class="table-responsive">
