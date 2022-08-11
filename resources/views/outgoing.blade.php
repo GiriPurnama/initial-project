@@ -221,34 +221,34 @@
                         </div>
                         <div class="modal-body">
 
-                            <form class='form-print'>
+                            <form method="get" action="/print-order" target="_blank" class='form-print'>
                                 <div class="row">
                                   
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="">DO Number</label>
-                                            <input type="text" value="TS/PTT/20/0312720738" class="form-control to_number_val" readonly>
+                                            <input type="text" name="do_number" value="TS/PTT/20/0312720738" class="form-control to_number_val" readonly>
                                         </div>
                                     </div>
 
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="">TO Number</label>
-                                            <input type="text" value="MER/20/36522670" class="form-control" readonly>
+                                            <input type="text" name="to_number" value="MER/20/36522670" class="form-control" readonly>
                                         </div>
                                     </div>
 
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="">Pickup Name</label>
-                                            <input type="text" value="A-AEON-BSD" class="form-control" readonly>
+                                            <input type="text" name="pickup_name" value="A-AEON-BSD" class="form-control" readonly>
                                         </div>
                                     </div>
 
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="">Drop Name</label>
-                                            <input type="text" value="E-AEON-BSD" class="form-control" readonly>
+                                            <input type="text" name="drop_name" value="E-AEON-BSD" class="form-control" readonly>
                                         </div>
                                     </div>
 
@@ -256,42 +256,26 @@
                                         <div class="group-box">
                                             
                                             <div class="row">
-                                               
-                                                <div class="col-sm-4">
-                                                    <div class="form-group">
-                                                        <label for="">Weight</label>
-                                                        <input type="number" class="form-control weight_val">
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="col-sm-4">
-                                                    <div class="form-group">
-                                                        <label for="">Volume</label>
-                                                        <input type="number" class="form-control volume_val">
-                                                    </div>
-                                                </div>
-
 
                                                 <div class="col-sm-4">
                                                     <div class="form-group">
                                                         <label for="">Koli QTY</label>
-                                                        <input type="number" class="form-control koli_qty_val">
+                                                        <input name="koli_qty" type="number" class="form-control koli_qty_val" required>
                                                     </div>
                                                 </div>
 
                                                 
-                                                <div class="col-sm-6">
+                                                <div class="col-sm-4">
                                                     <div class="form-group">
                                                         <label for="">Goods QTY</label>
-                                                        <input type="number" class="form-control goods_qty_val">
+                                                        <input name="goods_qty" type="number" class="form-control goods_qty_val" required>
                                                     </div>
                                                 </div>
 
-                                                <div class="col-sm-6">
+                                                <div class="col-sm-4">
                                                     <div class="form-group">
                                                         <label for="">Loading Date</label>
-                                                        <input type="text" data-provide="datepicker" data-date-format="yyyy-mm-dd" data-date-autoclose="true" class="form-control datePicker loading_date_val">
+                                                        <input name="loading_date" type="text" data-provide="datepicker" data-date-format="yyyy-mm-dd" data-date-autoclose="true" class="form-control datePicker loading_date_val" required>
                                                     </div>
                                                 </div>
 
@@ -299,11 +283,59 @@
     
                                         </div>
                                     </div>
+
+                                    <div class="col-md-12 ">
+                                        <div class="table-responsive detail-qty">
+                                            <table class="tableEditQty table mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>TO Number</th>
+                                                        <th>DO Number</th>
+                                                        <th>Goods ID</th>
+                                                        <th>Goods Quantity</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="addEditQty">
+                                                    <tr>
+                                                        <td>MER/20/36522670</td>
+                                                        <td>TS/PTT/20/0312720738</td>
+                                                        <td>LH22111MD</td>
+                                                        <td>24</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>MER/20/36522670</td>
+                                                        <td>TS/PTT/20/0312720738</td>
+                                                        <td>LH22111MB</td>
+                                                        <td>24</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>MER/20/36522670</td>
+                                                        <td>TS/PTT/20/0312720738</td>
+                                                        <td>LH22111M1</td>
+                                                        <td>24</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>MER/20/36522670</td>
+                                                        <td>TS/PTT/20/0312720738</td>
+                                                        <td>LH22111MG</td>
+                                                        <td>24</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>MER/20/36522670</td>
+                                                        <td>TS/PTT/20/0312720738</td>
+                                                        <td>LH22111MR</td>
+                                                        <td>24</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
                                     
                                     <div class="col-md-12">
                                         <div class="form-group text-right">
                                             <button type="button" class="btn btn-warning assign-order">Assign Order</button>
-                                            <input type="button" class="add-row btn btn-primary" value="Print">
+                                            <input type="submit" class="add-row btn btn-primary" value="Print">
+                                            <!-- <a href="/print-order" target="_BLANK" class="add-row btn btn-primary">Print</a> -->
                                         </div>
                                     </div>
 
@@ -498,27 +530,45 @@
                 }
             });
 
+
+            $('.tableEditQty').DataTable({
+                lengthChange: false,
+                "pageLength": 10,
+                responsive: false,
+                scrollX:true,
+                scrollCollapse:true,
+                "language": {
+                "paginate": {
+                    "previous": "<i class='mdi mdi-chevron-left'>",
+                    "next": "<i class='mdi mdi-chevron-right'>"
+                }
+                },
+                "drawCallback": function drawCallback() {
+                    $('.dataTables_paginate > .pagination').addClass('pagination-rounded');
+                }
+            });
+
             var table = $('.table-console-loading').DataTable({
             lengthChange: false,
-            "pageLength": 10,
-            responsive: false,
-            searching: false,
-            scrollX:true,
-            scrollCollapse:true,
-            fixedColumns:{
-                left:0,
-                right: 0
-            },
-            "language": {
-            "paginate": {
-                "previous": "<i class='mdi mdi-chevron-left'>",
-                "next": "<i class='mdi mdi-chevron-right'>"
-            }
-            },
-            "drawCallback": function drawCallback() {
-                $('.dataTables_paginate > .pagination').addClass('pagination-rounded');
-            },
-            dom: 'frtip'
+                "pageLength": 10,
+                responsive: false,
+                searching: false,
+                scrollX:true,
+                scrollCollapse:true,
+                fixedColumns:{
+                    left:0,
+                    right: 0
+                },
+                "language": {
+                "paginate": {
+                    "previous": "<i class='mdi mdi-chevron-left'>",
+                    "next": "<i class='mdi mdi-chevron-right'>"
+                }
+                },
+                "drawCallback": function drawCallback() {
+                    $('.dataTables_paginate > .pagination').addClass('pagination-rounded');
+                },
+                dom: 'frtip'
             });
 
             new $.fn.dataTable.FixedHeader( table );

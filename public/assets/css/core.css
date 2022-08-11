@@ -180,6 +180,26 @@
   border-right: 1px solid;
 }
 
+.dataTables_scrollHeadInner {
+  width: 100% !important;
+}
+
+.detail-qty {
+  margin: 35px 0px;
+}
+
+.detail-qty .dataTables_filter {
+  float: left;
+}
+
+.detail-qty .tableEditQty.dataTable {
+  width: 100% !important;
+}
+
+.detail-qty .tableEditQty tr td {
+  width: 145px;
+}
+
 .center-line h5 {
   position: relative;
   top: 5px;

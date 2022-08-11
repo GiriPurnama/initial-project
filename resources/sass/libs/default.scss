@@ -87,6 +87,31 @@
     }
     
 }
+// List Datatable
+.dataTables_scrollHeadInner{
+    width: 100% !important;
+}
+
+.detail-qty{
+    margin: 35px 0px;
+    
+    .dataTables_filter{
+        float: left;
+    }
+    .tableEditQty{
+        &.dataTable{
+            width: 100% !important;
+        }
+    
+        tr{
+            td{
+                width: 145px;
+            }
+        }
+    }
+}
+
+// End List Datatable
 .center-line{
     h5{
         position: relative;

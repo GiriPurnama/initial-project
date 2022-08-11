@@ -70,15 +70,7 @@ Route::get('/outgoing', function () {
 });
 
 
-Route::get('/detail-ksa-2', function () {
-    return view('detail-ksa-2');
-});
-
-Route::get('/add-bobot', function () {
-    return view('add-bobot');
-});
-
-Route::get('/add-data-bulk', function () {
-    return view('add-data-bulk');
+Route::get('/print-order', function () {
+    return view('print-order');
 });
 
