@@ -8,9 +8,11 @@ Incoming :
 1. Lihat Berdasarkan Drop Name (Berdasarkan assign location)
 2. Tambahkan Received Date dan hilangkan loading Date
 3. Hilangkan Print dan Assign Order hanya button submit
+4. Tambah fungsi edit qty (New)
 
 All:
 1. Goods QTY -> update qty pada field tidak mengubah data originalnya
 
 Tambahan Dashboard Logistic:
 1. Buat tampilan untuk vendor task, Seperti di console loading
+2. Tambah tab untuk history closed atau cancel (New)

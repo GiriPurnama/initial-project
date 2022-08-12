@@ -549,7 +549,7 @@
             });
 
             var table = $('.table-console-loading').DataTable({
-            lengthChange: false,
+                lengthChange: false,
                 "pageLength": 10,
                 responsive: false,
                 searching: false,
