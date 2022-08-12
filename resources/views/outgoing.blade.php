@@ -260,15 +260,15 @@
                                                 <div class="col-sm-4">
                                                     <div class="form-group">
                                                         <label for="">Koli QTY</label>
-                                                        <input name="koli_qty" type="number" class="form-control koli_qty_val" required>
+                                                        <input name="koli_qty" type="number" class="form-control koli_qty_val" value="10" readonly>
                                                     </div>
                                                 </div>
 
                                                 
                                                 <div class="col-sm-4">
                                                     <div class="form-group">
-                                                        <label for="">Goods QTY</label>
-                                                        <input name="goods_qty" type="number" class="form-control goods_qty_val" required>
+                                                        <label for="">Goods QTY Update</label>
+                                                        <input name="goods_qty" type="number" class="form-control goods_qty_val" value="120" readonly>
                                                     </div>
                                                 </div>
 
