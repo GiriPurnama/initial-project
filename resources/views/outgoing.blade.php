@@ -293,6 +293,7 @@
                                                         <th>DO Number</th>
                                                         <th>Goods ID</th>
                                                         <th>Goods Quantity</th>
+                                                        <th>Update Quantity </th>
                                                     </tr>
                                                 </thead>
                                                 <tbody class="addEditQty">
@@ -301,30 +302,90 @@
                                                         <td>TS/PTT/20/0312720738</td>
                                                         <td>LH22111MD</td>
                                                         <td>24</td>
+                                                        <td>
+                                                            <form>
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <input type="number" class="form-control goods_qty_detail" name="goods_qty[]" value="" required>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <button class="btn btn-primary"><i class="ri-send-plane-2-line"></i></button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </td>
                                                     </tr>
                                                     <tr>
                                                         <td>MER/20/36522670</td>
                                                         <td>TS/PTT/20/0312720738</td>
                                                         <td>LH22111MB</td>
                                                         <td>24</td>
+                                                        <td>
+                                                            <form>
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <input type="number" class="form-control goods_qty_detail" name="goods_qty[]" value="" required>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <button class="btn btn-primary"><i class="ri-send-plane-2-line"></i></button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </td>
                                                     </tr>
                                                     <tr>
                                                         <td>MER/20/36522670</td>
                                                         <td>TS/PTT/20/0312720738</td>
                                                         <td>LH22111M1</td>
                                                         <td>24</td>
+                                                        <td>
+                                                            <form>
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <input type="number" class="form-control goods_qty_detail" name="goods_qty[]" value="" required>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <button class="btn btn-primary"><i class="ri-send-plane-2-line"></i></button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </td>
                                                     </tr>
                                                     <tr>
                                                         <td>MER/20/36522670</td>
                                                         <td>TS/PTT/20/0312720738</td>
                                                         <td>LH22111MG</td>
                                                         <td>24</td>
+                                                        <td>
+                                                            <form>
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <input type="number" class="form-control goods_qty_detail" name="goods_qty[]" value="" required>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <button class="btn btn-primary"><i class="ri-send-plane-2-line"></i></button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </td>
                                                     </tr>
                                                     <tr>
                                                         <td>MER/20/36522670</td>
                                                         <td>TS/PTT/20/0312720738</td>
                                                         <td>LH22111MR</td>
                                                         <td>24</td>
+                                                        <td>
+                                                            <form>
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <input type="number" class="form-control goods_qty_detail" name="goods_qty[]" value="" required>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <button class="btn btn-primary"><i class="ri-send-plane-2-line"></i></button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </td>
                                                     </tr>
                                                 </tbody>
                                             </table>
