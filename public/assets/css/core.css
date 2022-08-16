@@ -77,77 +77,6 @@
   top: -3px;
 }
 
-section.add-bobot .table button i {
-  position: relative;
-  top: 2px;
-}
-
-section.add-bobot .table span button {
-  font-size: 16px;
-}
-
-section.add-data-bulk .form-manual {
-  margin-top: 40px;
-}
-
-section.add-data-bulk .group-btn {
-  margin-top: 30px;
-}
-
-section.add-data-bulk .group-btn span {
-  padding-right: 10px;
-}
-
-section.add-data-bulk .group-btn span button i,
-section.add-data-bulk .group-btn span a i {
-  position: relative;
-  top: 3px;
-  font-size: 16px;
-}
-
-section.add-data-bulk .wrapper-reupload {
-  margin-bottom: 15px;
-  width: 100%;
-}
-
-section.add-data-bulk .wrapper-reupload a,
-section.add-data-bulk .wrapper-reupload button {
-  float: right;
-}
-
-section.add-data-bulk .wrapper-reupload a i,
-section.add-data-bulk .wrapper-reupload button i {
-  position: relative;
-  top: 3px;
-  font-size: 16px;
-}
-
-section.add-data-bulk .wrapper-reupload a.btn-finish,
-section.add-data-bulk .wrapper-reupload button.btn-finish {
-  margin-top: 10px;
-  margin-right: 2px;
-}
-
-section.add-data-bulk .wrapper-reupload a.btn-submit,
-section.add-data-bulk .wrapper-reupload button.btn-submit {
-  margin-top: 10px;
-  margin-right: 10px;
-}
-
-section.add-data-bulk .preview-table {
-  margin-top: 25px;
-}
-
-section.add-data-bulk .preview-table .table span button i,
-section.add-data-bulk .preview-table .table span a i {
-  font-size: 18px;
-}
-
-section.add-data-bulk .btn-submit {
-  margin-top: 15px;
-  float: right;
-}
-
 .fade.animation.show {
   opacity: 1 !important;
 }
@@ -294,5 +223,9 @@ section.add-data-bulk .btn-submit {
   z-index: 1;
   background: #fff;
   padding-right: 20px;
+}
+
+.card .card-body .box-line {
+  margin-bottom: 40px;
 }
 
