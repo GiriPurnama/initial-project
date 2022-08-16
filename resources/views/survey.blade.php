@@ -146,7 +146,7 @@
                                                     </p>
                                                  
                                                     <div class="mb-3">
-                                                        <div class="d-inline mx-3">
+                                                        <div class="d-inline mx-1">
                                                             Bad
                                                         </div>
             
@@ -187,7 +187,7 @@
             
                                                         </div>
             
-                                                        <div class="d-inline me-4">
+                                                        <div class="d-inline mx-1">
                                                             Excellent
                                                         </div>
                                                 </div>
