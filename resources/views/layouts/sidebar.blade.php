@@ -22,6 +22,13 @@
                     </a>
                 </li>
 
+                <li>
+                    <a href="/categorization " class="waves-effect">
+                        <i class="ri-file-list-3-line"></i>
+                        <span>Categorization </span>
+                    </a>
+                </li>
+
             </ul>
         </div>
         <!-- Sidebar -->

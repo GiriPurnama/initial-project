@@ -24,3 +24,7 @@ Route::get('/home', function () {
 Route::get('/survey', function () {
     return view('survey');
 });
+
+Route::get('/categorization', function () {
+    return view('categorization');
+});

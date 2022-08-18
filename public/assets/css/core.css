@@ -94,6 +94,39 @@
   border-top-right-radius: 0.25rem;
 }
 
+.categorization .uk-timeline .uk-timeline-item .uk-card {
+  max-height: 300px;
+}
+
+.categorization .uk-timeline .uk-timeline-item {
+  display: flex;
+  position: relative;
+}
+
+.categorization .uk-timeline .uk-timeline-item::before {
+  background: #dadee4;
+  content: "";
+  height: 100%;
+  left: 19px;
+  position: absolute;
+  top: 20px;
+  width: 2px;
+  z-index: 1;
+}
+
+.categorization .uk-timeline .uk-timeline-item .uk-timeline-icon .uk-badge {
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  z-index: 9;
+  position: relative;
+}
+
+.categorization .uk-timeline .uk-timeline-item .uk-timeline-content {
+  flex: 1 1 auto;
+  padding: 0 0 0 1rem;
+}
+
 .fade.animation.show {
   opacity: 1 !important;
 }
@@ -248,5 +281,9 @@
 
 .card .card-body .box-line {
   margin-bottom: 30px;
+}
+
+.page-content .fade {
+  opacity: 1;
 }
 
