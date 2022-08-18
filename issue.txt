@@ -1,0 +1,8 @@
+Noted:
+Lihat PPT
+
+1. Dashboard : Buat 6 Carding Akhlak lihat slide (30)
+2. Bikin tampilan deskripsi dari masing" akhlak
+3. Revisi : Dashboard itu lihat slide (32) bagi per filter (Region, performance, etc)
+   note : pada baris pertama itu akhlak dan kedua compare akhlak tergantung filter.
+4. Untuk popup categoriez bikin scaling bukan rating.
