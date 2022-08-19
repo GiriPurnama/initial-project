@@ -7,6 +7,7 @@
     <link href="{{ URL::asset('/assets/libs/datatables/datatables.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{ URL::asset('/assets/libs/uikits/css/uikits.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{ URL::asset('/assets/libs/bootstrap-rating/bootstrap-rating.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{ URL::asset('/assets/libs/jquery-ui-rating/dist/themes/bars-reversed.css')}}" rel="stylesheet" type="text/css" />
 @endsection
 
 @section('content')
@@ -340,7 +341,21 @@
                                     <div class="form-group">
                                         <label for="">Use the scale below to share your thoughts</label>
                                         <div class="input-rating">
-                                            <input type="hidden" class="rating" data-filled="mdi mdi-star text-primary" data-empty="mdi mdi-star-outline text-primary" data-fractions="2"/>
+                                            <select id="example">
+                                
+                                                <option value="1">Strongly Agree</option>
+                                                <option value="2">Strongly Agree</option>
+                                                <option value="3">Agree</option>
+                                                <option value="4">Agree</option>
+                                                <option value="5">Agree or Disagree</option>
+                                                <option value="6">Agree or Disagree</option>
+                                                <option value="7">Disagree</option>
+                                                <option value="8">Disagree</option>
+                                                <option value="9">Strongly Disagree</option>
+                                                <option value="10">Strongly Disagree</option>
+                                                
+                                            </select>
+                                            <!-- <input type="hidden" class="rating" data-filled="mdi mdi-star text-primary" data-empty="mdi mdi-star-outline text-primary" data-fractions="2"/> -->
                                         </div>
                                     </div>         
                                 </div>
@@ -359,6 +374,7 @@
 
                             </div>
                         </form>
+                      
                     </div>
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
@@ -379,6 +395,7 @@
     <script src="{{ URL::asset('/assets/js/pages/datatables.init.js')}}"></script>
 
     <script src="{{ URL::asset('/assets/libs/bootstrap-rating/bootstrap-rating.min.js')}}"></script>
+    <script src="{{ URL::asset('/assets/libs/jquery-ui-rating/dist/jquery.barrating.min.js')}}"></script>
 
     <script src="{{ URL::asset('/assets/js/pages/rating-init.js')}}"></script>
 
@@ -391,7 +408,9 @@
         
         
         $( document ).ready(function() {
-            
+            $('#example').barrating({
+                theme: 'bars-reversed'
+            });
         })
 
     </script>
