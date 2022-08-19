@@ -14,246 +14,94 @@
                 <!-- <h4 class="mb-0">Order Management</h4> -->
                 <div class="header-nav">
                     <span class="header-word md-0">Dashboard &nbsp;&nbsp;</span>
+                    <a href="/home">&nbsp;&nbsp;&nbsp;<i class="ri-home-3-line home"></i></a>
+                    <span>&nbsp;<i class="ri-arrow-right-s-line"></i></span>
+                    <span>&nbsp;Dashboard  </span>
                 </div>
             </div>
         </div>
     </div>
-    <div class="page-content">
+    <div class="page-content home">
         <div class="container-fluid">
 
             <div class="card">
                 <div class="card-body">
-                    <span class="box-title">
-                        <h3>Amanah</h3>
-                    </span>
-                    <hr>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="title-card">
+                                <h3>Our culture signature</h3>
+                            </div>
+                            <div class="subtitle-card">
+                                <span>
+                                    is made up of the following 6 AKHLAK
+                                </span> 
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+
+                            <div class="content-card">
+                                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                                <a href="javascript:void(0);">Load More...</a>
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="content-card">
+                                <div class="box-content text-center">
+                                    <h3>Overall</h3>
+                                    <span class="font-size-40">34</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
                     <div class="row">
         
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                             <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
                                 <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="17" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="mb-3 font-bold">Amanah</h4>
                             </div>
                         </div>
 
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                             <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
                                 <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="20" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="mb-3 font-bold">Kompeten</h4>
                             </div>
                         </div>
 
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                             <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="13" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="11" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-        
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <span class="box-title">
-                        <h3>Kompeten</h3>
-                    </span>
-                    <hr>
-                    <div class="row">
-        
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="18" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
                                 <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="19" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Harmonis</h4>
                             </div>
                         </div>
 
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                             <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="21" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
                                 <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="22" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-        
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <span class="box-title">
-                        <h3>Harmonis</h3>
-                    </span>
-                    <hr>
-                    <div class="row">
-        
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="11" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Loyal</h4>
                             </div>
                         </div>
 
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                             <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="12" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
                                 <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="24" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Adaptif</h4>
                             </div>
                         </div>
 
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                             <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="41" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-        
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <span class="box-title">
-                        <h3>Loyal</h3>
-                    </span>
-                    <hr>
-                    <div class="row">
-        
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="11" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="12" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="24" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="41" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-        
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <span class="box-title">
-                        <h3>Adaptif</h3>
-                    </span>
-                    <hr>
-                    <div class="row">
-        
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="18" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="19" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="21" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="22" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-        
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <span class="box-title">
-                        <h3>Kolaboratif</h3>
-                    </span>
-                    <hr>
-                    <div class="row">
-        
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="17" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="20" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="13" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="text-center" dir="ltr">
-                                <h5 class="font-size-14 mb-3">vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</h5>
-                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="11" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="30" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Kolaboratif</h4>
                             </div>
                         </div>
         

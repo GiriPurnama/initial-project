@@ -139,6 +139,10 @@
   font-weight: bold;
 }
 
+.font-size-40 {
+  font-size: 40px;
+}
+
 .filter-src {
   margin-left: 20px;
   margin-top: 5px;
@@ -285,5 +289,19 @@
 
 .page-content .fade {
   opacity: 1;
+}
+
+.page-content .subtitle-card span {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.page-content .content-card p {
+  text-align: justify;
+}
+
+.page-content .content-card .box-content {
+  margin-top: 15px;
+  display: block;
 }
 
