@@ -25,6 +25,10 @@ Route::get('/detail-content', function () {
     return view('detail-content');
 });
 
+Route::get('/compare-content', function () {
+    return view('compare-content');
+});
+
 Route::get('/survey', function () {
     return view('survey');
 });

@@ -16,6 +16,13 @@
                 </li>
 
                 <li>
+                    <a href="/compare-content" class="waves-effect">
+                        <i class="ri-book-2-line"></i>
+                        <span>Compare</span>
+                    </a>
+                </li>
+
+                <li>
                     <a href="/survey" class="waves-effect">
                         <i class="ri-file-edit-line"></i>
                         <span>Survey</span>
