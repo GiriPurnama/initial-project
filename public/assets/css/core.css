@@ -135,6 +135,10 @@
   display: none;
 }
 
+.vis-hide {
+  visibility: hidden;
+}
+
 .font-bold {
   font-weight: bold;
 }

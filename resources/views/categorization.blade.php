@@ -8,6 +8,7 @@
     <link href="{{ URL::asset('/assets/libs/uikits/css/uikits.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{ URL::asset('/assets/libs/bootstrap-rating/bootstrap-rating.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{ URL::asset('/assets/libs/jquery-ui-rating/dist/themes/bars-reversed.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{ URL::asset('/assets/libs/dragula/dragula.min.css')}}" rel="stylesheet" type="text/css" />
 @endsection
 
 @section('content')
@@ -57,7 +58,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#settings1" role="tab">
+                                    <a class="nav-link" data-toggle="tab" href="#comments" role="tab">
                                         <span class="d-block d-sm-none"><i class="fas fa-cog"></i></span>
                                         <span class="d-none d-sm-block">Comments</span>    
                                     </a>
@@ -295,16 +296,205 @@
                                     </div>
                                 </div>
 
-                                <div class="tab-pane" id="settings1" role="tabpanel">
-                                    <p class="mb-0">
-                                        Trust fund seitan letterpress, keytar raw denim keffiyeh etsy
-                                        art party before they sold out master cleanse gluten-free squid
-                                        scenester freegan cosby sweater. Fanny pack portland seitan DIY,
-                                        art party locavore wolf cliche high life echo park Austin. Cred
-                                        vinyl keffiyeh DIY salvia PBR, banh mi before they sold out
-                                        farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral,
-                                        mustache readymade keffiyeh craft.
-                                    </p>
+                                <div class="tab-pane" id="comments" role="tabpanel">
+
+                                    <div class="container-fluid survey">
+
+                                        <!-- start page title -->
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="page-title-box text-center align-items-center justify-content-between">
+                                                    <h4 class="mb-0">What we Believe?</h4>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end page title -->
+
+
+                                        <div class="row">
+                                            
+                                            <div class="col-lg-6">
+                                                <div class="card-body">
+                                                    <div class="dropdown float-right">
+                                                        <!-- <a href="#" class="dropdown-toggle arrow-none" data-toggle="dropdown" aria-expanded="false">
+                                                            <i class="mdi mdi-dots-vertical m-0 text-muted font-size-20"></i>
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                            <a class="dropdown-item" href="#">Delete</a>
+                                                        </div> -->
+                                                    </div> <!-- end dropdown -->
+                                                    <h4 class="card-title">What we do well</h4>
+                                                    <p class="mb-0 vis-hide">3 Tasks</p>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-body border-bottom">
+
+                                                        <div id="todo-task" class="task-list">
+                                                            <div class="card task-box card-primary card-outline">
+                                                                
+                                                                <div class="card-body">
+
+                                                                    <div class="float-right ml-2">
+                                                                        <div>
+                                                                            17 Apr, 2020
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="mb-3">
+                                                                        <a href="#" class="">#NZ1220</a>
+                                                                    </div>
+                                                                    <div>
+                                                                        <h5 class="font-size-16"><a href="javascript: void(0);" class="text-dark">Admin layout design</a></h5>
+                                                                        <p class="mb-4">Sed ut perspiciatis unde</p>
+                                                                    </div>
+
+
+                                                                </div>
+                                                            </div>
+                                                            <!-- end task card -->
+
+                                                            <div class="card task-box card-primary card-outline">
+                                                              
+                                                                <div class="card-body">
+
+                                                                    <div class="float-right ml-2">
+                                                                        <div>
+                                                                            15 Apr, 2020
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="mb-3">
+                                                                        <a href="#" class="">#NZ1219</a>
+                                                                    </div>
+                                                                    <div>
+                                                                        <h5 class="font-size-16"><a href="javascript: void(0);" class="text-dark">Chat app page</a></h5>
+                                                                        <p class="mb-4">Neque porro quisquam est</p>
+                                                                    </div>
+
+
+                                                                </div>
+                                                            </div>
+                                                            <!-- end task card -->
+
+                                                            <div class="card task-box card-primary card-outline">
+                                                                
+                                                                <div class="card-body">
+
+                                                                    <div class="float-right ml-2">
+                                                                        <div>
+                                                                            12 Apr, 2020
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="mb-3">
+                                                                        <a href="#" class="">#NZ1218</a>
+                                                                    </div>
+                                                                    <div>
+                                                                        <h5 class="font-size-16"><a href="javascript: void(0);" class="text-dark">Ecommerce App pages</a></h5>
+                                                                        <p class="mb-4">Itaque earum rerum hic</p>
+                                                                    </div>
+
+
+                                                                </div>
+                                                            </div>
+                                                            <!-- end task card -->
+
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-lg-6">
+                                                <div class="card-body">
+                                                    <div class="dropdown float-right">
+                                                        <!-- <a href="#" class="dropdown-toggle arrow-none" data-toggle="dropdown" aria-expanded="false">
+                                                            <i class="mdi mdi-dots-vertical m-0 text-muted font-size-20"></i>
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                            <a class="dropdown-item" href="#">Delete</a>
+                                                        </div> -->
+                                                    </div> <!-- end dropdown -->
+                                                    <h4 class="card-title">Where we can improve</h4>
+                                                    <p class="mb-0 vis-hide">3 Tasks</p>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-body border-bottom">
+                                                        <div id="inprogress-task" class="task-list">
+                                                            <div class="card task-box card-primary card-outline">
+                                                                
+                                                                <div class="card-body">
+
+                                                                    <div class="float-right ml-2">
+                                                                        <div>
+                                                                            05 Apr, 2020
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="mb-3">
+                                                                        <a href="#" class="">#NZ1217</a>
+                                                                    </div>
+                                                                    <div>
+                                                                        <h5 class="font-size-16"><a href="javascript: void(0);" class="text-dark">Dashboard UI</a></h5>
+                                                                        <p class="mb-4">In enim justo, rhoncus ut</p>
+                                                                    </div>
+
+
+                                                                </div>
+                                                            </div>
+                                                            <!-- end task card -->
+
+                                                            <div class="card task-box card-primary card-outline">
+                                                                <div class="card-body">
+
+                                                                    <div class="float-right ml-2">
+                                                                        <div>
+                                                                            02 Apr, 2020
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="mb-3">
+                                                                        <a href="#" class="">#NZ1216</a>
+                                                                    </div>
+                                                                    <div>
+                                                                        <h5 class="font-size-16"><a href="javascript: void(0);" class="text-dark">Authentication pages</a></h5>
+                                                                        <p class="mb-4">Imperdiet Etiam ultricies</p>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <!-- end task card -->
+
+                                                            <div class="card task-box card-primary card-outline">
+                                                              
+                                                                <div class="card-body">
+
+                                                                    <div class="float-right ml-2">
+                                                                        <div>
+                                                                            28 Mar, 2020
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="mb-3">
+                                                                        <a href="#" class="">#NZ1215</a>
+                                                                    </div>
+                                                                    <div>
+                                                                        <h5 class="font-size-16"><a href="javascript: void(0);" class="text-dark">UI Elements pages</a></h5>
+                                                                        <p class="mb-4">Cras ultricies mi eu turpis</p>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <!-- end task card -->
+
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- end row -->
+
+                                    </div> <!-- container-fluid -->
+
                                 </div>
                             </div>
 
@@ -401,6 +591,7 @@
 
     <script src="{{ URL::asset('/assets/libs/uikits/js/uikits.min.js')}}"></script>
     <script src="{{ URL::asset('/assets/libs/uikits/js/uikits-icon.min.js')}}"></script>
+    <script src="{{ URL::asset('/assets/libs/dragula/dragula.min.js')}}"></script>
 
     <!-- <script src="{{ URL::asset('/assets/js/pages/dashboard.init.js')}}"></script> -->
 
@@ -411,6 +602,9 @@
             $('#example').barrating({
                 theme: 'bars-reversed'
             });
+
+            dragula([document.getElementById("todo-task"),document.getElementById("inprogress-task"),document.getElementById("complete-task")]);
+
         })
 
     </script>
