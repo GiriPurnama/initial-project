@@ -36,3 +36,7 @@ Route::get('/survey', function () {
 Route::get('/categorization', function () {
     return view('categorization');
 });
+
+Route::get('/taking-action', function () {
+    return view('taking-action');
+});

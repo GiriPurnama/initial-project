@@ -127,6 +127,11 @@
   padding: 0 0 0 1rem;
 }
 
+.tacking-action .card-content {
+  display: inline-block;
+  margin: -14px 0px 25px 0px;
+}
+
 .fade.animation.show {
   opacity: 1 !important;
 }
@@ -145,6 +150,10 @@
 
 .font-size-40 {
   font-size: 40px;
+}
+
+.font-size-30 {
+  font-size: 30px;
 }
 
 .text-justify {
