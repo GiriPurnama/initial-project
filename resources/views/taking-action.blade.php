@@ -84,7 +84,7 @@
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-primary btn-rounded waves-effect waves-light">Create Action</a>
+                                    <a href="/detail-task" class="btn btn-primary btn-rounded waves-effect waves-light">Create Action</a>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-primary btn-rounded waves-effect waves-light">Create Action</a>
+                                    <a href="/detail-task" class="btn btn-primary btn-rounded waves-effect waves-light">Create Action</a>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +120,7 @@
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-primary btn-rounded waves-effect waves-light">Create Action</a>
+                                    <a href="/detail-task" class="btn btn-primary btn-rounded waves-effect waves-light">Create Action</a>
                                 </div>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-primary btn-rounded waves-effect waves-light">Create Action</a>
+                                    <a href="/detail-task" class="btn btn-primary btn-rounded waves-effect waves-light">Create Action</a>
                                 </div>
                             </div>
                         </div>
@@ -163,7 +163,7 @@
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-danger btn-rounded waves-effect waves-light">Create Action</a>
+                                    <a href="/detail-task" class="btn btn-danger btn-rounded waves-effect waves-light">Create Action</a>
                                 </div>
                             </div>
                         </div>
@@ -181,7 +181,7 @@
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-danger btn-rounded waves-effect waves-light">Create Action</a>
+                                    <a href="/detail-task" class="btn btn-danger btn-rounded waves-effect waves-light">Create Action</a>
                                 </div>
                             </div>
                         </div>
@@ -199,7 +199,7 @@
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-danger btn-rounded waves-effect waves-light">Create Action</a>
+                                    <a href="/detail-task" class="btn btn-danger btn-rounded waves-effect waves-light">Create Action</a>
                                 </div>
                             </div>
                         </div>
@@ -217,7 +217,7 @@
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-danger btn-rounded waves-effect waves-light">Create Action</a>
+                                    <a href="/detail-task" class="btn btn-danger btn-rounded waves-effect waves-light">Create Action</a>
                                 </div>
                             </div>
                         </div>
@@ -241,7 +241,7 @@
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-warning btn-rounded waves-effect waves-light">Create Action</a>
+                                    <a href="/detail-task" class="btn btn-warning btn-rounded waves-effect waves-light">Create Action</a>
                                 </div>
                             </div>
                         </div>
@@ -259,7 +259,7 @@
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-warning btn-rounded waves-effect waves-light">Create Action</a>
+                                    <a href="/detail-task" class="btn btn-warning btn-rounded waves-effect waves-light">Create Action</a>
                                 </div>
                             </div>
                         </div>
@@ -277,7 +277,7 @@
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-warning btn-rounded waves-effect waves-light">Create Action</a>
+                                    <a href="/detail-task" class="btn btn-warning btn-rounded waves-effect waves-light">Create Action</a>
                                 </div>
                             </div>
                         </div>
@@ -296,7 +296,7 @@
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-warning btn-rounded waves-effect waves-light">Create Action</a>
+                                    <a href="/detail-task" class="btn btn-warning btn-rounded waves-effect waves-light">Create Action</a>
                                 </div>
                             </div>
                         </div>
