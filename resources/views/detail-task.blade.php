@@ -5,6 +5,10 @@
     <link href="{{ URL::asset('/assets/libs/jquery-vectormap/jquery-vectormap.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- Responsive datatable examples -->
     <link href="{{ URL::asset('/assets/libs/datatables/datatables.min.css')}}" rel="stylesheet" type="text/css" />
+
+    <link href="{{ URL::asset('/assets/libs/select2/select2.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{ URL::asset('/assets/libs/bootstrap-datepicker/bootstrap-datepicker.min.css')}}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
 @endsection
 
 @section('content')
@@ -225,7 +229,7 @@
                                 </div>
 
                                 <div class="text-center">
-                                    <a href="javascript: void(0);" class="btn btn-primary mt-1 waves-effect waves-light"><i class="mdi mdi-plus mr-1"></i> Add New</a>
+                                    <a data-toggle="modal" data-target=".identifying-modal" href="javascript:void(0);"  class="btn btn-primary mt-1 waves-effect waves-light"><i class="mdi mdi-plus mr-1"></i> Add New</a>
                                 </div>
 
                             </div>
@@ -394,7 +398,7 @@
                                 </div>
 
                                 <div class="text-center">
-                                    <a href="javascript: void(0);" class="btn btn-primary mt-1 waves-effect waves-light"><i class="mdi mdi-plus mr-1"></i> Add New</a>
+                                    <a data-toggle="modal" data-target=".identifying-modal" href="javascript:void(0);" class="btn btn-primary mt-1 waves-effect waves-light"><i class="mdi mdi-plus mr-1"></i> Add New</a>
                                 </div>
 
                             </div>
@@ -564,7 +568,7 @@
                                 </div>
 
                                 <div class="text-center">
-                                    <a href="javascript: void(0);" class="btn btn-primary mt-1 waves-effect waves-light"><i class="mdi mdi-plus mr-1"></i> Add New</a>
+                                    <a data-toggle="modal" data-target=".identifying-modal" href="javascript:void(0);" class="btn btn-primary mt-1 waves-effect waves-light"><i class="mdi mdi-plus mr-1"></i> Add New</a>
                                 </div>
 
                             </div>
@@ -580,6 +584,69 @@
 
 
         </div> <!-- container-fluid -->
+
+        <!-- Modal -->
+        <div class="modal fade bs-example-modal-sm identifying-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title mt-0" id="myLargeModalLabel">Detail Task</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row">
+                                
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="">What</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="">How</label>
+                                        <textarea class="form-control"></textarea>
+                                    </div>         
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="">Who</label>
+                                        <select name="batch_no" class="form-control select2" required>
+                                            <option value="">-</option>
+                                            <option value="Giri">Giri</option>
+                                            <option value="Adel">Adel</option>
+                                            <option value="Michael">Michael</option>
+                                            <option value="Ibnu">Ibnu</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="">When</label>
+                                        <input type="text" name="date_delivered" class="form-control deliveredDate" data-provide="datepicker" data-date-format="yyyy-mm-dd" data-date-autoclose="true">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div class="form-group float-right">
+                                        <input type="submit" class="btn btn-primary" value="Submit">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                      
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        <!-- End Modal -->
     </div>
 @endsection
 
@@ -595,6 +662,10 @@
 
     <script src="{{ URL::asset('/assets/libs/jquery-knob/jquery-knob.min.js')}}"></script>
 
+    <script type="text/javascript" src="{{ URL::asset('/assets/libs/select2/select2.min.js')}}"></script>
+    <script type="text/javascript" src="{{ URL::asset('/assets/libs/bootstrap-datepicker/bootstrap-datepicker.min.js')}}"></script>
+    <script type="text/javascript" src="{{ URL::asset('/assets/libs/daterangepicker/daterangepicker.js')}}"></script>
+
     <script src="{{ URL::asset('/assets/js/pages/datatables.init.js')}}"></script>
 
     <!-- <script src="{{ URL::asset('/assets/js/pages/dashboard.init.js')}}"></script> -->
@@ -603,6 +674,10 @@
         
         
         $( document ).ready(function() {
+
+            $(".select2").select2();
+
+            $('.deliveredDate').datepicker();
 
             $(function(){
                 $(".knob").knob({
