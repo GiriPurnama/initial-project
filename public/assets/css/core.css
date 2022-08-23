@@ -297,6 +297,21 @@
   }
 }
 
+.tacking-action .card-label .label-title {
+  position: relative;
+  top: 10px;
+  font-size: 16px;
+  display: inline-block;
+  width: 80%;
+  padding-left: 12px;
+}
+
+.tacking-action .warp-action .subtitle {
+  font-style: italic;
+  margin-bottom: 23px;
+  display: block;
+}
+
 .fade.animation.show {
   opacity: 1 !important;
 }
@@ -333,6 +348,10 @@
   margin-bottom: 20px;
 }
 
+.mg-20 {
+  margin: 20px 0px;
+}
+
 .filter-src {
   margin-left: 20px;
   margin-top: 5px;
@@ -342,6 +361,12 @@
 .filter-src select {
   border: 0px;
   outline: 0px;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .bread-static {

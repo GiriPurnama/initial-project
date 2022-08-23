@@ -25,6 +25,9 @@
 .margin-bottom-20{
     margin-bottom: 20px;
 }
+.mg-20{
+    margin: 20px 0px;
+}
 .filter-src{
     margin-left: 20px;
     margin-top: 5px;
@@ -33,6 +36,13 @@
         border: 0px;
         outline: 0px;
     }
+}
+ul{
+    &.no-bullets {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
 }
 .bread-static{
     position: relative;

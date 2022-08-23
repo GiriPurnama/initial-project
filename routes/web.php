@@ -45,3 +45,7 @@ Route::get('/detail-task', function () {
     return view('detail-task');
 });
 
+Route::get('/manage-task', function () {
+    return view('manage-task');
+});
+

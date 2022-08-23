@@ -43,6 +43,13 @@
                     </a>
                 </li>
 
+                <li>
+                    <a href="/manage-task " class="waves-effect">
+                        <i class="ri-booklet-line"></i>
+                        <span>Manage Task </span>
+                    </a>
+                </li>
+
             </ul>
         </div>
         <!-- Sidebar -->
