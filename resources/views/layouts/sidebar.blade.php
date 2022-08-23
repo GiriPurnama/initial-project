@@ -36,6 +36,13 @@
                     </a>
                 </li>
 
+                <li>
+                    <a href="/taking-action " class="waves-effect">
+                        <i class="ri-folder-4-line"></i>
+                        <span>Taking Action </span>
+                    </a>
+                </li>
+
             </ul>
         </div>
         <!-- Sidebar -->

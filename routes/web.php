@@ -40,3 +40,8 @@ Route::get('/categorization', function () {
 Route::get('/taking-action', function () {
     return view('taking-action');
 });
+
+Route::get('/detail-task', function () {
+    return view('detail-task');
+});
+
