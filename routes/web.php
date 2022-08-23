@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,9 +22,11 @@ Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/detail-content', function () {
-    return view('detail-content');
-});
+// Route::get('/detail-content', function () {
+//     return view('detail-content');
+// });
+
+Route::get('/detail-content/{id_name}', [DashboardController::class, 'detailDashboard']);
 
 Route::get('/compare-content', function () {
     return view('compare-content');

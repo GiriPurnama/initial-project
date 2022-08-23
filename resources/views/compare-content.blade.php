@@ -225,6 +225,168 @@
                     </div>
                 </div>
             </div>
+
+            <div id="OverallPMI" class="card hide">
+                <div class="card-body">
+                    <h3>Overall PMI</h3>
+                    <hr>
+                    <div class="row">
+        
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="17" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <a href="/detail-content">
+                                    <h4 class="mb-3 font-bold">Amanah</h4>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="20" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="mb-3 font-bold">Kompeten</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="19" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Harmonis</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="22" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Loyal</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="24" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Adaptif</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="30" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Kolaboratif</h4>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+
+            <div id="StrongestPerformance" class="card hide">
+                <div class="card-body">
+                    <h3>Strongest Performance</h3>
+                    <hr>
+                    <div class="row">
+        
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="17" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <a href="/detail-content">
+                                    <h4 class="mb-3 font-bold">Amanah</h4>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="20" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="mb-3 font-bold">Kompeten</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="19" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Harmonis</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="22" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Loyal</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="24" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Adaptif</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="30" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Kolaboratif</h4>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+
+            <div id="StrongestRegion" class="card hide">
+                <div class="card-body">
+                    <h3>Strongest Region</h3>
+                    <hr>
+                    <div class="row">
+        
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="17" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <a href="/detail-content">
+                                    <h4 class="mb-3 font-bold">Amanah</h4>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="20" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="mb-3 font-bold">Kompeten</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="19" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Harmonis</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="22" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Loyal</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="24" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Adaptif</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="text-center" dir="ltr">
+                                <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="30" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
+                                <h4 class="font-bold mb-3">Kolaboratif</h4>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
             
             <!-- end row -->
 
@@ -281,6 +443,40 @@
                     $("#myPerformance").addClass("hide");
                 }
             });
+
+            $('#switch3').change(function() {
+                // this will contain a reference to the checkbox   
+                if (this.checked) {
+                    console.log("checked");
+                    $("#OverallPMI").removeClass("hide");
+                } else {
+                    console.log("not checked");
+                    $("#OverallPMI").addClass("hide");
+                }
+            });
+
+            $('#switch4').change(function() {
+                // this will contain a reference to the checkbox   
+                if (this.checked) {
+                    console.log("checked");
+                    $("#StrongestPerformance").removeClass("hide");
+                } else {
+                    console.log("not checked");
+                    $("#StrongestPerformance").addClass("hide");
+                }
+            });
+
+            $('#switch5').change(function() {
+                // this will contain a reference to the checkbox   
+                if (this.checked) {
+                    console.log("checked");
+                    $("#StrongestRegion").removeClass("hide");
+                } else {
+                    console.log("not checked");
+                    $("#StrongestRegion").addClass("hide");
+                }
+            });
+            
             
 
         })

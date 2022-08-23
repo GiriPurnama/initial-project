@@ -250,7 +250,7 @@
 
                             <div id="todo-task" class="task-list">
 
-                                <div class="card task-box">
+                                <div class="card task-box card-primary card-outline">
                                     <div class="card-body">
 
                                         <div class="float-right ml-2">
@@ -266,7 +266,7 @@
                                             <div class="row">
                                                 <div class="col-md-4">
                                                     <label class="label">
-                                                        <input  class="label__checkbox" type="checkbox"  />
+                                                        <input  class="label__checkbox" type="checkbox" checked />
                                                         <span class="label__text">
                                                             <span class="label__check">
                                                                 <i class="fa fa-check icon"></i>
@@ -291,56 +291,7 @@
                                                 <tr>
                                                     <td>Completed Date</td>
                                                     <td>:</td>
-                                                    <td class="font-bold"></td>
-                                                </tr>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="card task-box">
-                                    <div class="card-body">
-
-                                        <div class="float-right ml-2">
-                                            <div>
-                                                2022-01-08
-                                            </div>
-                                        </div>
-                                        <div class="mb-3">
-                                            Created Date :
-                                        </div>
-                                       
-                                        <div class="card-label">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <label class="label">
-                                                        <input  class="label__checkbox" type="checkbox"  />
-                                                        <span class="label__text">
-                                                            <span class="label__check">
-                                                                <i class="fa fa-check icon"></i>
-                                                            </span>
-                                                        </span>
-                                                    </label>
-                                                </div>
-                                                <div class="col-md-8">
-                                                    <h5 class="font-size-16"><a href="javascript: void(0);" class="text-dark">Admin layout design</a></h5>
-                                                    <p class="mb-4">Sed ut perspiciatis unde</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="mb-0">
-                                            <table class="table">
-                                                <tr>
-                                                    <td>Assigned to</td>
-                                                    <td>:</td>
-                                                    <td class="font-bold">Giri Purnama</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Completed Date</td>
-                                                    <td>:</td>
-                                                    <td class="font-bold"></td>
+                                                    <td class="font-bold">2022-01-08</td>
                                                 </tr>
                                             </table>
                                         </div>
@@ -364,7 +315,7 @@
                                             <div class="row">
                                                 <div class="col-md-4">
                                                     <label class="label">
-                                                        <input  class="label__checkbox" type="checkbox" checked/>
+                                                        <input  class="label__checkbox" type="checkbox" checked />
                                                         <span class="label__text">
                                                             <span class="label__check">
                                                                 <i class="fa fa-check icon"></i>
@@ -389,7 +340,56 @@
                                                 <tr>
                                                     <td>Completed Date</td>
                                                     <td>:</td>
-                                                    <td class="font-bold">2022-01-09</td>
+                                                    <td class="font-bold">2022-01-08</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="card task-box">
+                                    <div class="card-body">
+
+                                        <div class="float-right ml-2">
+                                            <div>
+                                                2022-01-08
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            Created Date :
+                                        </div>
+                                       
+                                        <div class="card-label">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <label class="label">
+                                                        <input  class="label__checkbox" type="checkbox" />
+                                                        <span class="label__text">
+                                                            <span class="label__check">
+                                                                <i class="fa fa-check icon"></i>
+                                                            </span>
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h5 class="font-size-16"><a href="javascript: void(0);" class="text-dark">Admin layout design</a></h5>
+                                                    <p class="mb-4">Sed ut perspiciatis unde</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-0">
+                                            <table class="table">
+                                                <tr>
+                                                    <td>Assigned to</td>
+                                                    <td>:</td>
+                                                    <td class="font-bold">Giri Purnama</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Completed Date</td>
+                                                    <td>:</td>
+                                                    <td class="font-bold"></td>
                                                 </tr>
                                             </table>
                                         </div>

@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title') Detail Content Amanah @endsection
+@section('title') Detail Content {{ ucfirst(Request::segment(2)) }} @endsection
 @section('css')
     <!-- DataTables -->
     <link href="{{ URL::asset('/assets/libs/jquery-vectormap/jquery-vectormap.min.css')}}" rel="stylesheet" type="text/css" />
@@ -16,7 +16,7 @@
                     <span class="header-word md-0">Dashboard &nbsp;&nbsp;</span>
                     <a href="/home">&nbsp;&nbsp;&nbsp;<i class="ri-home-3-line home"></i></a>
                     <span>&nbsp;<i class="ri-arrow-right-s-line"></i></span>
-                    <span>&nbsp;Detail Content Amanah  </span>
+                    <span>&nbsp;Detail Content {{ ucfirst(Request::segment(2)) }}  </span>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@
                             <div class="title-card">
                                 <div class="text-center" dir="ltr">
                                     <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="17" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                                    <h4 class="mb-3 font-bold">Amanah</h4>
+                                    <h4 class="mb-3 font-bold">{{ ucfirst(Request::segment(2)) }}</h4>
                                 </div>
                             </div>
                             
@@ -39,7 +39,7 @@
                         <div class="col-md-4">
 
                             <div class="content-card">
-                                <h5>Amanah Description</h5>
+                                <h5>{{ ucfirst(Request::segment(2)) }} Description</h5>
                                 <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
                                 </p>

@@ -66,7 +66,7 @@
                         <div class="col-md-4">
                             <div class="text-center" dir="ltr">
                                 <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="17" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                                <a href="/detail-content">
+                                <a href="/detail-content/amanah">
                                     <h4 class="mb-3 font-bold">Amanah</h4>
                                 </a>
                             </div>
@@ -75,35 +75,45 @@
                         <div class="col-md-4">
                             <div class="text-center" dir="ltr">
                                 <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="20" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                                <h4 class="mb-3 font-bold">Kompeten</h4>
+                                <a href="/detail-content/kompeten">
+                                    <h4 class="mb-3 font-bold">Kompeten</h4>
+                                </a>
                             </div>
                         </div>
 
                         <div class="col-md-4">
                             <div class="text-center" dir="ltr">
                                 <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="19" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                                <h4 class="font-bold mb-3">Harmonis</h4>
+                                <a href="/detail-content/harmonis">
+                                    <h4 class="font-bold mb-3">Harmonis</h4>
+                                </a>
                             </div>
                         </div>
 
                         <div class="col-md-4">
                             <div class="text-center" dir="ltr">
                                 <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="22" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                                <h4 class="font-bold mb-3">Loyal</h4>
+                                <a href="/detail-content/loyal">
+                                    <h4 class="font-bold mb-3">Loyal</h4>
+                                </a>
                             </div>
                         </div>
 
                         <div class="col-md-4">
                             <div class="text-center" dir="ltr">
                                 <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="24" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                                <h4 class="font-bold mb-3">Adaptif</h4>
+                                <a href="/detail-content/adaptif">
+                                    <h4 class="font-bold mb-3">Adaptif</h4>
+                                </a>
                             </div>
                         </div>
 
                         <div class="col-md-4">
                             <div class="text-center" dir="ltr">
                                 <input class="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#66CC66" value="30" data-skin="tron" data-angleOffset="-125" data-angleArc=250 data-readOnly=true data-thickness=".2"/>
-                                <h4 class="font-bold mb-3">Kolaboratif</h4>
+                                <a href="/detail-content/kolaboratif">
+                                    <h4 class="font-bold mb-3">Kolaboratif</h4>
+                                </a>
                             </div>
                         </div>
         
