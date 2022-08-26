@@ -69,8 +69,11 @@ Route::get('/outgoing', function () {
     return view('outgoing');
 });
 
-
 Route::get('/print-order', function () {
     return view('print-order');
+});
+
+Route::get('/approval-expedition', function () {
+    return view('approval-expedition');
 });
 

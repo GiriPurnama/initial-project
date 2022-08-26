@@ -55,6 +55,14 @@
                         <li><a href="/outgoing">Outgoing</a></li>
                     </ul>
                 </li>
+
+
+                <li>
+                    <a href="/approval-expedition" class="waves-effect">
+                        <i class="ri-truck-line"></i>
+                        <span>Approval</span>
+                    </a>
+                </li>
                 
             </ul>
         </div>
