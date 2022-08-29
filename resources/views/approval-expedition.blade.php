@@ -57,7 +57,6 @@
                                                 <li><a href="#all">All</a></li>
                                                 <li><a href="#date">Date</a></li>
                                                 <li><a href="#location">Location</a></li>
-                                                <li><a href="#delivery_status">Delivery Status</a></li>
                                             </ul>
                                         </div>
                                         <input type="hidden" name="search_param" value="all" id="search_param">         
@@ -73,12 +72,6 @@
                                                 <option value="">990</option>
                                                 <option value="">B-KLG-4</option>
                                                 <option value="">B-KLG-2</option>
-                                        </select>
-                                        <select name="delivery_status" id="" class="form-control deliveryStatus">
-                                                <option value="all">All Delivery Status</option>
-                                                <option value="">In Delivery</option>
-                                                <option value="">Waiting for Reconcile</option>
-                                                <option value="">Completed</option>
                                         </select>
                                         <span class="input-group-btn">
                                             <button class="btn btn-primary" type="button"><i class="ri-search-line"></i></button>
@@ -96,8 +89,6 @@
                                     <thead>
                                         <tr>
                                             
-                                            <th>Batch No</th>
-                                            <th>Resi No</th>
                                             <th>TO Number</th>
                                             <th>DO Number</th>
                                             <th>Drop Name</th>
@@ -106,15 +97,15 @@
                                             <th>DO Status</th>
                                             <th>Release Date</th>
                                             <th>DO Posted Date</th>
+                                            <th>Status Approval</th>
                                             <th>Action</th>
                                           
                                         </tr>
                                     </thead>
                                     <tbody>
+
                                         <tr>
 
-                                            <td>00042111</td>
-                                            <td>9000111</td>
                                             <td>MER/20/36522670</td>
                                             <td>TS/PTT/20/0312720738</td>
                                             <td>E-AEON-BSD</td>
@@ -124,24 +115,8 @@
                                             <td>2022-01-01</td>
                                             <td>2022-01-03</td>
                                             <td>
-                                                <a href="javascript:void(0);" data-toggle="modal" data-target=".add-data"><span class="edit"><i class="ri-pencil-line"></i></span></a>
-                                                <!-- <a href="javascript:void(0);" data-toggle="modal" data-target=".print-data"><span class="print"><i class=" ri-printer-line"></i></span></a> -->                                                            
+                                                <span class="badge badge-success">Approve</span>
                                             </td>
-                                            
-                                        </tr>
-
-                                        <tr>
-
-                                            <td>00042112</td>
-                                            <td>9000112</td>
-                                            <td>MER/20/36522670</td>
-                                            <td>TS/PTT/20/0312720738</td>
-                                            <td>E-AEON-BSD</td>
-                                            <td>A-AEON-BSD</td>
-                                            <td>200</td>
-                                            <td>Shipped</td>
-                                            <td>2022-01-01</td>
-                                            <td>2022-01-03</td>
                                             <td>
                                                 <a href="javascript:void(0);" data-toggle="modal" data-target=".add-data"><span class="edit"><i class="ri-pencil-line"></i></span></a>
                                                 <!-- <a href="javascript:void(0);" data-toggle="modal" data-target=".print-data"><span class="print"><i class=" ri-printer-line"></i></span></a> -->                                                            
@@ -151,8 +126,6 @@
 
                                         <tr>
 
-                                            <td>00042113</td>
-                                            <td>9000113</td>
                                             <td>MER/20/36522670</td>
                                             <td>TS/PTT/20/0312720738</td>
                                             <td>E-AEON-BSD</td>
@@ -162,6 +135,9 @@
                                             <td>2022-01-01</td>
                                             <td>2022-01-03</td>
                                             <td>
+                                                <span class="badge badge-warning">Waiting for Approval</span>
+                                            </td>
+                                            <td>
                                                 <a href="javascript:void(0);" data-toggle="modal" data-target=".add-data"><span class="edit"><i class="ri-pencil-line"></i></span></a>
                                                 <!-- <a href="javascript:void(0);" data-toggle="modal" data-target=".print-data"><span class="print"><i class=" ri-printer-line"></i></span></a> -->                                                            
                                             </td>
@@ -170,8 +146,6 @@
 
                                         <tr>
 
-                                            <td>00042114</td>
-                                            <td>9000114</td>
                                             <td>MER/20/36522670</td>
                                             <td>TS/PTT/20/0312720738</td>
                                             <td>E-AEON-BSD</td>
@@ -181,6 +155,9 @@
                                             <td>2022-01-01</td>
                                             <td>2022-01-03</td>
                                             <td>
+                                                <span class="badge badge-success">Approve</span>
+                                            </td>
+                                            <td>
                                                 <a href="javascript:void(0);" data-toggle="modal" data-target=".add-data"><span class="edit"><i class="ri-pencil-line"></i></span></a>
                                                 <!-- <a href="javascript:void(0);" data-toggle="modal" data-target=".print-data"><span class="print"><i class=" ri-printer-line"></i></span></a> -->                                                            
                                             </td>
@@ -188,8 +165,7 @@
                                         </tr>
 
                                         <tr>
-                                            <td>00042115</td>
-                                            <td>9000115</td>
+
                                             <td>MER/20/36522670</td>
                                             <td>TS/PTT/20/0312720738</td>
                                             <td>E-AEON-BSD</td>
@@ -198,6 +174,28 @@
                                             <td>Shipped</td>
                                             <td>2022-01-01</td>
                                             <td>2022-01-03</td>
+                                            <td>
+                                                <span class="badge badge-success">Approve</span>
+                                            </td>
+                                            <td>
+                                                <a href="javascript:void(0);" data-toggle="modal" data-target=".add-data"><span class="edit"><i class="ri-pencil-line"></i></span></a>
+                                                <!-- <a href="javascript:void(0);" data-toggle="modal" data-target=".print-data"><span class="print"><i class=" ri-printer-line"></i></span></a> -->                                                            
+                                            </td>
+                                            
+                                        </tr>
+
+                                        <tr>
+                                            <td>MER/20/36522670</td>
+                                            <td>TS/PTT/20/0312720738</td>
+                                            <td>E-AEON-BSD</td>
+                                            <td>A-AEON-BSD</td>
+                                            <td>200</td>
+                                            <td>Shipped</td>
+                                            <td>2022-01-01</td>
+                                            <td>2022-01-03</td>
+                                            <td>
+                                                <span class="badge badge-success">Approve</span>
+                                            </td>
                                             <td>
                                                 <a href="javascript:void(0);" data-toggle="modal" data-target=".add-data"><span class="edit"><i class="ri-pencil-line"></i></span></a>
                                                 <!-- <a href="javascript:void(0);" data-toggle="modal" data-target=".print-data"><span class="print"><i class=" ri-printer-line"></i></span></a> -->                                                            
