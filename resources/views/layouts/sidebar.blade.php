@@ -63,6 +63,13 @@
                         <span>Approval</span>
                     </a>
                 </li>
+
+                <li>
+                    <a href="/tracking" class="waves-effect">
+                        <i class="ri-map-pin-2-line"></i>
+                        <span>Tracking</span>
+                    </a>
+                </li>
                 
             </ul>
         </div>

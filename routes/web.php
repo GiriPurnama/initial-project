@@ -77,3 +77,6 @@ Route::get('/approval-expedition', function () {
     return view('approval-expedition');
 });
 
+Route::get('/tracking', function () {
+    return view('tracking');
+});
