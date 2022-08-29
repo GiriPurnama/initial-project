@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title') Approval Expedition @endsection
+@section('title') Approval Internal @endsection
 @section('css')
     <!-- DataTables -->
     <link href="{{ URL::asset('/assets/libs/jquery-vectormap/jquery-vectormap.min.css')}}" rel="stylesheet" type="text/css" />
@@ -16,10 +16,10 @@
             <div class="page-title-box d-flex align-items-center justify-content-between header-title" style="margin-bottom:25px;">
                 <!-- <h4 class="mb-0">Order Management</h4> -->
                 <div class="header-nav">
-                    <span class="header-word md-0">Approval Expedition &nbsp;&nbsp;</span>
+                    <span class="header-word md-0">Approval Internal &nbsp;&nbsp;</span>
                     <a href="/home">&nbsp;&nbsp;&nbsp;<i class="ri-home-3-line home"></i></a>
                     <span>&nbsp;<i class="ri-arrow-right-s-line"></i></span>
-                    <span>&nbsp;Approval Expedition</span>
+                    <span>&nbsp;Approval Internal</span>
                 </div>
                 <div class="page-title-right">
                     <a class="btn btn-back" href="/home"><i class="ri-arrow-left-s-line"></i> Back</a>
@@ -34,7 +34,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="page-title-box d-flex align-items-center justify-content-between">
-                            <h4 class="mb-0">Detail Approval Expedition</h4>
+                            <h4 class="mb-0">Detail Approval Internal</h4>
                         </div>
                     </div>
                 </div>

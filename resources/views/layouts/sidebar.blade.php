@@ -56,12 +56,15 @@
                     </ul>
                 </li>
 
-
                 <li>
-                    <a href="/approval-expedition" class="waves-effect">
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="ri-truck-line"></i>
                         <span>Approval</span>
                     </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="/approval-internal">Internal</a></li>
+                        <li><a href="/approval-vendor">Vendor</a></li>
+                    </ul>
                 </li>
 
                 <li>

@@ -73,8 +73,12 @@ Route::get('/print-order', function () {
     return view('print-order');
 });
 
-Route::get('/approval-expedition', function () {
-    return view('approval-expedition');
+Route::get('/approval-internal', function () {
+    return view('approval-internal');
+});
+
+Route::get('/approval-vendor', function () {
+    return view('approval-vendor');
 });
 
 Route::get('/tracking', function () {
