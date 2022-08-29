@@ -230,221 +230,131 @@
                         </div>
                         <div class="modal-body">
 
-                            <div id="basic-pills-wizard" class="twitter-bs-wizard">
-                                <ul class="twitter-bs-wizard-nav">
-                                    <li class="nav-item">
-                                        <a href="#print-order" class="nav-link" data-toggle="tab">
-                                            <span class="step-number">01</span>
-                                            <span class="step-title">Print Order</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#assign-order" class="nav-link" data-toggle="tab">
-                                            <span class="step-number">02</span>
-                                            <span class="step-title">Assign Order</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <div class="tab-content twitter-bs-wizard-tab-content">
-
-                                    <div class="tab-pane" id="print-order">
-                                        
-                                        <form method="get" action="/print-order" target="_blank" class='form-print'>
-                                            <div class="row">
-                                            
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label for="">DO Number</label>
-                                                        <input type="text" name="do_number" value="TS/PTT/20/0312720738" class="form-control to_number_val" readonly>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label for="">TO Number</label>
-                                                        <input type="text" name="to_number" value="MER/20/36522670" class="form-control" readonly>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label for="">Pickup Name</label>
-                                                        <input type="text" name="pickup_name" value="A-AEON-BSD" class="form-control" readonly>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label for="">Drop Name</label>
-                                                        <input type="text" name="drop_name" value="E-AEON-BSD" class="form-control" readonly>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-12">
-                                                    <div class="group-box">
-                                                        
-                                                        <div class="row">
-
-                                                            <div class="col-sm-4">
-                                                                <div class="form-group">
-                                                                    <label for="">Koli QTY</label>
-                                                                    <input name="koli_qty" type="number" class="form-control koli_qty_val" value="10" readonly>
-                                                                </div>
-                                                            </div>
-
-                                                            
-                                                            <div class="col-sm-4">
-                                                                <div class="form-group">
-                                                                    <label for="">Goods QTY Update</label>
-                                                                    <input name="goods_qty" type="number" class="form-control goods_qty_val" value="120" readonly>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-sm-4">
-                                                                <div class="form-group">
-                                                                    <label for="">Loading Date</label>
-                                                                    <input name="loading_date" type="text" data-provide="datepicker" data-date-format="yyyy-mm-dd" data-date-autoclose="true" class="form-control datePicker loading_date_val" value="2022-08-26" readonly>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-12">
-                                                    <div class="form-group text-right">
-                                                        <!-- <button type="button" class="btn btn-warning assign-order">Assign Order</button> -->
-                                                        <input type="submit" class="add-row btn btn-primary" value="Print">
-                                                        <!-- <a href="/print-order" target="_BLANK" class="add-row btn btn-primary">Print</a> -->
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </form>
-
+                            <form>
+                                <div class="row">
+                                
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">DO Number</label>
+                                            <input type="text" name="do_number" value="TS/PTT/20/0312720738" class="form-control to_number_val" readonly>
+                                        </div>
                                     </div>
 
-                                    <div class="tab-pane" id="assign-order">
-                                        <form class="form-delivery">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">TO Number</label>
+                                            <input type="text" name="to_number" value="MER/20/36522670" class="form-control" readonly>
+                                        </div>
+                                    </div>
 
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">Pickup Name</label>
+                                            <input type="text" name="pickup_name" value="A-AEON-BSD" class="form-control" readonly>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">Drop Name</label>
+                                            <input type="text" name="drop_name" value="E-AEON-BSD" class="form-control" readonly>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="group-box">
                                             <div class="row">
 
-                                                <div class="col-md-12">
+                                                <div class="col-sm-4">
                                                     <div class="form-group">
-                                                        <label for="">Select Type Expedition</label>
-                                                        <select name="" class="form-control type-expedition" required>
+                                                        <label for="">Batch No</label>
+                                                        <input type="text" class="form-control batch_no_val">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-4">
+                                                    <div class="form-group">
+                                                        <label for="">Expedition</label>
+                                                        <select name="" class="form-control select2 expedition_val" required>
                                                             <option value="">-</option>
-                                                            <option value="Internal">Internal</option>
-                                                            <option value="Vendor">Vendor</option>
+                                                            <option value="UNIT LOGISTIC">UNIT LOGISTIC</option>
+                                                            <option value="KOPKAR">KOPKAR</option>
+                                                            <option value="OFFICE">OFFICE</option>
                                                         </select>
                                                     </div>
                                                 </div>
 
-                                                <div class="col-lg-12">
-                                                    <div class="group-internal hide">
-                                                        <div class="row">
-
-                                                            <div class="col-sm-4">
-                                                                <div class="form-group">
-                                                                    <label for="">Expedition</label>
-                                                                    <select name="" class="form-control select2 expedition_val" required>
-                                                                        <option value="">-</option>
-                                                                        <option value="UNIT LOGISTIC">UNIT LOGISTIC</option>
-                                                                        <option value="KOPKAR">KOPKAR</option>
-                                                                        <option value="OFFICE">OFFICE</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-sm-4">
-                                                                <div class="form-group">
-                                                                    <label for="">Batch No</label>
-                                                                    <input type="text" class="form-control batch_no_val">
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-sm-4">
-                                                                <div class="form-group">
-                                                                    <label for="">Driver Name</label>
-                                                                    <input type="text" class="form-control driver_name_val">
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label for="">Vehicle License Plate</label>
-                                                                    <input type="text" class="form-control vehicle_license_plate_val">
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label for="">Vehicle Type</label>
-                                                                    <select name="" class="form-control vehicle_type_val" required>
-                                                                        <option value="">-</option>
-                                                                        <option value="CDD">CDD</option>
-                                                                        <option value="CDE">CDE</option>
-                                                                        <option value="BOX">BOX</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-
-
-                                                        </div>    
-                                                    </div>
-
-                                                    <div class="group-vendor hide">
-
-                                                        <div class="row">
-                                                            <div class="col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label for="">Expedition Vendor</label>
-                                                                    <select name="" class="form-control expedition_val" required>
-                                                                        <option value="">-</option>
-                                                                        <option value="ANUGRAH">ANUGRAH</option>
-                                                                        <option value="GEMA EXPRESS">GEMA EXPRESS</option>
-                                                                        <option value="APM">APM</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label for="">Resi No</label>
-                                                                    <input type="text" class="form-control batch_no_val">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
+                                                <div class="col-sm-4">
+                                                    <div class="form-group">
+                                                        <label for="">Driver Name</label>
+                                                        <input type="text" class="form-control driver_name_val">
                                                     </div>
                                                 </div>
 
-                                                <div class="col-sm-6 delivery-date hide">
+                                                <div class="col-sm-3">
+                                                    <div class="form-group">
+                                                        <label for="">Vehicle License Plate</label>
+                                                        <input type="text" class="form-control vehicle_license_plate_val">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-3">
+                                                    <div class="form-group">
+                                                        <label for="">Vehicle Type</label>
+                                                        <select name="" class="form-control vehicle_type_val" required>
+                                                            <option value="">-</option>
+                                                            <option value="CDD">CDD</option>
+                                                            <option value="CDE">CDE</option>
+                                                            <option value="BOX">BOX</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-3">
+                                                    <div class="form-group">
+                                                        <label for="">Koli QTY</label>
+                                                        <input name="koli_qty" type="number" class="form-control koli_qty_val" value="10" readonly>
+                                                    </div>
+                                                </div>
+
+                                                
+                                                <div class="col-sm-3">
+                                                    <div class="form-group">
+                                                        <label for="">Goods QTY Update</label>
+                                                        <input name="goods_qty" type="number" class="form-control goods_qty_val" value="120" readonly>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label for="">Loading Date</label>
+                                                        <input name="loading_date" type="text" data-provide="datepicker" data-date-format="yyyy-mm-dd" data-date-autoclose="true" class="form-control datePicker loading_date_val">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-6 delivery-date">
                                                     <div class="form-group">
                                                         <label for="">Delivery Date</label>
                                                         <input type="text" data-provide="datepicker" data-date-format="yyyy-mm-dd" data-date-autoclose="true" class="form-control datePicker delivery_date_val">
                                                     </div>
                                                 </div>
 
-                                                <div class="col-md-12">
-                                                    <div class="form-group text-right">
-                                                        <!-- <button type="button" class="btn btn-warning back-assign-order">Back</button> -->
-                                                        <input type="button" class="submit-order btn btn-primary hide" value="Submit">
-                                                    </div>
-                                                </div>
                                             </div>
-
-                                        </form>
+    
+                                        </div>
                                     </div>
-                                    
-                                </div>
-                                <ul class="pager wizard twitter-bs-wizard-pager-link">
-                                    <li class="previous"><a href="#">Previous</a></li>
-                                    <li class="next"><a href="#">Next</a></li>
-                                </ul>
-                            </div>
 
+                                    <div class="col-md-12">
+                                        <div class="form-group text-right">
+                                            <!-- <button type="button" class="btn btn-warning assign-order">Assign Order</button> -->
+                                            <!-- <input type="submit" class="add-row btn btn-primary" value="Print"> -->
+                                            <!-- <a href="/print-order" target="_BLANK" class="add-row btn btn-primary">Print</a> -->
+                                            <input type="button" class="submit-order btn btn-primary" value="Submit">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
 
                         </div>
                     </div><!-- /.modal-content -->
