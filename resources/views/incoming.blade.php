@@ -107,6 +107,7 @@
                                             <th>Vehicle License Plate</th>
                                             <th>Goods QTY</th>
                                             <th>Release Date</th>
+                                            <th>Delivery Status</th>
                                             <th>Action</th>
                                           
                                         </tr>
@@ -126,6 +127,11 @@
                                             <td>B 3455 CD</td>
                                             <td>200</td>
                                             <td>2022-01-03</td>
+                                            <td>
+                                                <span class="badge badge-warning">
+                                                    In Delivery
+                                                </span>
+                                            </td>
                                             <td>
                                                 <a href="javascript:void(0);" data-toggle="modal" data-target=".add-data"><span class="edit"><i class="ri-pencil-line"></i></span></a>
                                                 <!-- <a href="javascript:void(0);" data-toggle="modal" data-target=".print-data"><span class="print"><i class=" ri-printer-line"></i></span></a> -->                                                            
@@ -147,6 +153,11 @@
                                             <td>200</td>
                                             <td>2022-01-03</td>
                                             <td>
+                                                <span class="badge badge-warning">
+                                                    In Delivery
+                                                </span>
+                                            </td>
+                                            <td>
                                                 <a href="javascript:void(0);" data-toggle="modal" data-target=".add-data"><span class="edit"><i class="ri-pencil-line"></i></span></a>
                                                 <!-- <a href="javascript:void(0);" data-toggle="modal" data-target=".print-data"><span class="print"><i class=" ri-printer-line"></i></span></a> -->                                                            
                                             </td>
@@ -166,6 +177,11 @@
                                             <td>B 3455 CD</td>
                                             <td>200</td>
                                             <td>2022-01-03</td>
+                                            <td>
+                                                <span class="badge badge-warning">
+                                                    In Delivery
+                                                </span>
+                                            </td>
                                             <td>
                                                 <a href="javascript:void(0);" data-toggle="modal" data-target=".add-data"><span class="edit"><i class="ri-pencil-line"></i></span></a>
                                                 <!-- <a href="javascript:void(0);" data-toggle="modal" data-target=".print-data"><span class="print"><i class=" ri-printer-line"></i></span></a> -->                                                            
@@ -187,6 +203,11 @@
                                             <td>200</td>
                                             <td>2022-01-03</td>
                                             <td>
+                                                <span class="badge badge-warning">
+                                                    In Delivery
+                                                </span>
+                                            </td>
+                                            <td>
                                                 <a href="javascript:void(0);" data-toggle="modal" data-target=".add-data"><span class="edit"><i class="ri-pencil-line"></i></span></a>
                                                 <!-- <a href="javascript:void(0);" data-toggle="modal" data-target=".print-data"><span class="print"><i class=" ri-printer-line"></i></span></a> -->                                                            
                                             </td>
@@ -206,6 +227,11 @@
                                             <td>B 3455 CD</td>
                                             <td>200</td>
                                             <td>2022-01-03</td>
+                                            <td>
+                                                <span class="badge badge-warning">
+                                                    In Delivery
+                                                </span>
+                                            </td>
                                             <td>
                                                 <a href="javascript:void(0);" data-toggle="modal" data-target=".add-data"><span class="edit"><i class="ri-pencil-line"></i></span></a>
                                                 <!-- <a href="javascript:void(0);" data-toggle="modal" data-target=".print-data"><span class="print"><i class=" ri-printer-line"></i></span></a> -->                                                            
