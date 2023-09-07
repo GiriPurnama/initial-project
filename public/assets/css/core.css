@@ -1,74 +1,59 @@
 .card .card-body .row .col-md-6 .count-number .compare .sub-percent .sub-number .icon {
   left: 34%;
 }
-
 .card .card-body .row .col-md-12 .count-number .compare .sub-compare {
   right: 31%;
 }
-
 .card .card-body .row .col-md-12 .count-number .compare .sub-percent {
   left: 40%;
 }
-
 .card .card-body .row .col-md-12 .count-number .compare .sub-percent .sub-number .icon {
   left: 43%;
 }
-
 .card .card-body .row .add-margin {
   margin-top: 40px;
 }
-
 .card .card-body .row .count-title {
   margin-bottom: 15px;
   font-size: 17px;
 }
-
 .card .card-body .row .count-title span {
   width: 100%;
   display: block;
 }
-
 .card .card-body .row .count-number {
   font-size: 46px;
 }
-
 .card .card-body .row .count-number .compare {
   font-size: 12px;
   color: #838383;
   margin-top: 13px;
 }
-
 .card .card-body .row .count-number .compare .sub-compare {
   position: relative;
   right: 22%;
   padding-right: 22%;
   top: 3%;
 }
-
 .card .card-body .row .count-number .compare .sub-compare .sub-number {
   display: block;
   font-size: 17px;
 }
-
 .card .card-body .row .count-number .compare .sub-percent {
   position: relative;
   left: 30%;
 }
-
 .card .card-body .row .count-number .compare .sub-percent .sub-number {
   width: 100%;
   display: block;
   font-size: 17px;
 }
-
 .card .card-body .row .count-number .compare .sub-percent .sub-number.red {
   color: #e54d42;
 }
-
 .card .card-body .row .count-number .compare .sub-percent .sub-number.green {
   color: #00c18d;
 }
-
 .card .card-body .row .count-number .compare .sub-percent .sub-number .icon {
   float: left;
   position: absolute;
@@ -80,11 +65,9 @@
 .survey .card.card-primary.card-outline {
   border-top: 3px solid #12798c;
 }
-
 .survey .card.card-primary.card-outline.card-success {
   border-top: 3px solid #12798c;
 }
-
 .survey .card.card-primary .card-header {
   background-color: transparent;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
@@ -97,12 +80,10 @@
 .categorization .uk-timeline .uk-timeline-item .uk-card {
   max-height: 300px;
 }
-
 .categorization .uk-timeline .uk-timeline-item {
   display: flex;
   position: relative;
 }
-
 .categorization .uk-timeline .uk-timeline-item::before {
   background: #dadee4;
   content: "";
@@ -113,7 +94,6 @@
   width: 2px;
   z-index: 1;
 }
-
 .categorization .uk-timeline .uk-timeline-item .uk-timeline-icon .uk-badge {
   margin-top: 20px;
   width: 40px;
@@ -121,7 +101,6 @@
   z-index: 9;
   position: relative;
 }
-
 .categorization .uk-timeline .uk-timeline-item .uk-timeline-content {
   flex: 1 1 auto;
   padding: 0 0 0 1rem;
@@ -131,17 +110,14 @@
   display: inline-block;
   margin: -14px 0px 25px 0px;
 }
-
 .tacking-action .card-label .label__checkbox {
   display: none;
 }
-
 .tacking-action .card-label .label__text {
   position: relative;
   top: 11px;
   left: 14px;
 }
-
 .tacking-action .card-label .label__check {
   display: inline-block;
   border-radius: 50%;
@@ -157,7 +133,6 @@
   justify-content: center;
   transition: border 0.3s ease;
 }
-
 .tacking-action .card-label .label__check i.icon {
   opacity: 0.5;
   font-size: 14px;
@@ -167,103 +142,41 @@
   position: relative;
   top: 1px;
 }
-
 .tacking-action .card-label .label__check:hover {
   border: 3px solid rgba(0, 0, 0, 0.3);
 }
-
 .tacking-action .card-label .label__checkbox:checked + .label__text .label__check {
-  -webkit-animation: check 0.5s cubic-bezier(0.895, 0.03, 0.685, 0.22) forwards;
-          animation: check 0.5s cubic-bezier(0.895, 0.03, 0.685, 0.22) forwards;
+  animation: check 0.5s cubic-bezier(0.895, 0.03, 0.685, 0.22) forwards;
 }
-
 .tacking-action .card-label .label__checkbox:checked + .label__text .label__check .icon {
   opacity: 1;
   transform: scale(0);
   color: white;
   -webkit-text-stroke: 0;
-  -webkit-animation: icon 0.3s cubic-bezier(1, 0.008, 0.565, 1.65) 0.1s 1 forwards;
-          animation: icon 0.3s cubic-bezier(1, 0.008, 0.565, 1.65) 0.1s 1 forwards;
+  animation: icon 0.3s cubic-bezier(1, 0.008, 0.565, 1.65) 0.1s 1 forwards;
 }
-
 .tacking-action .card-label .center {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-@-webkit-keyframes icon {
-  from {
-    opacity: 0;
-    transform: scale(0.3);
-  }
-
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
 @keyframes icon {
   from {
     opacity: 0;
     transform: scale(0.3);
   }
-
   to {
     opacity: 1;
     transform: scale(1);
   }
 }
-
-@-webkit-keyframes check {
-  0% {
-    width: 1.5em;
-    height: 1.5em;
-    border-width: 5px;
-  }
-
-  10% {
-    width: 1.5em;
-    height: 1.5em;
-    opacity: 0.1;
-    background: rgba(0, 0, 0, 0.2);
-    border-width: 15px;
-  }
-
-  12% {
-    width: 1.5em;
-    height: 1.5em;
-    opacity: 0.4;
-    background: rgba(0, 0, 0, 0.1);
-    border-width: 0;
-  }
-
-  50% {
-    width: 2em;
-    height: 2em;
-    background: #00d478;
-    border: 0;
-    opacity: 0.6;
-  }
-
-  100% {
-    width: 2em;
-    height: 2em;
-    background: #00d478;
-    border: 0;
-    opacity: 1;
-  }
-}
-
 @keyframes check {
   0% {
     width: 1.5em;
     height: 1.5em;
     border-width: 5px;
   }
-
   10% {
     width: 1.5em;
     height: 1.5em;
@@ -271,7 +184,6 @@
     background: rgba(0, 0, 0, 0.2);
     border-width: 15px;
   }
-
   12% {
     width: 1.5em;
     height: 1.5em;
@@ -279,7 +191,6 @@
     background: rgba(0, 0, 0, 0.1);
     border-width: 0;
   }
-
   50% {
     width: 2em;
     height: 2em;
@@ -287,7 +198,6 @@
     border: 0;
     opacity: 0.6;
   }
-
   100% {
     width: 2em;
     height: 2em;
@@ -296,7 +206,6 @@
     opacity: 1;
   }
 }
-
 .tacking-action .card-label .label-title {
   position: relative;
   top: 10px;
@@ -305,7 +214,6 @@
   width: 80%;
   padding-left: 12px;
 }
-
 .tacking-action .warp-action .subtitle {
   font-style: italic;
   margin-bottom: 23px;
@@ -357,7 +265,6 @@
   margin-top: 5px;
   margin-bottom: 25px;
 }
-
 .filter-src select {
   border: 0px;
   outline: 0px;
@@ -374,7 +281,6 @@ ul.no-bullets {
   top: 90px;
   left: 25px;
 }
-
 .bread-static .btn-back {
   height: 30px;
   padding: 5px 20px 5px 30px;
@@ -382,17 +288,14 @@ ul.no-bullets {
   background: #7dc7a9;
   border-radius: 5px;
 }
-
 .bread-static .btn-back:hover {
   color: #fff;
 }
-
 .bread-static .btn-back i {
   color: #fff !important;
   position: absolute;
   margin: 0px 0px 0px -20px;
 }
-
 .bread-static .header-title h3,
 .bread-static .header-title h4,
 .bread-static .header-title .page-title-right,
@@ -401,14 +304,12 @@ ul.no-bullets {
 .bread-static .header-title .breadcrumb-item::before {
   color: #000 !important;
 }
-
 .bread-static .header-title {
   padding: 20px 50px 20px 12px;
   margin: 0px 50px 0px 0px;
   background: #fff;
   border-bottom: 1px solid;
 }
-
 .bread-static .header-title .header-nav {
   color: #000;
   font-size: 20px;
@@ -416,11 +317,9 @@ ul.no-bullets {
   display: flex;
   flex-wrap: wrap;
 }
-
 .bread-static .header-title .header-nav a {
   color: #000 !important;
 }
-
 .bread-static .header-title .header-nav .header-word {
   font-weight: 700;
   border-right: 1px solid;
@@ -429,7 +328,6 @@ ul.no-bullets {
 .card .font-bold {
   font-weight: bold;
 }
-
 .card .dropdown.small.line::after {
   content: "";
   position: relative;
@@ -439,23 +337,18 @@ ul.no-bullets {
   border-top: 2px solid #dde4eb;
   display: block;
 }
-
 .card .dropdown.small button {
   font-size: 10px;
 }
-
 .card .border-line-primary {
   border-color: #12798c;
 }
-
 .card .card-body {
   font-family: gdcustomfont, avenir, "Helvetica Neue", arial, sans-serif;
 }
-
 .card .card-body.line {
   display: flex;
 }
-
 .card .card-body.line::after {
   content: "";
   position: relative;
@@ -465,7 +358,6 @@ ul.no-bullets {
   border-top: 1px solid #dde4eb;
   display: block;
 }
-
 .card .card-body .col-md-4,
 .card .card-body .col-md-3,
 .card .card-body .col-md-5,
@@ -473,14 +365,12 @@ ul.no-bullets {
 .card .card-body .col-md-12 {
   margin-bottom: 60px;
 }
-
 .card .card-body .border-carding {
   border: 1px solid #ddd;
   padding: 10px;
   border-radius: 3px;
   max-height: 260px;
 }
-
 .card .card-body .line-dot {
   border-left: 2px dotted #799579;
   height: 59%;
@@ -489,7 +379,6 @@ ul.no-bullets {
   display: inline-block;
   left: 51%;
 }
-
 .card .card-body .card-title {
   float: left;
   position: relative;
@@ -497,7 +386,6 @@ ul.no-bullets {
   background: #fff;
   padding-right: 20px;
 }
-
 .card .card-body .box-line {
   margin-bottom: 30px;
 }
@@ -505,18 +393,14 @@ ul.no-bullets {
 .page-content .fade {
   opacity: 1;
 }
-
 .page-content .subtitle-card span {
   font-size: 20px;
   font-style: italic;
 }
-
 .page-content .content-card p {
   text-align: justify;
 }
-
 .page-content .content-card .box-content {
   margin-top: 15px;
   display: block;
 }
-
